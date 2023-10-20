@@ -1,33 +1,34 @@
 ---
-title: "FreeBSD/sparc64 Project"
+title: "FreeBSD/SPARC64-Projekt"
 sidenav: developers
 ---
 
+include::shared/releases.adoc[]
 include::shared/de/urls.adoc[]
 
-= FreeBSD/sparc64 Project
+= FreeBSD/SPARC64-Projekt
 
-[[intro]]
-== Einführung
+[Einleitung]]
+== Einleitung
 
-Diese Seite enthält Informationen über die Portierung von FreeBSD auf die SPARC64(R)-Architektur von Fujitsu sowie auf die UltraSPARC(R) Architektur von Oracle. Diskussionen über diese Portierung finden auf der Mailingliste https://lists.freebsd.org/mailman/listinfo/freebsd-sparc64[freebsd-sparc] statt.
+Diese Seite enthält Informationen über die FreeBSD-Portierung auf Fujitsus SPARC64(R) und Oracles UltraSPARC(R)-Architekturen. Die Diskussion über diese Portierung findet auf der Mailingliste https://lists.freebsd.org/subscription/freebsd-sparc64[freebsd-sparc] statt.
 
 == Inhaltsverzeichnis
 
 * <<status,Status>>
-* <<hw,Hardware-Liste>>
+* <<hw,Hardware Liste>>
 * <<list,FreeBSD/sparc64 mailing list>>
-* <<links,Weiterführende Informationen>>
+* <<links,FreeBSD/Points of Interest>>
 
 [[status]]
 == Status
 
-UltraSPARC ist bis FreeBSD 12.X eine link:{committers-guide}#archs[Tier 2]-Architektur und als solche vom https://www.FreeBSD.org/[FreeBSD] Project nicht vollständig unterstützt. Beginnend mit FreeBSD 13.0 wird UltraSPARC nicht mehr unterstützt werden.
+UltraSPARC ist eine link:{committers-guide}#archs[Tier 2]-Architektur bis FreeBSD 12.x. In FreeBSD 13.0 und später wird sie nicht mehr unterstützt.
 
 [[hw]]
 == Hardware-Liste
 
-Unten finden Sie eine Liste der unterstützten Systeme. SMP funktioniert auf allen unterstützten Systemen, die mehr als einen Prozessor besitzen. Alle Einzelheiten entnehmen Sie bitte den https://www.FreeBSD.org/releases/&rel.current;R/hardware.html[Hardware-Notes] des von Ihnen benutzten link:&base;/releases/[Release].
+Es folgt eine Zusammenfassung der unterstützten Systeme. SMP wird auf allen unterstützten Systemen unterstützt, die mehr als einen Prozessor enthalten. Weitere Informationen finden Sie unter dem link:../../releases/{rel120-current}r/hardware/[hardware notes] des von Ihnen verwendeten link:../../releases/[release].
 
 * Naturetech GENIALstation 777S
 * Sun Blade 100
@@ -37,23 +38,23 @@ Unten finden Sie eine Liste der unterstützten Systeme. SMP funktioniert auf all
 * Sun Enterprise 250
 * Sun Enterprise 420R
 * Sun Enterprise 450
-* Sun Fire B100s (die integrierte Netzwerkkarte wird ab 8.1-RELEASE unterstützt)
+* Sun Fire B100s (Unterstützung für die On-Board-NICs erschien erstmals in 8.1-RELEASE)
 * Sun Fire V100
 * Sun Fire V120
-* Sun Netra(TM) T1 100/105
+* Sun Netra(T) T1 100/105
 * Sun Netra T1 AC200/DC200
 * Sun Netra t 1100
 * Sun Netra t 1120
-* Sun Netra t 1125
+* Sonne Netra t 1125
 * Sun Netra t 1400/1405
-* Sun Netra 120
+* Sonne Netra 120
 * Sun Netra X1
 * Sun SPARCEngine(R) Ultra AX1105
-* Sun SPARCEngine Ultra AXe
+Sun SPARCEngine Ultra AX1105 * Sun SPARCEngine Ultra AXe
 * Sun SPARCEngine Ultra AXi
 * Sun SPARCEngine Ultra AXmp
 * Sun SPARCEngine CP1500
-* Sun Ultra(TM) 1
+* Sun Ultra(T) 1
 * Sun Ultra 1E
 * Sun Ultra 2
 * Sun Ultra 5
@@ -63,12 +64,12 @@ Unten finden Sie eine Liste der unterstützten Systeme. SMP funktioniert auf all
 * Sun Ultra 80
 * Sun Ultra 450
 
-Die folgenden Systeme werden von FreeBSD nur teilweise unterstützt. Insbesondere werden Fibre-Channel-Controller in SBus-basierten Systemen derzeit noch nicht unterstützt. Es ist allerdings möglich, diese Systeme mit vom esp(4)-Treiber unterstützten SCSI-Controllern (Sun ESP SCSI-, Sun FAS Fast-SCSI- sowie Sun FAS366 Fast-Wide SCSI-Controller) zu betreiben.
+Diese Systeme werden von FreeBSD nur teilweise unterstützt. Insbesondere die Fibre-Channel-Controller in SBus-basierten Systemen werden nicht unterstützt. Es ist jedoch möglich, diese mit einem SCSI-Controller zu verwenden, der vom esp(4)-Treiber unterstützt wird (Sun ESP SCSI, Sun FAS Fast-SCSI und Sun FAS366 Fast-Wide SCSI Controller).
 
 * Sun Enterprise 3500
 * Sun Enterprise 4500
 
-Beginnend mit 7.2-RELEASE werden auch Sparc64-Systeme (die auf Sun UltraSPARC III und neuer basieren) von FreeBSD unterstützt. Dazu gehören die folgenden Systeme:
+Ab 7.2-RELEASE werden auch sparc64-Systeme, die auf Sun UltraSPARC III und höher basieren, von FreeBSD unterstützt, darunter die folgenden bekannten Systeme:
 
 * Sun Blade 1000
 * Sun Blade 1500
@@ -76,41 +77,41 @@ Beginnend mit 7.2-RELEASE werden auch Sparc64-Systeme (die auf Sun UltraSPARC II
 * Sun Blade 2500
 * Sun Fire 280R
 * Sun Fire V210
-* Sun Fire V215 (ab FreeBSD 7.3-RELEASE/8.1-RELEASE unterstützt)
+* Sun Fire V215 (Unterstützung erschien erstmals in 7.3-RELEASE und 8.1-RELEASE)
 * Sun Fire V240
-* Sun Fire V245 (ab FreeBSD 7.3-RELEASE/8.1-RELEASE unterstützt)
+* Sun Fire V245 (Unterstützung erschien erstmals in 7.3-RELEASE und 8.1-RELEASE)
 * Sun Fire V250
-* Sun Fire V440 (die On-Board-Netzwerkkarte wird beginnend mit FreeBSD 7.3-RELEASE/8.0-RELEASE unterstützt)
-* Sun Fire V480 (seit FreeBSD 7.3-RELEASE/8.0-RELEASE werden die Centerplanes 501-6780 unterstützt, weitere Centerplanes sollen ab FreeBSD 8.3-RELEASE/9.0-RELEASE unterstützt werden)
-* Fire V880
-* Sun Fire V890 (ab 7.4-RELEASE/8.1-RELEASE unterstützt, nur reine Ultrasparc IV/IV+ CPU-Konfigurationen)
+* Sun Fire V440 (Unterstützung für die On-Board-NICs erschien erstmals in 7.3-RELEASE und 8.0-RELEASE)
+* Sun Fire V480 (nur 501-6780 und 501-6790 Centerplanes, für die die Unterstützung erstmals in 7.3-RELEASE und 8.1-RELEASE erschien, andere Centerplanes funktionieren möglicherweise ab 8.3-RELEASE und 9.0-RELEASE)
+* Sun Fire V880
+* Sun Fire V890 (Unterstützung erschien erstmals in 7.4-RELEASE und 8.1-RELEASE, nur nicht gemischte Ultrasparc IV/IV+ CPU-Konfigurationen)
 * Sun Netra 20/Netra T4
 
-Die folgenden UltraSPARC IIIi-Systeme wurden zwar nicht getestet, sollten aber von FreeBSD ebenfalls unterstützt werden:
+Diese Sun UltraSPARC-Systeme wurden nicht getestet, aber es wird angenommen, dass sie auch von FreeBSD unterstützt werden:
 
 * Sun Fire V125
-* Sun Fire V490 (ab 7.4-RELEASE/8.1-RELEASE unterstützt, nur reine Ultrasparc IV/IV+ CPU-Konfigurationen)
+* Sun Fire V490 (Unterstützung erstmals in 7.4-RELEASE und 8.1-RELEASE, nur für nicht gemischte Ultrasparc IV/IV+ CPU-Konfigurationen)
 
-Beginnend mit 7.4-RELEASE und 8.1-RELEASE werden auch Sparc64-Systeme (die auf Fujitsu SPARC64 V basieren) von FreeBSD unterstützt. Dazu gehören die folgenden Systeme:
+Seit 7.4-RELEASE und 8.1-RELEASE werden auch sparc64-Systeme, die auf Fujitsu SPARC64 V basieren, von FreeBSD unterstützt, darunter die folgenden bekannten Systeme:
 
 * Fujitsu PRIMEPOWER(R) 250
 
-Die folgenden Fujitsu SPARC64-Systeme wurden zwar nicht getestet, sollten aber von FreeBSD ebenfalls unterstützt werden:
+Diese Fujitsu SPARC64-Systeme wurden nicht getestet, werden aber vermutlich ebenfalls von FreeBSD unterstützt:
 
 * Fujitsu PRIMEPOWER 450
 * Fujitsu PRIMEPOWER 650
 * Fujitsu PRIMEPOWER 850
 
-Haben Sie ein System, welches hier nicht angeführt ist, lassen Sie mailto:freebsd-sparc@FreeBSD.org[uns] dies bitte wissen.
+Wenn Sie ein System haben, das hier nicht aufgeführt ist, probieren Sie es bitte aus und teilen Sie es mailto:freebsd-sparc@FreeBSD.org[us] mit.
 
 [[list]]
-== Mailingliste FreeBSD/sparc64
+== FreeBSD/sparc64 Mailingliste
 
-Um diese Liste zu abonnieren, senden Sie eine E-Mail an `<freebsd-sparc64-subscribe@FreeBSD.org>` oder besuchen Sie die https://lists.FreeBSD.org/mailman/listinfo/freebsd-sparc64[mailman-Schnittstelle].
+Um diese Liste zu abonnieren, schicken Sie eine E-Mail an `<freebsd-sparc64+subscribe@FreeBSD.org>` oder besuchen Sie die https://lists.FreeBSD.org/subscription/freebsd-sparc64[Webschnittstelle].
 
 [[links]]
-== Weiterführende Informationen
+== Points of Interest
 
-* http://www.sparc.org/technical-documents-test-2/[SPARC Standard Dokumente]
+* http://www.sparc.org/technical-documents-test-2/[SPARC Standards und technische Dokumente]
 * http://www.netbsd.org/Ports/sparc64/[NetBSD/sparc64]
 * http://www.openbsd.org/sparc64.html[OpenBSD/sparc64]

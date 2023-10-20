@@ -1,0 +1,28 @@
+---
+title: "Die Politik des Ports Management Team: Das Engagement für den Baum"
+sidenav: about
+---
+
+= Die Politik des Ports Management Team: Commits im Ports-Baum
+
+Dies sind die spezifischen Richtlinien, die das Ports Management Team bezüglich der Übertragungen in den Ports-Tree angenommen hat.
+
+== Änderungen an `bsd.port.mk`
+
+portmgr agiert zu jeder Zeit als alleiniger Committer für `bsd.port.mk`. Vorgeschlagene Änderungen müssen als PRs eingereicht werden und portmgr zugewiesen werden.
+
+== Änderungen, wenn der Baum offen ist
+
+Offen für alles, das keinen link:../implementation/#requires_regression_test[Regressionstest] erfordert.
+
+== Änderungen, wenn der Baum "eingefroren" (für Veränderungen gesperrt) ist
+
+Alle Änderungen müssen von portmgr genehmigt werden. Im Allgemeinen werden nur die folgenden Änderungen akzeptiert:
+
+* Fehlerbehebungen, die verhindern würden, dass ein Port installiert, deinstalliert oder für die *kommende* Version ordnungsgemäß ausgeführt werden kann.
+* Sicherheitsprobleme - wenn diese schwerwiegend genug sind, kann es notwendig sein, eine Markierung (Tag) zu verschieben.
+* Lizenzierungsprobleme - diese erfordern ein Verschieben des Tags.
+
+== Änderungen, wenn der Baum wieder freigegeben wird
+
+Vorerst keine link:../implementation#sweeping_changes[weitreichenden Änderungen]. Dies soll verhindern, dass möglicherweise alle Release-Pakete neu erstellt werden müssen.

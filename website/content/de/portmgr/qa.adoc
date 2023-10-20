@@ -1,0 +1,44 @@
+---
+title: "Qualitätssicherungsaufgaben für das Ports Management Team"
+sidenav: about
+---
+
+= Qualitätssicherungsaufgaben für das Ports Management Team
+
+Es gibt eine Reihe von Aufgaben, die das Ports Management Team übernimmt, um die Qualität der Ports-Sammlung zu verbessern. Diese fallen in zwei Hauptkategorien: link:#qa-before-release[Aktivitäten während eines Veröffentlichungszyklus] und link:#qa-between-releases[Aktivitäten zwischen den Veröffentlichungszyklen].
+
+[[qa-before-release]]
+== Aktivitäten während eines Release-Zyklus
+
+* Arbeitet mit dem link:../../releng/[Release Engineering Team] zusammen, um den Release-Zeitplan zu koordinieren.
+* Zusammenarbeit mit dem RE-Team, um zu bestimmen, welche vorgefertigten Pakete in die Standard-Installations-ISOs aufgenommen werden können.
+* Wechseln Sie zum neuen vierteljährlichen Zweig.
+
+[[qa-after-releases]]
+== Aktivitäten zwischen den Release-Zyklen
+
+* Verwalten der https://pkg-status.freebsd.org/[Ports Build Cluster] Maschinen. Diese Maschinen erstellen kontinuierlich Pakete für alle möglichen Kombinationen von Betriebssystemversionen und CPU-Architekturen (in unserer Terminologie: "Build-Umgebungen").
+
+Diese Builds erzeugen auch Fehlerprotokolle für Pakete, die nicht korrekt gebaut werden (siehe die obige URL). In regelmäßigen Abständen markiert das Team diese Ports als BROKEN, damit die Betreuer benachrichtigt werden können. (Siehe unten.)
+
+Erfolgreich erstellte Pakete (zumindest die, die frei weiterverteilt werden können) werden auch auf den Master-FTP-Server kopiert und werden so zum Standard "latest package" für Installationen, die Pakete und nicht Ports verwenden.
+
+* Die FreeBSD-Gemeinschaft über Probleme in der Ports-Sammlung zu informieren, damit diese nicht übersehen werden. Zu diesem Zweck gibt es eine Reihe von Berichten, die per E-Mail verschickt werden. Berichte, die als "öffentlich" gekennzeichnet sind, werden auf freebsd-ports veröffentlicht.
+
+** Eine öffentliche Liste aller Ports, die aufgrund von Sicherheitsproblemen, Build-Fehlern oder allgemeiner Veralterung entfernt werden sollen, sofern sie nicht zuerst behoben werden.
+
+** Eine private E-Mail an alle Betreuer der betroffenen Ports (einschließlich der Ports, die von den oben genannten abhängig sind).
+
+** Private E-Mail an alle Maintainer von Ports, die bereits als BROKEN und/oder FORBIDDEN markiert sind.
+
+** Private E-Mail an Maintainer, die keine Committer sind, die PRs gegen ihre Ports eingereicht haben (um PRs zu kennzeichnen, die möglicherweise nie an sie gec:ed wurden).
+
+** Öffentliche E-Mail über Port-Commits, die die Erstellung von INDEX verhindern.
+
+** Öffentliche E-Mail über Port-Commits, die die Revisions-Metadaten rückwärts senden (und damit Werkzeuge wie portupgrade verwirren).
+
+** Private E-Mail an einen betroffenen Port-Maintainer, wenn ein Port im Begriff ist, als BROKEN markiert zu werden, Cc:ed an den letzten Committer des Ports. (Diese E-Mail ist nicht automatisiert, sollte aber aus Höflichkeit verschickt werden.)
+
+* Entfernen Sie abgelaufene Ports. Ports, die seit einiger Zeit als BROKEN markiert sind, werden als DEPRECATED markiert (mit einem EXPIRATION_DATE) und werden dann entfernt, wenn sie bis dahin niemand behoben hat. Mit diesem Verfahren soll sichergestellt werden, dass bei der Installation eines Ports durch einen Benutzer die bestmögliche Chance besteht, dass er zum Laufen gebracht werden kann.
+
+In anderen Fällen werden Ports als DEPRECATED markiert, wenn sie durch eine neuere Version ersetzt wurden und die ältere Version nicht mehr von den Autoren gepflegt wird. Das EXPIRATION_DATE sollte in der Regel mindestens zwei Monate in der Zukunft liegen, um allen genügend Zeit für ein Upgrade zu geben.

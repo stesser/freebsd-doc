@@ -1,0 +1,79 @@
+---
+title: "Richtlinien des Ports Management Teams"
+sidenav: about
+---
+
+include::shared/de/urls.adoc[]
+
+= Richtlinien des Ports Management Teams
+
+In Übereinstimmung mit seiner link:../charter/[Charta] hat das Ports Management Team bestimmte Richtlinien angenommen, um zu versuchen, jedes seiner Ziele zu erreichen.
+
+link:../policies_eol/[EOL Policies of Ports and Ports Intrastructure]
+
+== Sicherstellung der Integrität der Hafensammlung
+
+Um die Integrität der Ports-Sammlung zu gewährleisten, agiert portmgr als alleiniger Committer für bestimmte Dateien, die integraler Bestandteil der Sammlung sind, wie z.B. `bsd.port.mk`. Da der Ports-Baum nicht verzweigt ist (im Gegensatz zu einigen anderen BSD-Projekten), wird jeder fatale Fehler in diesen Dateien schnell von den vielen Benutzern entdeckt, die ihre Ports automatisch aktualisieren.
+
+portmgr führt auch regelmäßige Builds von vorgeschlagenen großen Änderungen an der Ports-Sammlung in einem speziellen Bereich des automatisierten https://pkg-status.freebsd.org[Ports Building Cluster] durch. Diese werden als experimentelle Builds bezeichnet (oft auch als "exp-runs" bezeichnet). Beispiele für Änderungen, die hier vor dem Commit getestet werden sollten, sind:
+
+* Änderungen an `bsd.port.mk`
+* Änderungen an Paketen mit vielen Abhängigkeiten, einschließlich X11-Servern, GNOME, KDE, Autotools und so weiter
+* Änderungen, die die "akzeptierte beste Praxis" für Makefiles von Ports ändern, wie z.B. Definitionen oder Verwendung von gemeinsamen Makevariablen (oder `Makevar`s). (z.B. die Konsolidierung verschiedener Implementierungen von USE_*, WITH_*, und so weiter)
+* große Änderungen am Repository (z.B. wenn eine bestehende Port-Kategorie aufgeteilt wird)
+
+Alle groß angelegten Ausfälle, die durch einen der oben genannten Punkte verursacht werden könnten, müssen zuerst abgefangen werden, bevor eine große Anzahl von Benutzerinstallationen betroffen ist.
+
+Zu anderen Zeiten, insbesondere während der Vorbereitungen für eine neue Version, gibt es link:../policies_committing/[andere Einschränkungen, wann Commits erlaubt sind].
+
+portmgr behält sich das Recht vor, in bestimmten ungewöhnlichen Fällen als endgültiger Schiedsrichter über andere Commits zu entscheiden, z.B. bei Commits, die ihrer Meinung nach die Ports-Sammlung destabilisieren, das Prinzip des geringsten Ärgernisses für die FreeBSD-Benutzer verletzen oder bei Streitigkeiten zwischen Committern, die nicht unter den Committern selbst gelöst werden können.
+
+== Den automatischen Ports-Bau-Cluster pflegen
+
+portmgr unterhält eine Reihe von Maschinen, die automatisch Pakete für Kombinationen aus FreeBSD-Quellbaum und CPU-Architektur (in unserer Terminologie `build environments` oder `buildenv`) bauen. Wenn die Lizenzverteilung es zulässt, werden die daraus resultierenden Pakete regelmäßig als "new latest package" auf den Haupt-FTP-Spiegel hochgeladen, so dass sie für FreeBSD-Benutzer zum Download bereitstehen. Fehler bei der Erstellung von Ports werden den verantwortlichen Maintainern und/oder Committern gemeldet, damit diese entsprechende Korrekturen vornehmen können.
+
+In einigen Fällen können Ports durch Änderungen am FreeBSD-Basissystem (src/Baum) beschädigt werden. In einem solchen Fall erwartet das Ports Management Team, dass der verantwortliche Source Committer in Absprache mit den jeweiligen Port Maintainern Korrekturen für die betroffenen Ports entwickelt.
+
+== Zusammenarbeit mit dem FreeBSD Security Team
+
+== Zusammenarbeit mit FreeBSD Ports und Dokumentations-Committern
+
+portmgr wird versuchen, das link:{porters-handbook}[FreeBSD Porter's Handbook] mit den seiner Meinung nach "besten Praktiken" für einzelne Ports auf dem neuesten Stand zu halten.
+
+(Die Absicht ist nicht nur, "Regeln" festzulegen, sondern zu sagen: "Hier ist der Grund, warum etwas, das wir in den Makefiles der Ports als "The Right Thing" befürworten, getan wird. Insbesondere gibt es eine Reihe von "Randfällen", die `bsd.*.mk` mit sehr kompliziertem Code behandeln muss -- wie zum Beispiel sicherzustellen, dass Ports von CD-ROM, über NFS und so weiter installiert werden können -- und diese Probleme nicht zu verstehen, kann dazu führen, dass Maintainer Abkürzungen benutzen, die in diesen Randfällen nicht funktionieren).
+
+portmgr ist nicht der alleinige Besitzer des Porter's Handbook, da es sich eigentlich im `doc/`-Baum befindet. Wir begrüßen es, wenn PR-Einreicher und `doc`-Committer daran arbeiten, um Dokumentation hinzuzufügen, die hilft, bestehende Praktiken zu klären. Wir möchten jedoch aus Höflichkeit um das Recht bitten, alle Änderungen zu überprüfen, die die bestehende Praxis zu verändern scheinen.
+
+Darüber hinaus wurde in letzter Zeit über die Erstellung eines Dokuments "Rights and Responsibilities of FreeBSD Ports Maintainers and Committers" diskutiert. portmgr unterstützt diese Bemühungen und freut sich darauf, alle Entwürfe prüfen zu können.
+
+portmgr ist auch für einige andere Dokumente verantwortlich, wie zum Beispiel die Ports-spezifischen Teile des link:{committers-guide}#ports[Committer's Guide] und des link:{contributing}#ports-contributing[Contributing to FreeBSD Guide].
+
+== Respektieren Sie die Rechte der Urheber, deren Werke über die Ports-Sammlung installiert werden
+
+Soweit es bei einem Freiwilligenprojekt möglich ist, wird portmgr sicherstellen, dass die gesetzlichen Rechte der Autoren, deren Werke über die Ports-Sammlung installiert werden, respektiert werden. Dazu gehört, dass die entsprechenden Einträge in `ports/LEGAL` und in den `makevars` gemacht werden, die die Paketerstellung und damit die automatische Verteilung von Binärdateien kontrollieren.
+
+In seltenen Fällen kann es auch notwendig sein, einen Port und alle Distfiles und Binärdateien zu entfernen, wenn der ursprüngliche Autor dies verlangt.
+
+portmgr bittet seine freiwilligen Committer, die Lizenzbeschränkungen der Autoren zu berücksichtigen, wenn sie neue Ports committen, da es für die Mitglieder von portmgr aufgrund der großen Anzahl von Ports nicht möglich ist, dies selbst zu tun.
+
+== Als Schiedsrichter der ersten Instanz bei Streitigkeiten zwischen Mitgliedern der FreeBSD-Gemeinschaft wie Maintainern und Committern fungieren
+
+portmgr ermutigt die Mitglieder der FreeBSD-Gemeinschaft, gemäß den im Committer's Guide beschriebenen Prinzipien zusammenzuarbeiten. Im Falle von Streitigkeiten behält sich portmgr das Recht vor, vorbehaltlich der Überprüfung durch das Core Team, zu schlichten.
+
+== portmgr ist verantwortlich für die Erstellung von Richtlinien und Policies, die die Rechte und Verantwortlichkeiten von Ports Committers und Maintainern regeln.
+
+portmgr ist dafür verantwortlich, Richtlinien und Policies festzulegen, die die Rechte und Pflichten von Ports-Committern und Maintainern regeln, wie z.B. die erwarteten Standards der Maintainerschaft, die Bedingungen, unter denen Maintainer außer Kraft gesetzt oder entfernt werden können, und andere Policies.
+
+Um sicherzustellen, dass Ports-Problemberichte zeitnah bearbeitet werden, hat portmgr eine Richtlinie festgelegt, wie lange ein PR, der einem Committer zugewiesen wurde, offen bleiben darf, bevor er von einem anderen Committer über einen Link übernommen werden kann:../policies_contributors/#pr_timeout["maintainer timeout"]. Diese Zeitspanne gilt zum Beispiel für Aktualisierungen, die keinen Regressionslauf erfordern; für andere Aktualisierungen wenden Sie sich bitte direkt an portmgr. Die Zeitspanne berücksichtigt keine Ports, die eingefroren sind, und keine allgemein anerkannten Feiertage.
+
+Um sicherzustellen, dass die Ports rechtzeitig gewartet werden, hat portmgr außerdem eine Richtlinie festgelegt, wie lange ein Port-Maintainer inaktiv sein darf, bevor er link:../policies_contributors/#maintainer_reset[seine Maintainerschaft verliert]. "Inaktiv" wird nicht streng ausgelegt, sondern soll solche Dinge wie ungelöste offene PRs, Commits, die von anderen über Maintainer-Timeouts gemacht wurden, und ungelöste Build-Probleme einschließen.
+
+Die Absicht dieser Richtlinien ist nicht, Bestrafungen oder Schuldzuweisungen vorzunehmen, sondern der Tatsache Rechnung zu tragen, dass die von der Ports-Sammlung installierte Software einer schnellen Entwicklung unterliegt, die außerhalb der Kontrolle von FreeBSD liegt. Ein Teil der Verantwortung, die ein Ports-Maintainer übernimmt, besteht darin, zu versuchen, einen Port so aktuell wie möglich zu halten. Es ist unseren Benutzern gegenüber unfair, nicht behobene Probleme und veraltete Versionen stehen zu lassen. Wir sind uns aber auch bewusst, dass alle unsere Maintainer und Committer genau wie wir Freiwillige sind, und dass es wie bei jedem freiwilligen Projekt leicht passieren kann, dass man sich zu sehr engagiert oder das Interesse an einem bestimmten Port verliert.
+
+Maintainer und Committer, die das Gefühl haben, sich zu sehr zu engagieren oder das Interesse an einem bestimmten Port zu verlieren, sollten sich frei fühlen, nach neuen Freiwilligen zu fragen und/oder den Port wieder dem allgemeinen Pool zuzuweisen. Dies wird nicht nur dazu beitragen, die Ports-Sammlung aktuell zu halten, sondern hoffentlich auch ein Ausbrennen der Freiwilligen verhindern.
+
+== Hilfe bei der Priorisierung zukünftiger Richtungen für die gesamte Ports-Sammlung
+
+portmgr erkennt an, dass die Entwicklung und Weiterentwicklung der Ports-Sammlung in erster Linie durch die Arbeit der Community-Mitglieder vorangetrieben wird. Aufgrund der unverzweigten Natur der Ports-Sammlung ist es jedoch manchmal notwendig, vorgeschlagene Änderungen zu koordinieren oder sogar auszuwählen.
+
+Bis zu einem gewissen Grad geht es dabei um die Auswahl der Patches, die zum Testen auf dem Build-Cluster angenommen werden, aber es geht auch darum, einen Konsens über architektonische Entscheidungen zu finden, Listen von "interessanten" Patches zu erstellen, die in der Ports Collection enthalten sind.

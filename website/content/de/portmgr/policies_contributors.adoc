@@ -1,0 +1,22 @@
+---
+title: "Richtlinien des Ports Management Teams: Maintainer und Committer"
+sidenav: about
+---
+
+= Richtlinien des Ports Management Teams: Maintainer und Committer
+
+Dies sind die Zeiträume, die für die Antworten der Maintainer und Committer auf Probleme gelten, die ihnen per E-Mail mitgeteilt werden.
+
+[[pr_timeout]]
+== Problem Report (PR) Timeouts
+
+Die Frist für die Beantwortung eines PR durch einen Maintainer beträgt zwei Wochen. Nach diesem Zeitraum kann jeder Ports-Committer die Änderung übernehmen, wenn es sich um eine kleine Änderung handelt. Wenn es sich um eine größere Änderung handelt (z.B. wenn ein Regressionslauf erforderlich ist), kontaktieren Sie bitte zuerst portmgr.
+
+Wir haben ein Add-on zur Problem Report Datenbank, bekannt als der Auto-Assigner, der versucht, die Maintainer automatisch über PRs zu benachrichtigen; es hängt jedoch davon ab, dass die Zusammenfassung Kategorie und Portname enthält. Im Allgemeinen versuchen verschiedene Leute, Fälle abzufangen und zu beheben, in denen etwas nicht funktioniert, aber Sie sollten nicht davon ausgehen. Prüfen Sie daher bitte, ob der Betreuer über den PR Bescheid weiß, bevor Sie eine Zeitüberschreitung deklarieren. Sie können dies in der Regel anhand des Audit-Trails und der Cc: Zeilen im PR erkennen.
+
+[[maintainer_reset]]
+== Maintainer Reset
+
+Ein Maintainer, der 3 Monate lang nicht auf Ports-Probleme reagiert hat, kann von jedem Ports-Committer zurückgesetzt werden. Wenn du ein Committer bist und dir Sorgen machst, ob du das Richtige tust, kontaktiere bitte portmgr.
+
+Dieser Zeitraum kann von portmgr verkürzt werden, wenn die E-Mail-Adresse mit einem `Hard Bounce` zurückkommt. In diesem Fall ist es wahrscheinlich wünschenswert, alle Ports des Maintainers zurückzusetzen.

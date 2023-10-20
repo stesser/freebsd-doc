@@ -1,49 +1,46 @@
 ---
-title: FreeBSD Documentation Project
+title: "FreeBSD-Dokumentationsprojekt"
 sidenav: docs
 ---
 
-= FreeBSD Documentation Project
+= FreeBSD Dokumentationsprojekt
 
 == Überblick
 
-Sich mit einem neuen und komplexen Betriebssystem vertraut zu machen, ist immer eine schwierige Aufgabe, egal wie bunt die grafische Oberfläche auch sein mag. Dies gilt auch für FreeBSD.
+Sich in ein neues und komplexes Betriebssystem einzuarbeiten, ist immer eine schwierige Aufgabe, egal wie schön die Benutzeroberfläche ist. FreeBSD ist in dieser Hinsicht nicht anders.
 
-Zwar gibt es viele Bücher zu BSD Unix (und UNIX(R) im Allgemeinen), die aber in der Regel nicht die einzigartigen Fähigkeiten, Prozeduren oder Besonderheiten von FreeBSD abdecken.
+Es gibt zwar eine große Anzahl von Büchern über BSD Unix (und allgemein über UNIX(R)), aber FreeBSD hat seine eigenen, einzigartigen Eigenschaften, Verfahren und Eigenheiten.
 
-Für viele Benutzer ist FreeBSD der erste Kontakt mit einem Unix-artigem Betriebssystem, daher ist eine hochwertige, ausführliche Dokumentation von elementarer Bedeutung.
+Darüber hinaus ist FreeBSD für einige seiner Benutzer der erste Kontakt mit einem Unix-ähnlichen Betriebssystem, so dass die Verfügbarkeit einer qualitativ hochwertigen und genauen Dokumentation von größter Bedeutung ist.
 
-Das FreeBSD Documentation Project wurde gegründet, um diese Lücke zu schließen. Dabei konzentriert es sich auf folgende Bereiche:
+Das FreeBSD Dokumentationsprojekt soll helfen, diese Lücke zu schließen. Dies geschieht auf zwei Arten:
 
-. Mitglieder des Documentation Projects schreiben und verbessern Teile der Dokumentation, die danach in die offizielle _FreeBSD Dokumentation_ aufgenommen wird.
-. Mitglieder des Documentation Projects diskutieren und implementieren die Formatierung und Organisation der offiziellen _FreeBSD Documentation_.
+. Die Mitglieder des Documentation Projects schreiben Dokumentationen und reichen sie zur Aufnahme in das _FreeBSD Documentation Set_ ein.
 
+. Mitglieder des Documentation Projects diskutieren und gestalten die Formatierung und Organisation des _FreeBSD Documentation Set_.
+
+[.tblbasic]
 [width="100%",cols="100%",]
 |===
 a|
 [.center]
-=== https://www.FreeBSD.org/docproj/current/[Aktuelle Projekte]
+=== Aktuelle Projekte
 
-Im Rahmen des Documentation Projects wird _ständig_ an verschiedenen Projekten gearbeitet. Lesen Sie sich bitte diese Liste durch und überlegen Sie sich, ob *Sie* eines dieser Projekte unterstützen könnten.
-
+Es gibt eine Reihe von Projekten, die derzeit im Rahmen der Dokumentationsbemühungen _in Bearbeitung_ sind. Bitte nehmen Sie sich die Zeit, https://wiki.freebsd.org/Doc/IdeaList[die aktuelle Liste der Projekte] durchzusehen und zu schauen, ob es etwas gibt, bei dem *Sie* helfen können.
 |===
 
-== link:who/[Wer wir sind und wie Sie uns helfen können]
+== link:who[Wer wir sind, wie man Mitglied wird]
 
-Diese Seite beschreibt die Organisation des Documentation Projects und erklärt auch, wie Sie dieses Projekt unterstützen können.
+Diese Seite erklärt, wer das Dokumentationsprojekt ausmacht und wie Sie mitmachen können.
 
-== link:doc-set/[Die FreeBSD-Dokumentation]
+== link:doc-set[Das FreeBSD-Dokumentationspaket]
 
-Auf dieser Seite wird der Aufbau der FreeBSD-Dokumentation beschrieben. Außerdem wird näher auf die Arbeit des Documentation Projects eingegangen.
+Diese Seite beschreibt die Komponenten des FreeBSD Documentation Set und die Art der Arbeit, die das Documentation Project mit ihnen leistet.
 
-== link:sgml/[SGML und das Documentation Project]
+== link:submitting[Beiträge einreichen]
 
-Die FreeBSD-Dokumentation wird in SGML geschrieben. Diese Seite erklärt, wie SGML bei der Arbeit an der Dokumentation eingesetzt wird und liefert Ihnen auch einige Links zu weiteren SGML-Ressourcen.
+Das Einreichen von Beiträgen ist der beste Weg, um Teil des Projekts zu werden und die Benutzung von FreeBSD einfacher zu machen. Diese Seite erklärt, wie Sie Ihre Beiträge am besten einreichen, damit sie so schnell wie möglich bearbeitet werden können.
 
-== link:submitting/[Beiträge einreichen]
+== link:translations[Übersetzungen]
 
-Das Schreiben und Einreichen von Dokumentationen ist der beste Weg, um Teil des Documentation Projects zu werden und die Benutzung von FreeBSD zu vereinfachen. Diese Seite erklärt Ihnen, wie Sie Ihre Beiträge am besten einreichen, damit diese möglichst rasch geprüft werden können.
-
-== https://www.FreeBSD.org/docproj/translations/[Übersetzungen]
-
-Übersetzungen der FreeBSD-Dokumentation, der Internetseiten, des Handbuchs, der FAQ, der Manualpages und anderer Dokumente.
+Übersetzungen der FreeBSD-Dokumentation, der Webseiten, des Handbuchs, der Manual-Seiten und der FAQ.

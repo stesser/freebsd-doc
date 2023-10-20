@@ -1,0 +1,89 @@
+---
+title: "Datenschutzrichtlinie des FreeBSD-Projekts"
+sidenav: about
+---
+
+= Datenschutzrichtlinie des FreeBSD-Projekts
+
+Diese deutsche Übersetzung der Datenschutzrichtlinie dient Ihrer Information über den Inhalt der englischen Originalversion.
+Die Übersetzung ist mit Sorgfalt erfolgt, aber rechtlich maßgeblich ist nur das englische Original dieses Textes.
+
+== Datenschutzrichtlinie
+
+Das FreeBSD-Projekt ist sich bewusst, dass Ihnen Ihre Privatsphäre und der Schutz Ihrer persönlichen Daten wichtig sind und verpflichtet sich, diese zu schützen.
+Diese Datenschutzrichtlinie beschreibt die Maßnahmen, die wir ergriffen haben, um Ihre Privatsphäre im Zusammenhang mit Ihrer Nutzung von www.FreeBSD.org und docs.FreeBSD.org (unsere "Seiten") zu schützen.
+Diese Richtlinie gilt nicht für Spiegel dieser Inhalte auf anderen Hosts (die "Mirrors") oder andere FreeBSD-bezogene Dienste in der FreeBSD.org-Domäne ("Affiliated Sites").
+
+Diese Richtlinie wurde zuletzt am 14. Oktober 2022 geändert.
+
+BITTE LESEN SIE DIESE DATENSCHUTZRICHTLINIE SORGFÄLTIG DURCH.
+DURCH DIE NUTZUNG DIESER SEITE ERKLÄREN SIE SICH MIT DEN BEDINGUNGEN DIESER RICHTLINIE EINVERSTANDEN.
+
+== Welche Informationen werden auf unseren Sites gesammelt:
+
+Wir erfassen Weblogs wie Ihre Internetprotokoll-Adresse ("IP"), den Browsertyp und Informationen über das Betriebssystem.
+Keine persönlichen Daten werden länger als 30 Tage in den Protokollen aufbewahrt.
+Die vorstehenden Informationen werden im Folgenden gemeinsam als "Ihre Nutzungsdaten" bezeichnet.
+
+Wir speichern Informationen wie Ihre E-Mail-Adresse, Ihren Namen und Ihre Organisation oder Firma ("personenbezogene Daten") nur dann, wenn Sie sich entschließen, uns solche Informationen zu senden, indem Sie einen FreeBSD-Fehler- oder Problembericht ("PR") einreichen, eine der FreeBSD-Mailinglisten abonnieren, Inhalte in den Foren unserer Website veröffentlichen oder eine Rezension an Phabricator senden.
+Das FreeBSD-Projekt erlaubt die unbegrenzte Verbreitung dieser Inhalte.
+Die in diesen Berichten und Listen übermittelten Informationen, einschließlich Ihrer persönlichen Daten, werden als öffentlich angesehen und sind für jeden im Internet zugänglich.
+Solche Informationen werden nicht nur auf Servern der FreeBSD Foundation gespeichert, sondern auch auf anderen Servern, die den Inhalt unserer Seiten spiegeln.
+Die FreeBSD Foundation hat keine Kontrolle über die Verwendung dieser Informationen, einschließlich Ihrer persönlichen Daten.
+
+== Verwendung von Cookies
+Nur unsere Seiten link:https://bugs.FreeBSD.org[Fehlerverfolgungssystem], link:https://forums.freebsd.org/[Foren], link:https://wiki.FreeBSD.org[Wiki] und link:https://reviews.FreeBSD.org[Rezensionen] speichern link:https://en.wikipedia.org/wiki/HTTP_cookie[Cookies] auf Ihrem Computer, um den Inhalt zu personalisieren, Ihre Erfahrung anzupassen und Ihnen die Anmeldung auf diesen Seiten zu ermöglichen.
+Ein Cookie ist eine kleine Textdatei, die von einem Webserver bereitgestellt wird und von Ihrem Webbrowser auf Ihrem Computer abgelegt werden kann.
+Cookies können nicht verwendet werden, um Programme auszuführen oder Viren auf Ihren Computer zu übertragen.
+Cookies sind Ihnen eindeutig zugeordnet und können nur von einem Webserver in der Domäne gelesen werden, die das Cookie an Sie ausgegeben hat.
+Sie können die Verwendung von Cookies ablehnen, indem Sie die entsprechenden Einstellungen in Ihrem Browser vornehmen. Bitte beachten Sie jedoch, dass Sie in diesem Fall möglicherweise nicht alle Funktionen dieser oder anderer Websites nutzen können.
+
+== Wie die gesammelten Informationen verwendet werden:
+
+Das FreeBSD-Projekt nimmt den Schutz der Privatsphäre seiner Benutzer und Mitglieder sehr ernst.
+Wir werden Ihre persönlichen Daten niemals verkaufen, vermieten oder anderweitig an Dritte weitergeben, es sei denn, dies ist in diesem Dokument vorgesehen.
+Wir werden keine Daten, die durch Ihre Nutzung unserer Seiten gesammelt werden, mit persönlichen Informationen in Verbindung bringen.
+
+Das FreeBSD-Projekt wird Ihre persönlichen Daten ohne Ihre vorherige Zustimmung nicht in einer Weise nutzen oder weitergeben, die von den in dieser Datenschutzrichtlinie beschriebenen abweicht.
+
+== Wie Ihre Daten geschützt werden:
+
+Das FreeBSD-Projekt schützt die Sicherheit der von Ihnen zur Verfügung gestellten persönlichen Daten streng.
+Persönliche Daten, die wir sammeln, werden auf passwortgeschützten Servern mit beschränktem Zugang gespeichert, und wir schützen diese Daten sorgfältig vor Verlust oder Missbrauch sowie vor unbefugtem Zugriff, Offenlegung, Veränderung oder Zerstörung.
+
+== Wann Ihre Daten weitergegeben werden können:
+
+Das FreeBSD-Projekt kann persönliche Informationen offenlegen, wenn dies gesetzlich vorgeschrieben ist oder wenn wir in gutem Glauben davon ausgehen, dass dies notwendig ist, um:
+
+- um die gesetzlichen Anforderungen zu erfüllen oder um einem Gerichtsverfahren gegen das FreeBSD-Projekt oder die Seiten nachzukommen;
+- die Rechte oder das Eigentum des FreeBSD-Projekts zu schützen und zu verteidigen; oder
+- in dringenden Fällen zu handeln, um die persönliche Sicherheit der Benutzer des FreeBSD-Projekts, der Webseiten oder der Öffentlichkeit zu schützen.
+
+Anonymisierte, zusammengefasste Verkehrsdaten über Website-Besuche können für Marketing- oder Forschungszwecke weitergegeben werden.
+
+Das FreeBSD-Projekt gibt keine nicht anonymisierten Daten an Dritte weiter.
+
+== Aktualisierungen dieser Datenschutzrichtlinie:
+
+Wir können diese Datenschutzrichtlinie gelegentlich aktualisieren.
+Wenn wir dies tun, werden wir auch das Datum der letzten Änderung am Anfang der Datenschutzrichtlinie ändern.
+Wir empfehlen Ihnen, diese Datenschutzrichtlinie regelmäßig zu lesen, um sich darüber zu informieren, wie wir die von uns erfassten personenbezogenen Daten schützen.
+Durch die fortgesetzte Nutzung des Dienstes erklären Sie sich mit diesen Datenschutzrichtlinien und allen Aktualisierungen einverstanden.
+
+== Verkauf von Vermögenswerten:
+
+In dem unwahrscheinlichen Fall, dass das FreeBSD-Projekt oder im Wesentlichen alle seine Vermögenswerte erworben werden,
+können Ihre Daten zu den übertragenen Vermögenswerten gehören.
+
+== Links von Dritten:
+
+In dem Bestreben, Ihnen einen Mehrwert zu bieten, können wir auf unseren Seiten Links zu Dritten einfügen.
+Diese verlinkten Seiten haben separate und unabhängige Datenschutzrichtlinien.
+Diese Datenschutzrichtlinie gilt nur für unsere Websites und nicht für andere Websites.
+Wir übernehmen daher keine Verantwortung oder Haftung für den Inhalt und die Aktivitäten dieser verlinkten Websites.
+Wir sind jedoch bestrebt, die Integrität unserer Websites zu schützen und freuen uns über jedes Feedback zu diesen verlinkten Websites (auch wenn ein bestimmter Link nicht funktioniert).
+
+== Kontaktaufnahme mit uns:
+
+Wir freuen uns über Ihre Kommentare und Fragen zu dieser Datenschutzrichtlinie und allen anderen Angelegenheiten, die Sie in Bezug auf unsere Websites haben.
+Bitte senden Sie uns Ihre Kommentare oder Fragen per E-Mail an: mailto:privacy@FreeBSD.org.

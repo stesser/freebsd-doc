@@ -3,8 +3,10 @@ title: "FreeBSD Logo"
 sidenav: about
 ---
 
-= FreeBSD Logo
+= FreeBSD-Logo
 
-FreeBSD FreeBSD ist ein registriertes Markenzeichen der FreeBSD Foundation. Das FreeBSD-Logo und "`The Power to Serve`" sind ebenfalls Markenzeichen der FreeBSD Foundation.
+== Nutzungshinweis
 
-Informationen zum Download des FreeBSD-Logos, zu den Nutzungsbedingungen des Markenzeichens sowie Details, wie Sie eine Erlaubnis zur Nutzung des Logos bekommen können, finden sich der Seite "`FreeBSD Project Logo`" der https://www.freebsdfoundation.org/about/project/[FreeBSD Foundation.]
+FreeBSD ist ein registriertes Markenzeichen der FreeBSD Foundation. Das FreeBSD-Logo und "`The Power to Serve`" sind ebenfalls Markenzeichen der FreeBSD Foundation.
+
+Logo-Bilddateien, Nutzungsbedingungen für Markenzeichen und weitere Informationen darüber, wie Sie die Erlaubnis zur Verwendung des Logos erhalten können, finden Sie auf der FreeBSD-Projektlogo-Seite unter https://www.freebsdfoundation.org/about/project/[FreeBSD Foundation].

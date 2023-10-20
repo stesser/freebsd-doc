@@ -1,0 +1,54 @@
+---
+title: "Implementierungsprobleme bei der Ports-Sammlung"
+sidenav: about
+---
+
+= Implementierungsprobleme mit der Ports-Sammlung
+
+== Der Ports-Baum ist nicht verzweigt
+
+Anders als der `src`-Baum ist der FreeBSD-Ports-Baum *nicht* verzweigt. Man war immer der Meinung, dass es zu wenige Freiwillige gibt, um die Arbeit zu bewältigen, hunderte von Änderungen aus dem letzten Baum in die verschiedenen Zweige einzubringen.
+
+== Praktische Überlegungen
+
+Es gibt Tausende, wenn nicht Zehntausende von Benutzerinstallationen, die täglich den Ports-Baum verfolgen, anstatt sich auf die Pakete zu verlassen, die mit dem aktuellsten FreeBSD-Release ausgeliefert wurden. Dementsprechend wirkt sich jeder fatale Fehler im Ports-Framework sofort auf alle diese Sites aus. Aus diesem Grund sind Commits an `bsd.port.mk` nur mit der Zustimmung von portmgr erlaubt. Außer in ungewöhnlichen Fällen wird diese Genehmigung nur erteilt, nachdem ein Regressionstest in einem speziellen Bereich des automatisierten http://pointyhat.FreeBSD.org[Ports Building Cluster] durchgeführt wurde. Normalerweise werden ein Dutzend oder mehr vorgeschlagene Änderungen an der Infrastruktur gleichzeitig getestet, und erst wenn ein Build des gesamten Ports-Trees erfolgreich war, wird portmgr die Änderungen bestätigen.
+
+[[requires_regression_test]]
+== Änderungen, die Regressionstests erforderlich machen
+
+Änderungen an `bsd.port.mk` sind nicht die einzigen Commits, die einen drastischen Effekt auf den Tree haben können. Wir bitten darum, dass solche Änderungen auch auf dem Cluster getestet werden. Beispiele für solche Änderungen, die vor der Übergabe getestet werden sollten, sind:
+
+* Änderungen an Paketen mit vielen Abhängigkeiten, einschließlich X11-Servern, GNOME, KDE, gettext, autotools, und so weiter
+* Änderungen, die die "akzeptierte beste Praxis" für Makefiles von Ports ändern, wie z.B. die Definitionen oder die Verwendung von gemeinsamen Makevariablen. (z.B. Konsolidierung von verschiedenen Implementierungen von USE_*, WITH_*, und so weiter)
+* Große Umkopierungen (z.B. wenn eine bestehende Port-Kategorie aufgeteilt wird)
+
+Wenn Sie sich nicht sicher sind, ob Ihre vorgeschlagene Änderung einen Regressionstest erfordert, senden Sie bitte eine E-Mail an portmgr@FreeBSD.org.
+
+== Auswirkungen auf den Release-Zyklus
+
+Wenn ein neues FreeBSD-Release ansteht, werden die Committer gebeten, ihren Schwerpunkt nicht auf die Einführung neuer Ports und Funktionen zu legen, sondern sich auf die Behebung bestehender Probleme zu konzentrieren. Irgendwann während des Release-Zyklus wird der Baum "getaggt" und aus den Ports werden Packages für die einzelnen Architekturen erstellt. Aufgrund der großen Anzahl von Ports und der Geschwindigkeit der langsameren Architekturen dauert der Build-Prozess mehrere Tage.
+
+In einer idealen Welt wären dies die Pakete, die auf den Veröffentlichungs-CDs erscheinen würden, und die Zeit von der Erstellung der Pakete bis zur tatsächlichen Veröffentlichung wäre gerade lang genug, um sie zu testen und nicht länger. In der Praxis werden jedoch im Laufe der Qualitätssicherung Probleme sowohl mit den Ports als auch mit dem Quellbaum gefunden. Um jedoch eine rechtzeitige Veröffentlichung zu ermöglichen, werden nur bestimmte Änderungen an den Ports in den eigentlichen (für die Veröffentloch markierten) Quellcode-Baum zurückgeführt, und die betroffenen Pakete werden neu erstellt. Nur bei schwerwiegenden Sicherheitsproblemen und Lizenzierungsproblemen werden die Tags auf diese Weise entfernt.
+
+Da die Veröffentlichungsphase Wochen dauern kann, ist es unrealistisch, während dieser Zeit keinen Commit in den Ports-Tree zu erlauben. Das Problem, wenn man in dieser Zeit uneingeschränkte Commits zulässt, ist, dass es unmöglich wird, nur die kritischen Änderungen herauszufiltern, so dass sie, und nur sie, ihre betroffenen Tags verlieren können. Die Terminologie für Änderungen, die nicht erlaubt sind, ist "sweeping changes".
+
+[[sweeping_changes]]
+== Was ist eine durchgreifende Änderung?
+
+Eine "durchgreifende Änderung" ist ein Commit, der eine nicht-triviale Anzahl von Paketen in einer Art und Weise betrifft, dass jede andere Änderung (wie z.B. die Behebung eines einzelnen Sicherheitsproblems) bedeuten würde, dass wir die gesamte Menge an Paketen neu erstellen müssten, was die kommende Veröffentlichung möglicherweise um Wochen verzögern würde, da sich die Menge der Änderungen überschneidet.
+
+Hier ist eine unvollständige Liste. Wenn Sie sich nicht sicher sind, ob Ihre vorgeschlagene Änderung in diese Kategorie fällt, *müssen* Sie portmgr vor dem Commit fragen.
+
+* jede Änderung an `bsd.*.mk`
+* alles andere, was normalerweise einen Link erfordert:#requires_regression_test[regression test]
+* Versionssprünge von gemeinsam genutzten Bibliotheken
+* Umkopierungen, die mehrere Ports betreffen
+
+Die folgenden Dinge fallen nicht in die obige Kategorie:
+
+* Commits an Leaf-Ports (d.h. Ports, von denen kein anderer Port abhängt)
+* kosmetische Änderungen, die sich nicht auf das Paket auswirken (wie z.B. Änderungen an `pkg_descr`)
+* neue Ports
+* Umkopieren von einzelnen Ports (z.B. in eine andere Kategorie)
+
+Zusammengefasst: der grundlegende Test ist *wird diese Änderung andere Pakete beeinflussen?*.

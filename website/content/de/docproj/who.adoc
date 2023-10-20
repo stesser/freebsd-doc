@@ -5,14 +5,14 @@ sidenav: docs
 
 include::shared/de/urls.adoc[]
 
-= FreeBSD Documentation Project: Wer sind wir?
+= FreeBSD Dokumentationsprojekt: Wer sind wir, wie wird man Mitglied?
 
-Das Documentation Project besteht aus einem losen Zusammenschluss verschiedener Personen, die alle die Mailingliste FreeBSD-doc@FreeBSD.org abbonniert haben.
+Das Dokumentationsprojekt besteht aus einem losen Zusammenschluss verschiedener Personen, die alle die Mailingliste FreeBSD-doc@FreeBSD.org abbonniert haben.
 
-Einige von uns dürfen Änderungen direkt in den FreeBSD Dokumentationsbaum einbringen (_committen_). Eine vollständige Liste aller link:{contributors}#staff-committers[FreeBSD-Entwickler mit Commit-Privilegien] sowie eine Liste mit den link:../administration/#t-doceng[leitenden Committern des FreeBSD Documentation Projects] sind auf den Internetseiten des FreeBSD Projects verfügbar.
+Einige von uns können Änderungen direkt in den FreeBSD-Dokumentationsbaum übertragen. Es gibt eine vollständige Liste der link:{contributors}#staff-committers[alle FreeBSD-Entwickler mit Commit-Rechten], sowie eine Liste der link:../../administration/#t-doceng[Haupt-Committer für das FreeBSD Documentation Project].
 
-Mitarbeiter ohne Commit-Privilegien können natürlich trotzdem an der Dokumentation arbeiten und ihre Beiträge einreichen. Wenn deren Beiträge gemäß den Anleitungen auf der Seite link:../submitting[Beiträge einreichen] eingereicht wurden, werden diese von einem oder mehreren Committern geprüft und danach in die FreeBSD-Dokumentation aufgenommen.
+Andere haben keine Commit-Rechte, schreiben aber trotzdem Dokumentation und reichen diese ein. Sobald ein Beitrag über link:../submitting[Beiträge einreichen] eingereicht wurde, wird er von einem der Committer überprüft und in die Dokumentation aufgenommen.
 
-Wenn Sie das FreeBSD Documentation Project unterstützen wollen (worüber wir uns sehr freuen würden), müssen Sie lediglich die Mailingliste abbonnieren und Ihre Beiträge einreichen. Schon sind Sie ein Mitglied des Documentation Projects.
+Um beim Dokumentationsprojekt mitzuhelfen (und wir hoffen sehr, dass Sie das tun), abonnieren Sie einfach die Mailingliste und nehmen Sie teil. Sobald Sie das getan haben, sind Sie ein Mitglied des Projekts.
 
-link:..[Startseite des FreeBSD Documentation Projects]
+link:..[Startseite des FreeBSD Dokumentatiosprojekts]

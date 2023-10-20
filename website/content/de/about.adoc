@@ -9,39 +9,38 @@ include::shared/en/urls.adoc[]
 
 == Was ist FreeBSD?
 
-FreeBSD ist ein Betriebssystem für diverse link:../platforms/[Plattformen], dessen Schwerpunkte auf Funktionalität, Geschwindigkeit und Stabilität liegen. FreeBSD ist eine Weiterentwicklung von BSD, dem UNIX(R)-Betriebssystem der University of California, Berkeley. Das System wird von einer link:{contributors}#staff-committers[großen Entwicklergruppe] gepflegt und erweitert.
+FreeBSD ist ein Betriebssystem für eine link:../platforms[Vielzahl von Plattformen], das sich auf Funktion, Geschwindigkeit und Stabilität konzentriert. Es ist abgeleitet von BSD, der Version von UNIX(R), die an der University of California, Berkeley, entwickelt wurde. Es wird von link:{contributors}#staff-committers[einer großen Entwicklergemeinschaft] entwickelt und gepflegt.
 
 == Herausragende Funktionen
 
-In den Bereichen Netzwerk, Leistungsfähigkeit, Sicherheit und Kompatibilität besitzt FreeBSD heute schon link:../features/[Funktionen], die in anderen Betriebssystemen, selbst in den besten kommerziellen, fehlen.
+FreeBSD bietet link:../features[erweiterte Funktionen für Netzwerke, Leistung, Sicherheit und Kompatibilität], die heute noch in anderen Betriebssystemen fehlen, selbst in einigen der besten kommerziellen.
 
 == Leistungsfähige Internet-Dienste
 
-FreeBSD ist bestens geeignet für Internet- oder Intranet-Server. Auch unter höchsten Lasten arbeiten die Netzwerkdienste zuverlässig. Der effiziente Umgang mit dem Speicher garantiert schnelle Antwortzeiten für tausende gleichzeitig laufende Benutzerprozesse.
+FreeBSD ist ein idealer Internet- oder Intranet-Server. Es bietet robuste Netzwerkdienste unter höchsten Lasten und nutzt den Arbeitsspeicher effizient, um gute Antwortzeiten für Tausende von gleichzeitigen Benutzerprozessen aufrechtzuerhalten.
 
-== Herausragende Unterstützung von eingebetteten Systemen
+== Fortschrittliche Embedded-Plattform
 
-FreeBSD bietet herausragende Netzwerkfunktionalitäten für diverse eingebettete Systeme, von Intel-basierenden Highend-Systemen über ARM, PowerPC hin zur MIPS-Plattform. Von Mail- und Internetapplikationen hin zu Routern, Zeitservern und drahtlosen Zugangspunkten stützen sich Hersteller auf der ganzen Welt auf die in FreeBSD enthaltenen Build- und Cross-Build-Fähigkeiten, um ihre eingebetteten Systeme zu entwickeln. Die von FreeBSD verwendete Berkeley Open Source Licence überlässt ihnen dabei die Entscheidung, welche Teile der eigenen Entwicklungsarbeit sie auch anderen zur Verfügung stellen wollen.
+FreeBSD bietet erweiterte Funktionen für Netzwerkbetriebssysteme auf Appliance- und Embedded-Plattformen, von Intel-basierten High-End-Appliances bis hin zu ARM-, PowerPC- und MIPS-Hardwareplattformen. Von Mail- und Web-Appliances bis hin zu Routern, Zeitservern und Wireless Access Points verlassen sich Anbieter auf der ganzen Welt auf die integrierten Build- und Cross-Build-Umgebungen und die fortgeschrittenen Funktionen von FreeBSD als Grundlage für ihre Embedded-Produkte. Und die Open-Source-Lizenz von Berkeley lässt sie entscheiden, wie viele ihrer lokalen Änderungen sie wieder beitragen möchten.
 
-== Viele Anwendungen
+== Führen Sie eine große Anzahl von Anwendungen aus
 
-Mit über 33.000 portierten Bibliotheken und link:../applications/[Anwendungen] eignet sich FreeBSD hervorragend als Betriebssystem für Desktop- und Serversysteme sowie eingebettete Systeme.
+Mit über 33.000 portierten Bibliotheken und link:../applications[Applikationen] unterstützt FreeBSD Anwendungen für Desktop-, Server-, Appliance- und Embedded-Umgebungen.
 
 == Leicht zu installieren
 
-FreeBSD kann von mehreren Medien installiert werden, beispielsweise CD-ROM, DVD-ROM, aber auch direkt über das Netzwerk mit FTP oder NFS. Dazu brauchen Sie lediglich der link:{handbook}#bsdinstall[Installationsanweisung] zu folgen.
+FreeBSD kann von einer Vielzahl von Medien wie CD-ROM, DVD oder direkt über das Netzwerk per FTP oder NFS installiert werden.
+Dazu brauchen Sie lediglich der link:{handbook}#bsdinstall[Installationsanweisung] zu folgen.
 
 == FreeBSD ist _frei_
 
-link:../../en/copyright/daemon/[image:&enbase;/gifs/dae_up3.gif[Der BSD Daemon,width=72,height=81]]
-
 [.right]
-link:../copyright/daemon[image:../../gifs/dae_up3.gif[Der BSD Daemon,width=72,height=81]]
+image:../../gifs/dae_up3.gif[Der BSD-Daemon,width=72,height=81]
 
-Während man vermuten könnte, dass ein Betriebssystem mit diesem Funktionsumfang teuer verkauft wird, ist FreeBSD link:../../en/copyright/[kostenlos] und bringt den Quellcode gleich mit. Wenn Sie FreeBSD herunterladen oder käuflich erwerben wollen, finden Sie in link:{handbook}#mirrors[Bezugsquellen für FreeBSD] weitere Informationen.
+Während man erwarten könnte, dass ein Betriebssystem mit diesen Funktionen zu einem hohen Preis verkauft wird, ist FreeBSD link:../copyright[kostenlos] verfügbar und wird mit dem Quellcode geliefert. Wenn Sie FreeBSD herunterladen oder käuflich erwerben wollen, finden Sie in link:{handbook}#mirrors[Bezugsquellen für FreeBSD] weitere Informationen.
 
 == Mitmachen bei FreeBSD
 
 Sie können leicht zu FreeBSD beitragen. Suchen Sie einfach eine Stelle, die verbessert werden muss. Ihre sorgfältig und sauber vorgenommenen Änderungen können Sie dem Projekt über einen Problembericht oder über einen Committer, wenn Sie einen kennen, zukommen lassen. Es sind viele Beiträge möglich: beispielsweise Dokumentationen, Grafiken oder Quellcode. Einzelheiten entnehmen Sie bitte dem Artikel link:{contributing}[FreeBSD unterstützen].
 
-Auch wenn Sie kein Programmierer sind, können Sie zu FreeBSD beitragen. Die https://www.FreeBSDFoundation.org[FreeBSD Foundation] ist eine gemeinnützige Gesellschaft. Spenden an die Gesellschaft können Sie (zumindest in den USA) von der Steuer absetzen. Weitere Informationen erhalten Sie von info@FreeBSDFoundation.org. Alternativ können Sie die FreeBSD Foundation auch unter folgender Anschrift erreichen: The FreeBSD Foundation, 2222 14th Street, Boulder, CO 80302 USA.
+Auch wenn Sie kein Programmierer sind, gibt es andere Möglichkeiten, zu FreeBSD beizutragen. Die https://www.freebsdfoundation.org[FreeBSD Foundation] ist eine Non-Profit-Organisation, bei der direkte Spenden (zumindest in den USA) vollständig steuerlich absetzbar sind. Weitere Informationen finden Sie unter folgendem Link: https://freebsdfoundation.org/about-us/contact-us/[Contact Us].

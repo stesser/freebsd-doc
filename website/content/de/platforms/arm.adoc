@@ -1,43 +1,44 @@
 ---
-title: "FreeBSD/ARM Project"
+title: "FreeBSD/ARM-Projekt"
 sidenav: developers
 ---
 
-include::shared/en/urls.adoc[]
+include::shared/authors.adoc[]
+include::shared/de/urls.adoc[]
 
-= FreeBSD/ARM Project
+= FreeBSD/ARM-Projekt
 
 == Einführung
 
-Bei FreeBSD/ARM handelt es sich um eine Portierung von FreeBSD auf die 32- und 64-Bit-ARM-Architekturen sowie deren Hardware. Diskussionen über den ARM-Port werden auf der Mailingliste http://lists.freebsd.org/mailman/listinfo/freebsd-arm[freebsd-arm] geführt.
+Diese Seite enthält Informationen über die FreeBSD-Portierung auf die 32- und 64-Bit-ARM-Architekturen und -Hardware. Diskussionen über die ARM-Portierung finden auf der Mailingliste https://lists.freebsd.org/archives/freebsd-arm[freebsd-arm] statt.
 
 == Inhaltsverzeichnis
 
-* <<status,Status>>
-* <<hw,Hardware-Unterstützung>>
-* <<todo,Was noch getan werden muss>>
-* <<links,FreeBSD/ARM-Links>>
-* <<miniinst,Mini-Install Guide>>
-* <<list,Mailingliste FreeBSD/ARM>>
+* <<status, Status>>
+* <<hw,Hardware Notes>>
+* <<todo,What Needs to be Done>>
+* <<links,Related Links>>
+* <<miniinst,Mini-Installationsanleitung>>
+* <<list,Mailingliste>>
 
 [[status]]
 == Status
 
-32-Bit-ARM ist offiziell eine link:{committers-guide}#archs[Tier 2]-Architektur, daher stellt das https://www.FreeBSD.org[FreeBSD Project] keine offiziellen Releases und vorkompilierten Pakete bereit, da diese Plattform primär für eingebettete Systeme verwendet wird. Dennoch wird FreeBSD/ARM aktiv entwickelt und gewartet und wird sehr gut unterstützt. Dadurch bietet es eine exzellente Grundlage für die Entwicklung von ARM-basierten Systemen. FreeBSD/arm unterstützt ARMv4- und ARMv5-Prozessoren, FreeBSD/armProtv6 unterstützt ARMv6- sowie ARMv7-Prozessoren (auf letzteren auch SMP).
+32-Bit-ARMv7 ist offiziell eine link:{committers-guide}#archs[Tier 2]-Architektur, da link:../../[das FreeBSD Project] keine offiziellen Releases oder vorgefertigten Pakete für diese Plattform bereitstellt, da sie hauptsächlich auf den Embedded-Bereich abzielt. FreeBSD/ARM wird jedoch aktiv weiterentwickelt und gepflegt, wird gut unterstützt und bietet ein hervorragendes Framework für die Entwicklung ARM-basierter Systeme. FreeBSD/arm unterstützte früher ARMv4- und ARMv5-Prozessoren, die mit Version 13.0 abgeschafft wurden. FreeBSD/armv7 enthält SMP-Unterstützung.
 
-64-Bit-ARM wird prinzipiell unterstützt. 64-Bit-ARM-Plattformen folgen einer Sammlung von Standards, daher funktioniert ein einzelner FreeBSD-Build auf Hardware verschiedener Hersteller. Daher ist FreeBSD in der Lage, offizielle Versionen zu erstellen sowie Binärpakete bereitzustellen. FreeBSD/arm64 ist auf dem besten Weg, eine link:{committers-guide}#archs[Tier 1] Architektur zu werden.
+FreeBSD/arm64 unterstützt 64-Bit ARMv8-Prozessoren und ist seit 13.0 eine link:{committers-guide}#archs[Tier 1]-Architektur. 64-Bit-ARM-Plattformen folgen einer Reihe von Standardkonventionen, so dass ein einziges FreeBSD-Build auf Hardware verschiedener Hersteller funktioniert. FreeBSD bietet daher offizielle Releases für FreeBSD/arm64 und Pakete an.
 
 [[hw]]
-== Hardware-Unterstützung
+== FreeBSD/ARM Hardware-Hinweise
 
-FreeBSD/arm und FreeBSD/armv6 unterstützen eine große Anzahl von ARM-CPUs und Entwicklerboards. Nicht jedes Peripheriegerät wird mit jeder CPU oder jedem Board funktionieren, es wird aber ständig daran gearbeitet, weitere Geräte zu unterstützen. Ihr Beitrag ist hier jederzeit willkommen. Viele CPUs und Boards, die nicht aufgelistet sind, können vielleicht mit geringem Aufwand unterstützt werden.
+FreeBSD/arm und FreeBSD/armv6 unterstützen eine große Anzahl von ARM-CPUs und Entwicklungsboards. Nicht jedes Peripheriegerät wird von jeder CPU oder jedem Board unterstützt, obwohl daran gearbeitet wird und Beiträge immer willkommen sind. Umgekehrt können viele nicht aufgeführte CPUs und Boards mit nur minimalen Änderungen funktionieren.
 
-Aus praktischen Gründen werden hier nicht alle unterstützten CPUs und Boards aufgelistet. Wenn Sie weitere Informationen benötigen, lesen Sie bitte die https://wiki.freebsd.org/FreeBSD/arm[FreeBSD/arm Wiki-Seiten] und sehen Sie sich die https://cgit.freebsd.org/src/tree/sys/arm/conf/[Kernel Konfigurationdateien] an.
+Eine Auflistung aller unterstützten Geräte auf allen CPUs und Boards ist an dieser Stelle unpraktisch. Viele Informationen können jedoch der Mailingliste und den Archiven, den https://wiki.freebsd.org/arm[FreeBSD ARM Wiki] und den https://cgit.freebsd.org/src/tree/sys/arm/conf/[Kernel Konfigurationsdateien] entnommen werden.
 
-=== Unterstützte Cores
+=== Unterstützte Kerne
 
 * ARM9E
-* Most XScale
+* Die meisten XScale
 * Marvel Feroceon
 * Marvel Sheeva
 * ARM10E
@@ -52,71 +53,71 @@ Aus praktischen Gründen werden hier nicht alle unterstützten CPUs und Boards a
 === SoCs
 
 * Allwinner A10/A20
-* Atmel AT91RM92 and AT91SAM9 families
-* Broadcom BCM2835 (used in Raspberry Pi)
+* Atmel AT91RM92 und AT91SAM9 Familien
+* Broadcom BCM2835 (verwendet im Raspberry Pi)
 * Cavium CNS11xx
-* Freescale i.MX51, i.MX53, i.MX6 and Vybrid Family
+* Freescale i.MX51, i.MX53, i.MX6 und Vybrid Familie
 * Intel XSCALE
-* Marvell Orion, Kirkwood and Discovery Innovation families of systems-on-chip
-* Marvell Armada 500 (ARMv6) and Armada XP (ARMv7)
+* Marvell Orion-, Kirkwood- und Discovery Innovation-Familien SoC
+* Marvell Armada 500 (ARMv6) und Armada XP (ARMv7)
 * NXP LPC32x0
 * Qualcomm Snapdragon
 * Rockchip RK3188
-* Samsung Exynos5 and S3C24xxx
+* Samsung Exynos5 und S3C24xxx
 * Texas Instruments DaVinci Digital Media SoC
 * TI OMAP
-* Xilinx Zynq7 family
+* Xilinx Zynq7-Familie
 
-Beachten Sie, dass nicht jedes Gerät von jeder CPU unterstützt wird.
+Beachten Sie, dass nicht alle Peripheriegeräte von allen CPUs unterstützt werden.
 
 === Boards
 
 * ArndaleBoard (Samsung Exynos5250)
 * Atmel AT91RM9200
-* BeagleBoard and BeagleBoard-xM (TI OMAP3)
+* BeagleBoard und BeagleBoard-xM (TI OMAP3)
 * BeagleBone
 * Colibri VF50 Evaluation Board
 * Cubieboard(1,2) (Allwinner A10/A20)
 * Device Solutions Quartz
-* Gateworks Avila GW2348 and Cambria GW2358
-* Genesi Efika MX Smarttop and Smartbook
-* Globalscale Technologies OpenRD platform
+* Gateworks Avila GW2348 und Cambria GW2358
+* Genesi Efika MX Smarttop und Smartbook
+* Globalscale Technologies OpenRD-Plattform
 * Google Chromebook
-* Kwikbyte KB9202B (as well as the older KB9202 and KB9202A)
+* Kwikbyte KB9202B (sowie die älteren KB9202 und KB9202A)
 * Linksys NSLU2
 * Marvell DB-88F5182, DB-88F5281, DB-88F6281, RD-88F6281, DB-78100
 * Marvell DB-88F6781 (ARMv6)
 * Marvell DB-78460 (ARMv7)
-* Marvell Sheeva Plug and Dream Plug
+* Marvell Sheeva Plug und Dream Plug
 * Pandaboard (OMAP4)
-* Phytec Cosmic Board (Freescale Vybrid Family)
+* Phytec Cosmic Board (Freescale Vybrid Familie)
 * Raspberry Pi
-* Radxa Rock (Work in progress)
-* SBC6045 with Atmel at91sam9g45
-* Technologic Systems TS-7200 and TS-7800
+* Radxa Rock (in Arbeit)
+* SBC6045 mit Atmel at91sam9g45
+* Technologic Systems TS-7200 und TS-7800
 * Wandboard
 * Zedboard (Xilinx Zynq)
 
-Beachten Sie, dass nicht jedes Gerät von jedem Board unterstützt wird.
+Nicht alle Peripheriegeräte werden auf allen Boards unterstützt.
 
 [[todo]]
-== Was noch getan werden muss
+== Was noch zu tun ist
 
-* SATA-Unterstützung muss noch implementiert werden.
-* Andere Geräte, wie watchdog, i2c und bus sollen von NetBSD übernommen werden.
+* SATA-Unterstützung muss für Boards hinzugefügt werden, auf denen sie derzeit fehlt.
+* Andere Gerätetreiber, wie watchdog, i2c und bus sollten von NetBSD übernommen werden.
 
-[[links]]
-== FreeBSD/ARM-Links
+[[Links]]
+== FreeBSD/ARM-bezogene Links
 
-* http://esd.et.ntust.edu.tw/downloads/2008_Embedded_Programming/2008_ESW/Embedded_3_ARM.pdf[Brief history of ARM]
-* http://www.netbsd.org/ports/#ports-by-cpu[NetBSD Arm projects]
+* http://esd.et.ntust.edu.tw/downloads/2008_Embedded_Programming/2008_ESW/Embedded_3_ARM.pdf[Kurze Geschichte von ARM]]
+* Von NetBSD unterstützte Plattformen: CPU-Architekturen: http://www.netbsd.org/ports/#ports-by-cpu[Ports nach CPU-Architektur]
 
 [[miniinst]]
-== Mini-Install guide
+== Mini-Installationsanleitung
 
-Olivier Houchard (cognet@FreeBSD.org) hat eine Installationsanleitung für die aktuellen FreeBSD-Quellen geschrieben. Diese ist http://people.freebsd.org/~cognet/arm.html[hier] zu finden.
+{cognet} hat eine Mini-Installationsanleitung für den aktuellen FreeBSD-Quelltext geschrieben. Er ist unter https://people.FreeBSD.org/~cognet/arm.html[verfügbar].
 
-[[list]]
-== Mailingliste FreeBSD/ARM
+[[Liste]]
+== FreeBSD/ARM Mailingliste
 
-Um diese Liste zu abonnieren, senden Sie eine E-Mail an `<freebsd-arm-subscribe@FreeBSD.org>` oder melden Sie sich ü die http://lists.FreeBSD.org/mailman/listinfo/freebsd-arm[Mailman-Webschnittstelle] an.
+Um diese Liste zu abonnieren, schicken Sie eine E-Mail an `<freebsd-arm+subscribe@FreeBSD.org>` oder besuchen Sie die http://lists.FreeBSD.org/subscription/freebsd-arm[Webschnittstelle].

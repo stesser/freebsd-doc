@@ -1,0 +1,111 @@
+---
+title: "FreeBSD Donations Liaison"
+sidenav: about
+---
+
+= FreeBSD Donations Liaison
+
+== Geldspenden an die FreeBSD Foundation
+
+Die Spendensammlung der `FreeBSD Foundation` ist wichtig, um FreeBSD frei zu halten. Da das Projekt wächst, steigen auch die Kosten.
+
+Wenn Sie an die Foundation spenden, helfen Sie uns, Projekte zu finanzieren und zu verwalten, FreeBSD-Veranstaltungen zu sponsern und FreeBSD-Entwicklern Reisestipendien zu gewähren.
+Sie helfen uns auch, das Project bei der Erfüllung von Verträgen, Lizenzvereinbarungen, Urheberrechten, Warenzeichen und anderen rechtlichen Vereinbarungen zu vertreten, die eine anerkannte juristische Person erfordern.
+
+Um der FreeBSD Foundation Geld zu spenden, besuchen Sie bitte die Spendenseite https://www.freebsdfoundation.org/donate/[FreeBSD Foundation].
+
+== Inhalt
+
+* <<#goal, Donations Liaison Goals>>
+* <<#charter, Donations Liaison Charter>>
+* <<#donating, Dem FreeBSD-Projekt spenden>>
+
+== Weitere Spenden-Links
+
+* https://wiki.freebsd.org/Donations/WantList[FreeBSD Projekt-Wunschliste]
+* link:../../en/donations/donors[Liste von FreeBSD Spendern]
+
+[[goal]]
+== Projektziel
+
+Mit der wachsenden Zahl der FreeBSD-Benutzer ist auch die Zahl derer gestiegen, die dem Projekt Material oder Geld spenden wollen. Die `Donations Liaison` soll den Umgang mit diesen Spenden vereinfachen und sicherstellen, dass sie zeitnah und angemessen bearbeitet werden.
+
+[[charter]]
+== Charta der Spendenbeauftragten
+
+Die Aufgabe des `Donations Liaison Office` besteht darin, Spenden zu fördern und zu lenken, und zwar gemäß einer Reihe von Regeln, die von der Gemeinschaft akzeptiert werden. Das DLO hat die folgenden Aufgaben.
+
+* Festlegung und Aufrechterhaltung klarer Verfahren für den Umgang mit Spenden.
+* Rechtzeitige Reaktion auf Spendenangebote.
+* Eine Liste von Geräten und Ressourcen zu führen, die von der FreeBSD-Gemeinschaft gewünscht werden.
+* Koordination von Spendenangeboten mit der FreeBSD-Entwicklergemeinschaft.
+* Spenden durch den gesamten Spendenprozess zu leiten.
+* Mit einem kleinen Team zusammenzuarbeiten, um sicherzustellen, dass eine rechtzeitige, informierte und korrekte Antwort zu jeder Zeit verfügbar ist.
+* Öffentliche Anerkennung der Spender und Spenden, wenn der Prozess abgeschlossen ist.
+* Den Status aller Leihgaben für das Projekt festzuhalten.
+* Alle Spenden an die FreeBSD-Entwicklergemeinschaft offen zu legen.
+
+[[donating]]
+== Für das FreeBSD-Projekt spenden
+
+Sie wollen etwas für das FreeBSD-Projekt spenden? Prima! Wir sind auf Spenden von Benutzern angewiesen, um unsere Ziele zu erreichen. Bitte lesen Sie weiter unten, wie Sie uns bezüglich Ihrer Spende kontaktieren können.
+
+Wenn Sie nicht wissen, was Sie spenden möchten, werfen Sie einen Blick auf unsere https://wiki.freebsd.org/Donations/WantList[FreeBSD Projekt-Wunschliste]. Wir würden uns über jeden Gegenstand auf dieser Liste freuen. Wenn Sie Geräte haben, die Sie spenden möchten, lesen Sie weiter.
+
+[[taxcredit]]
+=== Steuergutschrift für Spenden
+
+Die FreeBSD Foundation kann als gemeinnützige Organisation steuerlich geltend gemacht werden. Wenn Sie in den Vereinigten Staaten leben, können Sie Ihre Spende unter bestimmten Voraussetzungen von der Steuer absetzen. Wenn Sie eine Spendenbescheinigung für steuerliche Zwecke wünschen, teilen Sie uns dies bitte mit, wenn Sie uns Informationen über Ihre Spende schicken.
+
+Eine Steuergutschrift ist nicht so einfach, wie es vielleicht scheint. Das Spendenteam muss über den Wunsch nach einem Steuerabzug informiert werden, damit die Stiftung benachrichtigt werden kann, und es muss ihr mitgeteilt werden, wann die Spende verschickt wurde. Die Stiftung muss auch wissen, wann der Gegenstand bei der betreffenden Person eingegangen ist. Die Stiftung muss dann nachweisen können, dass die Spende dem _Öffentlichen Wohl_ dient. All dies zusammen bedeutet, dass es wahrscheinlich Entwickler gibt, die an der großen Kiste mit ISA-Karten in Ihrem Schrank interessiert wären, Sie für die Spende aber wahrscheinlich keine Steuergutschrift bekommen können; die gesamte Arbeit, die nötig ist, um sie zu verarbeiten, zu versenden und zu dokumentieren, übersteigt den Gesamtwert der Spende bei weitem.
+
+Die FreeBSD Foundation stellt eine Quittung für die Lieferung von Geräten aus. Die FreeBSD Foundation wird jedoch keinen Marktwert der Geräte angeben - das Gesetz verbietet es ihr sogar. Wir empfehlen, sich anderweitig über die Bewertung von Hardware-Spenden zu informieren. Da viele unserer Spenden veraltet sind und der faire Marktwert daher schwer zu beurteilen ist, empfehlen wir, auf Ebay oder anderen Websites für Gebrauchtgeräte nach Preisen für ähnliche Geräte zu suchen.
+
+Um eine Steuerbescheinigung für Ihre Spende zu erhalten, müssen Sie ein https://www.freebsdfoundation.org/wp-content/uploads/2015/12/Hardware-Donation-Form.pdf[Hardware Donation Form] von der FreeBSD Foundation Website ausfüllen.
+
+=== Wie man spendet
+
+Ein Ziel des Donations Liaison Office ist es, Spenden an Entwickler weiterzuleiten, die sie gebrauchen können. Wir nehmen nicht irgendeine Spende an, sondern nur solche, die bei einem Entwickler landen, der sie zur Verbesserung von FreeBSD verwenden kann. Das spart Zeit und gibt den Spendern die Gewissheit, dass ihre Spende tatsächlich dem FreeBSD-Projekt zugute kommt. Der Nachteil ist, dass wir einige Informationen über Ihre Spende benötigen, bevor wir sie annehmen können.
+
+Spenden lassen sich im Allgemeinen in drei Kategorien einteilen:
+
+* <<#money, Finanzielles>>
+* <<#systems, Komplette Computer>>
+* <<#components, Computerbauteile>>
+
+Wenn Sie etwas zu bieten haben, das nicht in eine dieser Kategorien fällt, machen Sie sich keine Sorgen! Kontaktieren Sie uns einfach unter mailto:donations@FreeBSD.org mit Ihrem Angebot. Nur weil es sich nicht um ein gewöhnliches Angebot handelt, heißt das nicht, dass wir nicht interessiert sind.
+
+[[money]]
+=== Finanzielle Beiträge
+
+Das FreeBSD-Projekt nimmt keine direkten finanziellen Beiträge an. Eine Sponsorenorganisation, die https://www.freebsdfoundation.org[FreeBSD Foundation], nimmt finanzielle Beiträge für uns an. Bitte besuchen Sie deren Webseite, um Details über finanzielle Beiträge zu erfahren.
+
+[[systems]]
+=== Komplette Computersysteme
+
+Das FreeBSD-Projekt braucht immer Computer. Wenn Sie einen Computer haben, den Sie dem Project spenden möchten, kontaktieren Sie uns bitte mit den folgenden Informationen:
+
+* Hardware-Spezifikationen: Architektur, Motherboard, CPU, Festplattenplatz, Speicher.
+* Läuft auf dem System FreeBSD oder wird es nicht unterstützt? Wenn möglich, fügen Sie bitte eine `dmesg` von einer FreeBSD-Installation auf diesem System bei.
+* Sind Sie bereit, das System zu versenden?
+* Ihr physischer Standort. Wir versuchen, den Versand so einfach und kostengünstig wie möglich zu gestalten.
+* Erwähnen Sie auch, ob Sie eine <<Steuergutschrift>> für dieses System wünschen. (Beachten Sie, dass nicht alle Spenden realistischerweise eine Steuergutschrift erhalten können, da die Kosten für die Bereitstellung der Gutschrift den Wert der Spende übersteigen können.)
+
+[[components]]
+=== Computer-Komponenten
+
+Wenn Sie Hardware haben, die Sie dem Projekt spenden möchten, kontaktieren Sie uns bitte mit den folgenden Informationen:
+
+* Die Beschreibung der Hardware: Modell, Teilenummer, Hersteller, etc. Wenn Sie einen genauen Link zur Webseite des Herstellers für diese Komponente haben, wäre das hilfreich.
+* Wird diese Hardware derzeit von FreeBSD unterstützt?
+* Welche Dokumentation haben Sie? Ein Stück Hardware reicht nicht aus, um einen Treiber zu schreiben; Treiberautoren benötigen detaillierte Chipsatzdaten vom Hersteller. (Machen Sie sich keine Sorgen, wenn Sie diese Dokumentation nicht haben, da sie vielleicht anderswo verfügbar ist.)
+* Sind Sie bereit, das System zu versenden?
+* Ihr physischer Standort. Wir versuchen, den Versand so einfach und kostengünstig wie möglich zu gestalten.
+* Geben Sie auch an, ob Sie eine <<Steuergutschrift>> für diese Hardware wünschen. (Beachten Sie, dass nicht für alle Spenden eine Steuergutschrift gewährt werden kann, da die Kosten für die Ausstellung der Gutschrift den Wert der Spende übersteigen können.)
+
+=== Was wir mit diesen Informationen tun
+
+Sobald wir eine Beschreibung der Spende haben, wird das Donations Liaison Office die Entwicklergemeinschaft kontaktieren und ihnen die Ressource anbieten. Wenn wir einen Entwickler haben, der das Objekt haben möchte, setzen wir uns mit dem Spender und dem Empfänger in Verbindung und lassen sie die Versandinformationen ausarbeiten. Wenn mehrere Entwickler an einer Ressource interessiert sind, versuchen wir herauszufinden, wofür jeder einzelne Entwickler die Ressource verwenden würde, um sie möglichst effektiv für das Projekt einzusetzen. Wenn kein Entwickler interessiert ist, lehnen wir das Angebot ab.
+
+Unser Ziel ist es, alle Spenden innerhalb von 7 Tagen nach Erhalt der vollständigen Informationen zu vergeben (oder abzulehnen).
+

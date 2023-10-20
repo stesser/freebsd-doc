@@ -39,4 +39,5 @@ FreeBSD hat außerdem eine weltweite Gruppe von Programmierern und Autoren, die 
 
 _'FreeBSD handles [our] heavy load quite well and it is nothing short of amazing. Salutations to the FreeBSD team.'_
 
----Mark Hittinger, administrator of WinNet Communications, Inc.
+[.right]
+`---Mark Hittinger, Administrator bei der WinNet Communications, Inc.`

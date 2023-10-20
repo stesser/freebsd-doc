@@ -1,30 +1,33 @@
 ---
-title: "FreeBSD Ansprechpartner"
+title: "Kontakt mit der FreeBSD-Gemeinschaft"
 sidenav: about
 ---
 
-include::shared/en/urls.adoc[]
+include::shared/de/mailing-lists.adoc[]
+include::shared/de/urls.adoc[]
 
-= FreeBSD Ansprechpartner
+= Kontakt zur FreeBSD-Gemeinschaft
+
+link:../community/mailinglists[Mailinglisten sind der wichtigste Kommunikationskanal].
+
+Bitte beachten Sie, dass Sie sich für einige Listen anmelden müssen, bevor Sie Beiträge schreiben können; Beiträge von Nicht-Abonnenten können in eine Warteschlange gestellt werden.
 
 == Fragen zu FreeBSD
 
-Fragen zu FreeBSD sollten auf der Mailingliste de-bsd-questions@de.FreeBSD.org gestellt werden.
+Schreiben Sie an die {freebsd-questions}; weitere Möglichkeiten finden Sie auf der Seite:../community[Community].
 
-Die Unterstützung der FreeBSD-Benutzer wird hauptsächlich über die link:../community/mailinglists/[Mailinglisten] abgewickelt. Es gibt viele Listen zu verschiedenen Themen, nicht englische Listen stehen ebenfalls zur Verfügung.
+== Inhalt der Website
 
-== Fragen zum Inhalt dieses WWW-Servers
+Fragen oder Vorschläge zur Dokumentation können an {freebsd-doc} gerichtet werden.
 
-Fragen und Vorschläge zur Dokumentation (dem link:{handbook}[Handbuch], der link:{faq}[FAQ] sowie den link:../docs/[Büchern und Artikeln]) sollten auf der Liste des FreeBSD Documentation Projects freebsd-doc@FreeBSD.org gestellt werden.
+Alternativ gibt es für Inhalte des link:{main-site}[Dokumentations-Portals] - einschließlich des link:{handbook}[FreeBSD-Handbuchs] und der link:{faq}[FAQ] - die Möglichkeit, die Seite in GitHub zu bearbeiten.
 
-Fragen zur deutschen Dokumentation sollten auf der Liste mailto:de-bsd-translators@DE.FreeBSD.org[de-bsd-translators@de.FreeBSD.org] gestellt werden.
+== link:../administration/[FreeBSD Projektverwaltung und Management]
+
+Webmaster-Team, Sicherheits-Team, Postmaster-Team, Bugmeisters und andere.
 
 == Sonstiges
 
-CD-ROMs bestellen: http://www.freebsdmall.com/[The FreeBSD Mall]
+link:../commercial/[Kommerzielle Anbieter]
 
-Kommerzielle Unterstützung: http://www.freebsdmall.com/[The FreeBSD Mall]
-
-== Ansprechpartner
-
-link:../administration/[Wer macht was?] Öffentlichkeitsarbeit, Security-Officer, Postmaster, Webmaster etc.
+- http://www.freebsdmall.com/[The FreeBSD Mall] ist ein Anbieter von hochwertiger FreeBSD-Software, Dokumentation, Support und Dienstleistungen.

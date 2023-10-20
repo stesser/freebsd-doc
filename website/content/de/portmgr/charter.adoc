@@ -1,0 +1,28 @@
+---
+Titel: "Charta für das Ports Management Team"
+sidenav: about
+---
+
+= Charta für das Ports Management Team
+
+Die FreeBSD Ports-Sammlung ist ein Produkt, das in erster Linie für die Endanwender von FreeBSD gedacht ist. Das Ports Management Team (portmgr) ist die Gruppe, die die Entwicklung der Ports-Sammlung überwacht. Seine Mitglieder werden vom FreeBSD Core Team (core) ernannt.
+
+Die Hauptaufgabe des Teams besteht darin, sicherzustellen, dass die FreeBSD Ports-Entwicklergemeinschaft eine funktionale, stabile, aktuelle und vollständige Ports-Sammlung bereitstellt. Die sekundäre Aufgabe des Teams ist die Koordination der Committer und Entwickler, die an der Ports-Sammlung arbeiten.
+
+Das Ports Management Team hat die folgenden spezifischen Aufgaben:
+
+* Sicherstellung der Integrität der Ports-Sammlung durch Verwaltung der Commits für den `ports`-Teil des FreeBSD-Repositorys. Dazu gehört die direkte Pflege bestimmter Schlüsseldateien, die Durchführung von Test-Builds für vorgeschlagene größere Änderungen und die Entscheidung über andere Commits.
+* Pflege des automatisierten http://pkg.FreeBSD.org[Package Building Cluster] und Bereitstellung der daraus resultierenden Pakete zum Download für FreeBSD-Benutzer.
+* Zusammenarbeit mit dem FreeBSD Security Team, um sicherzustellen, dass Sicherheitsprobleme rechtzeitig erkannt und behoben werden.
+* Zusammenarbeit mit den FreeBSD Ports und Documentation Committers, um die relevante Dokumentation auf dem neuesten Stand zu halten.
+* Soweit es bei einem Projekt mit Freiwilligen möglich ist, stellen Sie sicher, dass die Rechte der Autoren, deren Werke in der Ports-Sammlung installiert sind, respektiert werden.
+* Als erste Instanz bei Streitigkeiten zwischen Mitgliedern der FreeBSD-Gemeinschaft wie Maintainern und Committern zu fungieren.
+* Verwaltet den Commit-Zugriff auf den Ports-Baum. Alle Genehmigungen für neue Committer müssen an admins@ und CC'd an core@ geschickt werden; sie müssen mit PGP signiert sein.
+* Erstellen Sie Richtlinien und Policies, die die Rechte und Verantwortlichkeiten von Ports-Committern und Maintainern regeln.
+* Hilfe bei der Festlegung von Prioritäten für die zukünftige Ausrichtung der Ports-Sammlung.
+
+Zusätzlich zu seinen spezifischen Verantwortlichkeiten kann das Ports Management Team alle Maßnahmen ergreifen, die es für sinnvoll erachtet, um die Ports-Sammlung verantwortungsvoll zu verwalten.
+
+Unter link:../policies/[Ports Team Policies] finden Sie eine vollständige Liste der aktuellen Richtlinien, die zur Umsetzung dieser Ziele verabschiedet wurden.
+
+Diese Charta steht unter der Kontrolle des FreeBSD Core Teams. Sie ist so lange gültig, bis sie vom Core Team geändert oder widerrufen wird; jede Änderung dieser Charta muss vom Core Team genehmigt werden.

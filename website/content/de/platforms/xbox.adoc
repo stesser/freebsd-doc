@@ -1,0 +1,28 @@
+---
+title: "FreeBSD/Xbox-Projekt"
+sidenav: developers
+---
+
+include::shared/authors.adoc[]
+
+= FreeBSD/Xbox-Projekt
+
+== Einleitung
+
+FreeBSD/xbox ist eine Portierung von FreeBSD, die auf Microsoft(R) Xbox(R)-Systemen laufen soll. Das Projekt wurde von {rink} ins Leben gerufen, der den größten Teil der Patches und des Codes übernommen hat. {ed} half bei der Überprüfung der Patches und lieferte auch Details zu bestimmten Xbox-Interna.
+
+== Status
+
+FreeBSD/xbox wird seit FreeBSD 6-STABLE unterstützt. Der Framebuffer, Ethernet, Sound und USB-Geräte (z.B. eine USB-Tastatur für die Konsole) werden unterstützt.
+
+Um die Installation der FreeBSD/xbox-Portierung zu erleichtern, wurde eine kombinierte Installations-/Livecd-Datei https://lists.freebsd.org/pipermail/freebsd-stable/2006-August/027894.html[erstellt]. Sie ist unter ftp://ftp.stack.nl/pub/freebsd-xbox/[hier] verfügbar.
+
+== FreeBSD-Kernel booten
+
+Um FreeBSD booten zu können, benötigen Sie eine aktuelle Version des Linux/xbox-BIOS, genannt Cromwell (andernfalls stürzt Ihr Kernel sofort nach dem Laden ab). Ein Cromwell mit FreeBSD UFS-Patches (damit ist es in der Lage, einen Kernel direkt von einem UFS-Dateisystem zu laden) ist in der Ports-Sammlung unter /usr/ports/sysutils/cromwell verfügbar; es kann über den Port /usr/ports/sysutils/raincoat in das EEPROM geflasht werden (solange Ihre Xbox unter Version 1.6 ist).
+
+*Anmerkung*: Einige Xbox-Laufwerke sind dafür bekannt, dass sie bestimmte Arten von Medien ablehnen. Sollte es während der Installation zu zufälligen Hängern, Panikattacken oder Beschädigungen kommen, versuchen Sie es mit einer anderen, funktionierenden DVD/CD-ROM.
+
+== Installation auf der Festplatte
+
+Sie können eine Installation mit Hilfe der Live-CDs durchführen, müssen aber alles manuell erledigen. Es wird empfohlen, die Festplatte mit einer FreeBSD/i386-Installation vorzubereiten und die Konfigurationsdatei /boot/xboxlinux.cfg selbst einzurichten, damit Cromwell den zu ladenden Kernel bestimmen kann.

@@ -1,21 +1,37 @@
 ---
-title: "Die FreeBSD-Gemeinde"
+title: "Gemeinde"
 sidenav: community
 ---
 
 include::shared/de/urls.adoc[]
 
-= Die FreeBSD-Gemeinde
+= Gemeinde
 
-Es gibt mehr als 100 link:mailinglists/[Mailinglisten], dutzende https://forums.FreeBSD.org/[Foren] sowie diverse link:{handbook}#eresources-news[Newsgroups]. Dazu kommen mehr als {{< get-usergroups-info "usergroups" >}} https://www.FreeBSD.org/usergroups/[User Groups] in {{< get-usergroups-info "countries" >}} Ländern. Zusätzlich existiert eine aktive link:irc[IRC]-Gemeinde. Außerdem betreiben die FreeBSD-Entwickler gemeinsam mit einigen der wichtigsten Unterstützer ein https://wiki.FreeBSD.org/[Wiki], das Informationen zur FreeBSD-Entwicklung und zu diversen Projekten enthält.
+Die FreeBSD-Gemeinde ist vielfältig und umfangreich und kann überall dort gefunden werden, wo großartige Unterhaltungen und Aktivitäten stattfinden.
+Sie werden feststellen, dass unsere Gemeinde und ihre Foren intelligent, einladend und zugänglich sind.
 
-Letztes Jahr gab es insgesamt {{< get-event-last-year-info "events" >}} FreeBSD-Veranstaltungen in {{< get-event-last-year-info "countries" >}} verschiedenen Ländern. Ein https://www.FreeBSD.org/events/events.ics[Kalender] sowie ein https://www.FreeBSD.org/events/feed.xml[RSS Feed] zu bevorstehenden FreeBSD-spezifischen Veranstaltungen sind auf der Seite https://www.FreeBSD.org/events/[Veranstaltungen] verfügbar. Und nicht zuletzt gibt es dutzende Videos im Youtube-Channel https://www.youtube.com/bsdconferences[BSD Conferences].
+Das Projekt unterhält mehrere offizielle Community-Foren, in denen Entwickler, Mitwirkende und Benutzer Hilfe und Unterstützung finden, sich auf dem Laufenden halten, koordinieren und zusammenarbeiten oder sich einfach nur zurücklehnen, entspannen und Kontakte knüpfen können.
 
-== Soziale Netzwerke
+Wenn Sie asynchrone und langlebige Kommunikationskanäle bevorzugen, bietet FreeBSD über hundert https://lists.freebsd.org[Mailinglisten], die ein breites Spektrum an Themen abdecken, sowie webbasierte https://forums.freebsd.org/[Foren] und mehrere Usenet link:{handbook}eresources/#eresources-news[News-Groups].
 
-FreeBSD ist auf diversen sozialen Netzwerken vertreten.
+Für die Zusammenarbeit in Echtzeit haben wir eine Reihe von https://wiki.freebsd.org/IRC/[FreeBSD IRC-Kanälen] und eine Instanz auf https://wiki.freebsd.org/Discord[Discord], wo Sie Unterstützung finden, lernen können, mitzuarbeiten, Live-Streams anschauen können und vieles mehr.
 
-* Es gibt tausende Photos von Usergroup-Treffen, Konferenzen und Hackatons, die auf http://www.flickr.com[flickr] mit dem Tag 'link:https://flickr.com/search/?z=t&ss=2&w=all&q=freebsd&m=text[freebsd]' versehen wurden.
-* Auf https://www.youtube.com[YouTube] gibt es hunderte Videos von Konferenzen, Präsentatitionen und Vorträgen, die sich auf https://www.youtube.com/results?search_query=freebsd[FreeBSD] beziehen. Weiters gibt es den Channel https://www.youtube.com/bsdconferences[BSD Conferences], über den Sie komplette Präsentationen von FreeBSD-Konferenzen verfolgen/ansehen können.
-* Auf https://www.facebook.com[Facebook] gibt es die https://www.facebook.com/home.php#/group.php?gid=2204657214[FreeBSD Users Group], auf https://www.linkedin.com[LinkedIn] die https://www.linkedin.com/groups?gid=47628[FreeBSD Group].
-* Auf https://twitter.com[Twitter] können Sie beispielsweise https://twitter.com/freebsd[@freebsd], https://twitter.com/freebsdhelp[@freebsdhelp], https://twitter.com/freebsdblogs[@freebsdblogs] oder https://twitter.com/freebsdcore[@freebsdcore] folgen.
+Wenn Sie an beruflicher Entwicklung und Networking interessiert sind, folgen Sie uns auf https://www.linkedin.com/company/freebsd/[LinkedIn] und treten Sie unserer offiziellen https://www.linkedin.com/groups/47628[FreeBSD LinkedIn Group] bei.
+
+Für regelmäßig stattfindende persönliche und Online-Treffen sollten Sie einen Blick auf unsere https://www.freebsd.org/events[FreeBSD Veranstaltungen] werfen, wo wir einen Feed und einen Kalender mit anstehenden Veranstaltungen führen.
+Im vergangenen Jahr gab es {{< get-event-last-year-info "events" >}} Veranstaltungen auf der ganzen Welt.
+////
+Letztes Jahr gab es {{< get-event-last-year-info "events" >}} Veranstaltungen in {{< get-event-last-year-info "countries" >}} verschiedenen Ländern rund um die Welt.
+////
+
+Auf Twitter können Sie https://twitter.com/freebsd[@freebsd], https://twitter.com/freebsdhelp[@freebsdhelp], oder https://twitter.com/freebsdcore[@freebsdcore] folgen.
+
+Auf Reddit finden Sie den Link zur FreeBSD-Gemeinde: https://www.reddit.com/r/freebsd/[hier].
+
+Neben den offiziell betriebenen Community-Bereichen gibt es https://www.freebsd.org/usergroups/[User Groups] in {{< get-usergroups-info "countries" >}} Ländern sowie sehr aktive FreeBSD-Communities auf https://twitter.com/search?q=freebsd[Twitter], https://stackoverflow.com/questions/tagged/freebsd[StackOverflow], https://serverfault.com/questions/tagged/freebsd[ServerFault] und https://www.meetup.com/topics/freebsd/[MeetUp.com], neben vielen anderen technologiebezogenen Bereichen.
+
+Das https://wiki.freebsd.org/[FreeBSD Wiki] enthält Informationen über die Entwicklung und verwandte Projekte.
+
+== Video-Inhalte
+
+Auf YouTube gibt es einen offiziellen link:https://www.youtube.com/FreeBSDProject[FreeBSD]-Kanal mit Entwickler-Gipfeltreffen und "Sprechstunden" sowie einen link:https://www.youtube.com/bsdconferences[BSD Conferences]-Kanal mit aufgezeichneten Präsentationen von technischen FreeBSD-Konferenzen.

@@ -1,0 +1,58 @@
+---
+title: "Ports Management Team"
+sidenav: about
+---
+
+include::shared/de/urls.adoc[]
+include::shared/authors.adoc[]
+
+= Ports Management Team
+
+Das FreeBSD Ports Management Team (auch bekannt als `portmgr` aufgrund seines E-Mail-Alias) ist verantwortlich für die Belange der link:../ports/[FreeBSD Ports-Sammlung].
+
+== link:charter[Charta]
+
+Erläutert die Ziele, Rechte und Pflichten des Teams. Der Inhalt dieses Dokuments wurde vom FreeBSD Core Team genehmigt.
+
+== link:policies[Policies]
+
+Diskutiert die aktuellen Richtlinien, die das Team angenommen hat, um seine Ziele zu erreichen, wie link:policies_contributors[Timeouts für Inaktivität] und link:policies_committing[wann Commits erlaubt sind]. Enthält auch die link:policies_eol[Richtlinie für unterstützte Versionen und Zweige].
+
+== link:implementation[Implementierungsprobleme]
+
+Diskutiert, wie sich die Art und Weise, wie die Ports-Sammlung implementiert wird, auf die oben genannten Richtlinien auswirkt, und insbesondere solche Konzepte wie link:implementation/#requires_regression_test[Änderungen, die Regressionstests erfordern] und link:implementation/#sweeping_changes[weitreichende Änderungen].
+
+== link:qa[Qualitätssicherungsaktivitäten]
+
+Ein Blick hinter die Kulissen auf die Bemühungen, die unternommen werden, um sicherzustellen, dass die Ports-Sammlung so gut wie möglich funktioniert.
+
+== Team-Mitglieder
+
+portmgr@FreeBSD.org: {portmgr-members}
+
+Sekretär: {rene-name} (portmgr-secretary@FreeBSD.org)
+
+== Ressourcen, die für FreeBSD-Mitwirkende und -Entwickler interessant sind
+
+* link:{contributing}#ports-contributing[Zur FreeBSD Ports-Sammlung beitragen] +
+Eine Einführung, wie Sie zur Ports-Sammlung beitragen können, indem Sie entweder neue Ports beisteuern oder helfen, Probleme in bestehenden Ports zu beheben. Sie erhalten detaillierte Informationen darüber, was die Gemeinschaft von Ihnen erwartet, wenn Sie freiwillig einen oder mehrere Ports pflegen. Enthält auch eine Liste von link:{contributing}#resources[weiteren Ressourcen].
+
+* link:{porters-handbook}[FreeBSD Porter's Handbook] +
+Das zentrale Nachschlagewerk für FreeBSD Ports-Submitter, Maintainer und Committer, hauptsächlich technisch orientiert. Es enthält sowohl obligatorische Anforderungen als auch Empfehlungen, was portmgr für die beste Herangehensweise an häufige Probleme hält. Es enthält auch Informationen darüber wie man link:{porters-handbook}#keeping-up[mit Änderungen Schritt halten] kann.
+
+* https://pkg-status.freebsd.org/[FreeBSD Ports Build Cluster] +
+Diese Maschinen bauen kontinuierlich Pakete für alle möglichen Kombinationen von Betriebssystemen und CPU-Architekturen (in unserer Terminologie `Build Environments`) und erstellen Fehlerprotokolle über Probleme, die auf dem Weg aufgetreten sind.
+
+* link:{releng}#release-build[FreeBSD Release Engineering for Third Party Packages] +
+Beschreibt den Ansatz, den das FreeBSD Release Engineering Team verwendet, um einen qualitativ hochwertigen Paketsatz zu erstellen, der für die offiziellen FreeBSD-Release-Medien geeignet ist. Der Schwerpunkt liegt dabei auf der Aufteilung der Pakete für die Release-Medien und der Überprüfung der Konsistenz eines Paketsatzes.
+
+* link:{committers-guide}[FreeBSD Committer's Guide] +
+Enthält eine Diskussion von Richtlinien und Themen, die von link:{committers-guide}#ports[besonderem Interesse für Committer der Ports-Sammlung] sind.
+
+* link:{pr-guidelines}[Richtlinien zur Behandlung von Problemberichten] +
+[.small]#Dieser Leitfaden richtet sich in erster Linie an FreeBSD-Committer, sollte aber auch von Anwendern gelesen werden, die wissen wollen, wie sie am besten Aufmerksamkeit auf ihre PRs lenken können.#
+
+== Ressourcen von allgemeinem Interesse
+
+* https://www.FreshPorts.org[FreshPorts] +
+[.small]#Eine von Dan Langille betriebene Seite, auf der Sie den Stand der gesamten Ports-Sammlung oder jedes einzelnen Ports darin einsehen können. Enthält Querverweise, Links, Diagramme und Grafiken und viele andere Dinge. Interessant für Benutzer und Entwickler gleichermaßen.#

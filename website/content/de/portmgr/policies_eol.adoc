@@ -1,0 +1,20 @@
+---
+title: "Ports und Pakete für unterstützte Releases"
+sidenav: about
+---
+
+include::shared/de/urls.adoc[]
+
+= Ports und Pakete für unterstützte Releases
+
+Die Unterstützung von FreeBSD-Releases durch Ports und die Ports-Infrastruktur entspricht derzeit den link:../../security/#sup[Richtlinien], die vom FreeBSD Security Officer festgelegt wurden.
+Sobald ein Hauptzweig X sein EOL-Datum erreicht, wird der "letzte bekannt gute" Ports-Baum mit dem Tag `RELEASE_X_EOL` versehen, um den verbleibenden Benutzern, die ihre Installationen selbst unterstützen wollen, die Arbeit zu erleichtern.
+Dieses Tag wird in keiner Weise weiter unterstützt und es werden keine Sicherheitskorrekturen angewendet.
+Von der Verwendung wird daher dringend abgeraten und es sollte nur darauf zurückgegriffen werden, wenn es keine andere Möglichkeit gibt; von den Benutzern wird erwartet, dass sie selbst für den Support sorgen.
+
+Für alle unterstützten src-Zweige werden alle Ports in ein automatisiertes Qualitätssicherungsverfahren einbezogen, das jeden Port auf allen link:{committers-guide}#AEN1259[Tier 1-Plattformen] baut, installiert, verpackt und deinstalliert.
+Maintainer und Committer werden über Fehler benachrichtigt, die beim Testen entdeckt werden.
+Ports, von denen bekannt ist, dass sie auf einem bestimmten unterstützten Zweig und/oder einer bestimmten Plattform nicht gebaut oder ausgeführt werden können, werden als solche markiert.
+
+Offizielle Binärpakete werden auch für alle Hauptzweige und Tier-1-Plattformen bereitgestellt und über https://www.freebsd.org/cgi/man.cgi?query=pkg&sektion=8[pkg(8)] verfügbar gemacht.
+Bei der Erstellung von Paketen wird die älteste unterstützte Nebenversion innerhalb jedes Hauptzweigs verwendet, um die Rückwärtskompatibilität von ABI und KBI innerhalb jedes Hauptzweigs zu gewährleisten.

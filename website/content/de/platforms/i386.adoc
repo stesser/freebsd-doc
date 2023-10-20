@@ -1,21 +1,22 @@
 ---
-title: "FreeBSD/i386 Project"
+title: "FreeBSD/i386-Projekt"
 sidenav: developers
 ---
 
 include::shared/de/urls.adoc[]
 
-= FreeBSD/i386 Project
+= FreeBSD/i386-Projekt
 
-[[intro]]
+[[Einleitung]]
 == Einführung
 
-Diese Seite enthält Informationen zur FreeBSD/i386-Plattform. Diese Architektur unterstützt alle Prozessoren, die mit dem Intel(TM)80486-32-Bit-Modus kompatibel sind. Beachten Sie, dass praktisch alle aktuellen Prozessoren von AMD(TM) und Intel(TM) auch in der Lage sind, im 64-Bit-Modus zu laufen und damit auch die link:../amd64[FreeBSD/amd64]-Architektur unterstützen.
+Diese Seite enthält Informationen über die FreeBSD/i386-Plattform. FreeBSD/i386 sollte jede CPU, die mit dem Intel(T) 80486 oder besser kompatibel ist, im 32-Bit-Modus unterstützen. Fast alle neueren AMD(T)- und Intel(T)-CPUs sind jedoch auch in der Lage, im 64-Bit-Modus zu laufen, wenn Sie den Port link:../amd64/[FreeBSD/amd64] verwenden.
 
-FreeBSD/i386 unterstützt maximal 4 GB RAM. Benötigen Sie mehr RAM, müssen entweder link:../amd64[FreeBSD/amd64] verwenden oder link:{faq}#memory-i386-over-4gb[Physical Address Extension (PAE)] aktivieren, um mehr als 4 GB RAM ansprechen zu können.
+FreeBSD/i386 unterstützt standardmäßig bis zu 4GiB RAM. Maschinen mit mehr RAM müssen entweder link:../amd64/[FreeBSD/amd64] oder link:{faq}#memory-i386-over-4gb[Physical Address Extension (PAE)] verwenden, um den Speicher oberhalb der 4GiB-Grenze nutzen zu können.
 
 == Status
 
-FreeBSD/i386 läuft im 32-Bit-Multiuser-Modus und im Einzel- und Mehrprozessormodus.
+FreeBSD/i386 läuft im 32-Bit-Multiuser-Modus, sowohl in Uniprozessor- als auch in Multiprozessor-Systemen.
 
-Die i386-Plattform ist eine link:{committers-guide}#archs[Tier 1] FreeBSD-Plattform.
+Die i386-Plattform ist eine link:{committers-guide}#archs[Tier 1] FreeBSD-Plattform bis FreeBSD 12.x.
+Ab FreeBSD 13.0 ist sie eine link:{committers-guide}#archs[Tier 2]-Plattform.

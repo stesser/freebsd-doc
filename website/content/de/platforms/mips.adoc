@@ -1,47 +1,47 @@
 ---
-title: "FreeBSD/MIPS Project"
+title: "FreeBSD/MIPS-Projekt"
 sidenav: developers
 ---
 
 include::shared/de/urls.adoc[]
 
-= FreeBSD/MIPS Project
+= FreeBSD/MIPS-Projekt
 
 == Einführung
 
-Diese Seite enthält Information über das Portieren von FreeBSD auf die MIPS-Plattform. Diskussionen über den MIPS-Port finden auf der Mailingliste https://lists.freebsd.org/mailman/listinfo/freebsd-mips[freebsd-mips] statt.
+Diese Seite enthält Informationen über die Portierung von FreeBSD auf die MIPS(R)-Plattform. Die Diskussion über die MIPS-Portierung findet auf der Mailingliste https://lists.freebsd.org/subscription/freebsd-mips[freebsd-mips] statt.
 
 == Inhaltsverzeichnis
 
-* <<status,Status>>
-* <<hw,FreeBSD/MIPS Hardware-Unterstützung>>
-* <<list,FreeBSD/MIPS Mailingliste>>
+* <<status, Status>>
+* <<hw, MIPS Hardware Notes>>
+* <<list, FreeBSD/MIPS Mailingliste>>
 
 [[status]]
 == Status
 
-FreeBSD/MIPS ist eine link:{committers-guide}#archs[Tier 2]-Architektur und wird daher vom https://www.FreeBSD.org[FreeBSD Project] nicht vollständig unterstützt.
+MIPS ist eine link:{committers-guide}#archs[Tier 2]-Architektur und wird als solche nicht vollständig vom link:../../[FreeBSD] Projekt unterstützt.
 
 [[hw]]
-== FreeBSD/MIPS Hardware-Unterstützung
+== FreeBSD/MIPS Hardware-Hinweise
 
-Bei FreeBSD/MIPS handelt es sich um eine Portierung von FreeBSD auf Plattformen, dieauf MIPS-Prozessoren basieren. Derzeit wird an der Unterstützung verschiedener MIPS32- und MIPS64-Entwicklerboards gearbeitet.
+FreeBSD/MIPS ist eine Portierung des FreeBSD-Betriebssystems auf Plattformen, die auf MIPS-Prozessoren basieren. Derzeit werden verschiedene MIPS32- und MIPS64-Entwicklungsplatinen und Embedded-Plattformen unterstützt.
 
-Aus praktischen Gründen werden hier nicht alle unterstützten CPUs und Boards aufgelistet. Wenn Sie weitere Informationen benötigen, lesen Sie bitte die https://wiki.freebsd.org/FreeBSD/MIPS[FreeBSD/MIPS Wiki-Seiten] und sehen Sie sich die https://cgit.freebsd.org/src/tree/sys/mips/conf/[Kernel Konfigurationdateien] an.
+Eine Auflistung aller unterstützten Geräte auf allen CPUs und Boards ist an dieser Stelle nicht möglich. Viele Informationen können jedoch der Mailingliste und den Archiven, den https://wiki.freebsd.org/FreeBSD/MIPS[FreeBSD/MIPS Wiki-Seiten] und auch den https://cgit.freebsd.org/src/tree/sys/mips/conf/[Kernel-Konfigurationsdateien] entnommen werden.
 
 === CPUs
 
-Folgende CPUs und CPU-Familien (Liste unvollständig) werden unterstützt:
+Die folgende, nicht abschließende Liste von CPUs und CPU-Familien wird unterstützt:
 
 * MIPS4Kc
 * MIPS24Kc
 * MIPS74Kc
 * Atheros AR71xx, AR724x, AR91xx, AR933x, AR934x
 * Cavium OCTEON
-* NetLogic XLR/XLS CPU family
-* SRI/Cambridge's BERI and CHERI open-source FPGA soft-cores
+* NetLogic XLR/XLS CPU-Familie
+* SRI/Cambridge's BERI und CHERI Open-Source FPGA Soft-Cores
 
-Beachten Sie, dass nicht jedes Peripheriegerät von jeder CPU unterstützt wird.
+Beachten Sie, dass nicht alle Peripheriegeräte von allen CPUs unterstützt werden.
 
 === Boards
 
@@ -55,22 +55,24 @@ Die folgenden Boards werden unterstützt:
 * Mikrotik RouterBoard RB450G
 * Alfa Networks Hornet UB (AR933x)
 * D-Link DIR-825 (AR7161)
-* Atheros PB44, PB47, AP94, AP96 reference designs (AR7161)
-* Atheros DB120 reference design (AR9344)
+* Atheros PB44, PB47, AP94, AP96 Referenzdesigns (AR7161)
+* Atheros DB120 Referenzdesign (AR9344)
 * 8devices Carambola-2 (AR9330)
 * Engenius ENH-200 (AR7240+AR9285)
 * Buffalo Airstation WZR-300HP B0 A1
-* MIPS Malta evaluation board
+* MIPS Malta Testplatine
 * Lanner MR-320, MR-730, MR-995 (OCTEON)
 * Portwell CAM-0100 (OCTEON)
 * Radisys AMC-7211 / ATCA-7220 (OCTEON)
-* D-Link DSR-500, DSR-500N, DSR-1000 and DSR-1000N (OCTEON)
+* D-Link DSR-500, DSR-500N, DSR-1000 und DSR-1000N (OCTEON)
 * GE Intelligent Platforms WANIC 6354 (OCTEON)
-* Cavium development boards CN5860-EVB-NIC4, CN5650-EVB-NIC16, CN5200-EVB-MB4
+* Cavium Entwicklungskarten CN5860-EVB-NIC4, CN5650-EVB-NIC16, CN5200-EVB-MB4
 
-Beachten Sie, dass nicht jedes Peripheriegerät von jedem Board unterstützt wird.
+Beachten Sie, dass nicht alle Peripheriegeräte auf allen Boards unterstützt werden.
 
-[[list]]
+[[Liste]]
 == FreeBSD/MIPS Mailingliste
 
-Um diese Liste zu abonnieren, schicken sie eine Mail an `<freebsd-mips-subscribe@FreeBSD.org>` oder besuchen Sie die https://lists.FreeBSD.org/mailman/listinfo/freebsd-mips[Mailman-Seite].
+Treten Sie der link:#list[FreeBSD/MIPS Mailingliste] bei, um Code beizutragen oder sich über den Status des Projekts zu informieren.
+
+Um diese Liste zu abonnieren, schicken Sie eine E-Mail an `<freebsd-mips+subscribe@FreeBSD.org>` oder besuchen Sie die https://lists.FreeBSD.org/subscription/freebsd-mips[Webschnittstelle].

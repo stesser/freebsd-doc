@@ -7,18 +7,18 @@ include::shared/authors.adoc[]
 
 = FreeBSD – Kunst
 
-* <<bsd-daemon,Der BSD Daemon>>
+* <<bsd-daemon,Der BSD-Daemon>>
 * <<powered-by,Die "`Powered by FreeBSD`"-Logos>>
 * <<adv,Die alten Werbebanner>>
 * <<use,Nutzungsbedingungen der Grafiken>>
 
-Diese Seite enthält diverse FreeBSD-"`Kunst`". Weitere Vorschläge können an www@FreeBSD.org gesendet werden. Bitte beachten Sie die <<use,Nutzungsbedingungen der Grafiken>>.
+Diese Seite enthält diverse FreeBSD-"`Kunst`". Weitere Vorschläge können an mailto:www@FreeBSD.org gesendet werden. Bitte beachten Sie die <<use,Nutzungsbedingungen der Grafiken>>.
 
 [[bsd-daemon]]
-== https://www.FreeBSD.org/copyright/daemon/[Der BSD Daemon]
+== https://www.FreeBSD.org/copyright/daemon/[Der BSD-Daemon]
 
 [.center]
-image:../../gifs/daemon-phk.png[Der BSD Daemon,width=191,height=208]
+image:../../gifs/daemon-phk.png[Der BSD-Daemon,width=191,height=208]
 
 [.center]
 Erstellt von {phk-name} +
@@ -37,7 +37,7 @@ image:../../gifs/news.jpg[BSD Daemon beim Herausgeben von Nachrichten,width=193,
 image:../../gifs/powerlogo.gif[Powered by FreeBSD Logo] image:../../gifs/power-button.gif[Powered by FreeBSD Logo]
 
 [.center]
-image:../../gifs/pbfbsd2.gif[Powered by FreeBSD Logo,width=171,height=64] image:../../gifs/powerani.gif[Powered by FreeBSD Logo,width=171,height=64] image:../../gifs/fhp_mini.jpg[FreeBSD Hardware Partner Logo,width=145,height=50]
+image:../../gifs/pbfbsd2.gif[Powered by FreeBSD Logo,width=171,height=64] image:../../gifs/powerani.gif[Powered by FreeBSD Logo,width=171,height=64] image:../../gifs/fhp_mini.jpg[FreeBSD Hardware-Partner-Logo,width=145,height=50]
 
 [.center]
 image:../../gifs/banner1.gif[FreeBSD The Power To Serve Logo,width=446,height=63]
@@ -69,4 +69,4 @@ Das Rendering des BSD-Daemons von {phk-name} wurde unter der "`THE BEER-WARE LIC
 [[trademark]]
 == Warenzeichen
 
-The https://www.freebsdfoundation.org[FreeBSD Foundation] hält diverse FreeBSD-spezifische Warenzeichen (darunter die Warenzeichen für den Begriff "`FreeBSD`" selbst). Weitere Informationen zu diesen Warenzeichen finden sich in den https://www.freebsdfoundation.org/faqs.shtml#Trademark[FreeBSD Trademark Usage Terms and Conditions].
+Die https://www.freebsdfoundation.org[FreeBSD Foundation] hält diverse FreeBSD-spezifische Warenzeichen (darunter die Warenzeichen für den Begriff "`FreeBSD`" selbst). Weitere Informationen zu diesen Warenzeichen finden sich in den https://www.freebsdfoundation.org/faqs.shtml#Trademark[FreeBSD Trademark Usage Terms and Conditions].

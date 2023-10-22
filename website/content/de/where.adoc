@@ -153,15 +153,14 @@ FreeBSD-Versionen vor `RELEASE`, die nicht für den Einsatz in Produktionsumgebu
 
 Großbuchstaben haben eine besondere Bedeutung. Zum Beispiel:
 
-* Ein erster _beta release_ ist kein (Produktions-)`RELEASE`.
+* Ein erster _Beta Release_ ist kein (Produktions-)`RELEASE`.
+
 Das Wort `CURRENT` ist manchmal eine Quelle der Verwirrung:
 
-* Wenn Sie nach der _current version_ von FreeBSD suchen, möchten Sie höchstwahrscheinlich eine `RELEASE`-Version (siehe oben) – **nicht** `CURRENT`.
-
-– `CURRENT` hat eine besondere Bedeutung im Entwicklungsprozess.
+* Wenn Sie nach der _current version_ von FreeBSD suchen, möchten Sie höchstwahrscheinlich eine `RELEASE`-Version (siehe oben) – **nicht** `CURRENT` – `CURRENT` hat eine besondere Bedeutung im Entwicklungsprozess.
 
 [[download-rel140]]
-=== FreeBSD {rel140-current}-RC1
+=== FreeBSD {rel140-current}-RC2
 
 [.tblbasic]
 [.tblDownload]
@@ -181,10 +180,10 @@ a|
 
 a|
 * link:{url-rel}/VM-IMAGES/README.txt[README]
-* link:{url-rel}/VM-IMAGES/{rel140-current}-RC1/amd64/Latest/[amd64]
-* link:{url-rel}/VM-IMAGES/{rel140-current}-RC1/i386/Latest/[i386]
-* link:{url-rel}/VM-IMAGES/{rel140-current}-RC1/aarch64/Latest/[aarch64]
-* link:{url-rel}/VM-IMAGES/{rel140-current}-RC1/riscv64/Latest/[riscv64]
+* link:{url-rel}/VM-IMAGES/{rel140-current}-RC2/amd64/Latest/[amd64]
+* link:{url-rel}/VM-IMAGES/{rel140-current}-RC2/i386/Latest/[i386]
+* link:{url-rel}/VM-IMAGES/{rel140-current}-RC2/aarch64/Latest/[aarch64]
+* link:{url-rel}/VM-IMAGES/{rel140-current}-RC2/riscv64/Latest/[riscv64]
 
 a|
 * aarch64

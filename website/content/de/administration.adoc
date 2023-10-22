@@ -66,7 +66,7 @@ Das Core Team wird von den aktiven Entwicklern des Projekts gewählt.
 == FreeBSD Documentation Engineering Team <doceng@FreeBSD.org>
 
 Das FreeBSD Documentation Engineering Team legt die Vorgaben für die Committer des Dokumentations-Projekts fest und kontrolliert auch deren Einhaltung.
-Die https://www.freebsd.org/internal/doceng/[Documentation Engineering Team-Satzung] beschreibt die Aufgaben und Verantwortlichkeiten dieses Teams genauer.
+Die https://www.freebsd.org/internal/doceng/[Documentation Engineering Team Charter] beschreibt die Aufgaben und Verantwortlichkeiten dieses Teams genauer.
 
 * {gjb}
 * {carlavilla}
@@ -77,11 +77,11 @@ Die https://www.freebsd.org/internal/doceng/[Documentation Engineering Team-Satz
 * {fernape} (Sekretär)
 
 [[t-portmgr]]
-== FreeBSD Port-Management-Team <portmgr@FreeBSD.org>
+== FreeBSD Port Management Team <portmgr@FreeBSD.org>
 
 Die Hauptaufgabe des FreeBSD Port-Management-Teams besteht darin, sicherzustellen, dass die FreeBSD Port-Entwickler-Gemeinschaft eine nützliche, stabile, aktuelle und voll funktionsfähige Ports-Sammlung zur Verfügung stellt.
 Seine sekundäre Aufgabe ist es, die Zusammenarbeit von Entwicklern und  Committern zu koordinieren.
-Die https://www.freebsd.org/portmgr/charter/[Port-Management-Team-Satzung] beschreibt die Aufgaben und Verantwortlichkeiten des Port-Management-Teams ausführlicher.
+Die https://www.freebsd.org/portmgr/charter/[Port Management Team Charter] beschreibt die Aufgaben und Verantwortlichkeiten des Port-Management-Teams ausführlicher.
 
 * {bapt}
 * {bofh}
@@ -96,7 +96,7 @@ Die https://www.freebsd.org/portmgr/charter/[Port-Management-Team-Satzung] besch
 == FreeBSD Ports Security Team <ports-secteam@FreeBSD.org>
 
 Die Hauptaufgabe des FreeBSD Ports Security Teams besteht darin, schnell auf Sicherheitsvorfälle zu reagieren, die die FreeBSD-Port-Sammlung betreffen, und die FreeBSD-Benutzergemeinschaft zu schützen, indem es die Anwender über Bugs, Schwachstellen, bekannte Angriffe und andere Risiken auf dem Laufenden hält.
-Weitere Informationen finden Sie auf der https://wiki.freebsd.org/PortsSecteam[Wiki-Seite des Ports Security Teams].
+Weitere Informationen finden Sie auf der https://wiki.freebsd.org/PortsSecteam[Wiki des Ports Security Teams].
 
 * {fluffy}
 * {joneum}
@@ -118,7 +118,7 @@ Die Hauptaufgabe des FreeBSD Package Manager Team besteht darin, sicherzustellen
 == Primäres Primary Release Engineering Team <re@FreeBSD.org>
 
 Das primäre Primary Release Engineering Team erstellt und veröffentlicht die Zeitpläne für die Bereitstellung der offiziellen FreeBSD-Releases, verfügt "Code Freezes" und wartet die verschiedenen `releng/*`-Zweige.
-Die https://www.freebsd.org/releng/charter/[Primary Release Engineering Team-Satzung] beschreibt die Aufgaben und Verantwortlichkeiten des primären Primary Release Engineering Teams ausführlicher.
+Die https://www.freebsd.org/releng/charter/[Primary Release Engineering Team Charter] beschreibt die Aufgaben und Verantwortlichkeiten des primären Primary Release Engineering Teams ausführlicher.
 
 * {gjb} (Leiter)
 * {kib}
@@ -142,7 +142,7 @@ Eine detailliertere Beschreibung der Aufgaben des Donations Teams finden Sie unt
 
 Das FreeBSD Security Team (unter der Leitung des Sicherheitsbeauftragten) ist dafür verantwortlich, die FreeBSD-Gemeinschaft über Fehler, Schwachstellen und Sicherheitsrisiken in den FreeBSD-Repositories src und ports zu informieren und Informationen zu verbreiten, die für den sicheren Betrieb von FreeBSD-Systemen erforderlich sind.
 Darüber hinaus ist es für die Behebung von Software-Fehlern, die die Sicherheit von FreeBSD beeinträchtigen, und für die Herausgabe von Sicherheitshinweisen verantwortlich.
-Die https://www.FreeBSD.org/security/charter/[Satzung für den FreeBSD Sicherheitsbeauftragten] beschreibt seine Aufgaben und Verantwortlichkeiten ausführlicher.
+Die https://www.FreeBSD.org/security/charter/[Security Team Charter] beschreibt seine Aufgaben und Verantwortlichkeiten ausführlicher.
 
 * {gordon} (Sicherheitsbeauftragter)
 * {bapt} (Verbindung zum Core-Team)
@@ -227,7 +227,7 @@ Admins E-Mail-Aliase absichtlich unvollständig gelassen
 
 Die Cluster-Administratoren sind für die Wartung der Computer und Dienste verantwortlich, auf die das Projekt für seine verteilte Arbeit und Kommunikation angewiesen ist.
 Fragen, die die Infrastruktur des Projekts oder die Einrichtung neuer Maschinen oder Dienste betreffen, sollten an sie gerichtet werden.
-Dieses Team wird vom leitenden Cluster-Administrator geleitet, dessen Aufgaben und Verantwortlichkeiten in der https://www.freebsd.org/internal/clusteradm/[Clusterverwaltungs-Satzung] näher beschrieben sind.
+Dieses Team wird vom leitenden Cluster-Administrator geleitet, dessen Aufgaben und Verantwortlichkeiten in der https://www.freebsd.org/internal/clusteradm/[Cluster Administrator Charter] näher beschrieben sind.
 
 * {allanjude}
 * {allanjude}
@@ -251,7 +251,7 @@ Admins E-Mail-Aliase absichtlich unvollständig gelassen
 
 Die DNS-Administratoren sind für die Verwaltung von DNS und den zugehörigen Diensten verantwortlich.
 
-E-Mails, die an DNS Administrators gesendet werden, werden derzeit an die link:#t-clusteradm[Cluster-Administratoren] weitergeleitet.
+E-Mails, die an DNS Administrators gesendet werden, werden derzeit an die link:#t-clusteradm[Cluster Administrators] weitergeleitet.
 
 [[t-forum-admins]]
 == Forum Administrators <forum-admins@FreeBSD.org>
@@ -306,7 +306,7 @@ Admins E-Mail-Aliase absichtlich unvollständig gelassen
 
 Die FTP/WWW Mirror Site Coordinators koordinieren die Arbeit der Administratoren von FTP/WWW-Spiegelservern, um sicherzustellen, dass sie aktuelle Versionen der Software verteilen, dass sie in der lahge sind, auch größere Updates zu verwalten, und dass es für die breite Öffentlichkeit einfach ist, den nächstgelegenen FTP/WWW-Mirror zu finden.
 
-E-mails an das Mirror Site Coordinators Team  werden von den link:#t-clusteradm[Cluster-Administratoren] bearbeitet.
+E-mails an das Mirror Site Coordinators Team  werden von den link:#t-clusteradm[Cluster Administrators] bearbeitet.
 
 Bitte einen https://bugs.freebsd.org/submit/[Fehlerbericht] öffnen, um Probleme mit der Spiegelinfrastruktur zu melden.  Wählen Sie "Services" und dann "FTP/WWW-Sites & Mirrors".
 
@@ -347,7 +347,7 @@ Admins E-Mail-Aliase absichtlich unvollständig gelassen
 
 Die FreeBSD Subversion-Administratoren sind für die Aufrechterhaltung des Zustands der Subversion-Projektarchive verantwortlich.
 
-E-mails an das Subversion Administration Team werden von den link:#t-clusteradm[Cluster-Administratoren] bearbeitet.
+E-mails an das Subversion Administration Team werden von den link:#t-clusteradm[Cluster Administrators] bearbeitet.
 
 Bitte öffnen Sie einen https://bugs.freebsd.org/submit/[Fehlerbericht], um Probleme mit den Subversion-Projektarchiven zu melden.  Wählen Sie "Services" und dann "Core Infrastructure" aus.
 

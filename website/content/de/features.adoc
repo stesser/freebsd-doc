@@ -106,7 +106,7 @@ Capsicum ermöglicht das Sandboxing mehrerer Programme, die dann im "Capabilitie
 [[vnet]]
 === Netzwerk-Virtualisierung
 
-`VVNET` virtualisiert den Netzwerk-Stack.
+VNET virtualisiert den Netzwerk-Stack.
 Die Grundidee besteht darin, globale Ressourcen, insbesondere Variablen, in Ressourcen pro Netzwerk-Stack umzuwandeln und Funktionen, Sysctls, Eventhandler usw. die auf sie zugreifen im Kontext der richtigen Instanz handeln zu lassen.
 Jeder (virtuelle) Netzwerk-Stack ist mit einem Jail verbunden, wobei vnet0 der uneingeschränkte Standard-Netzwerk-Stack des Basissystems ist.
 Die `VIMAGE`-Funktionen können unabhängig davon verwendet werden, um vollständig virtualisierte Netzwerktopologien zu erstellen, und man:jail[8] kann direkt von einem vollständig virtualisierten Netzwerkstack profitieren.

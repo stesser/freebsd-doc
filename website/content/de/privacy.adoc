@@ -86,4 +86,4 @@ Wir sind jedoch bestrebt, die Integrität unserer Websites zu schützen und freu
 == Kontaktaufnahme mit uns:
 
 Wir freuen uns über Ihre Kommentare und Fragen zu dieser Datenschutzrichtlinie und allen anderen Angelegenheiten, die Sie in Bezug auf unsere Websites haben.
-Bitte senden Sie uns Ihre Kommentare oder Fragen per E-Mail an: mailto:privacy@FreeBSD.org.
+Bitte senden Sie uns Ihre Kommentare oder Fragen per E-Mail an: privacy@FreeBSD.org.

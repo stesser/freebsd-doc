@@ -54,12 +54,12 @@ Das Core Team wird von den aktiven Entwicklern des Projekts gewählt.
 
 * {bapt} (Verbindung zum Security Team)
 * {bcr} (Verbindung zur FreeBSD Foundation)
-* {emaste} (Verbindung zum Primary Release Engineering Team)
+* {emaste} (Verbindung zum Release Engineering Team)
 * {grog}
-* {jhb} (Verbindung zum CI-Team)
+* {jhb} (Verbindung zum CI Team)
 * {lwhsu} (Verbindung zum Documentation Engineering Team)
-* {manu} (Verbindung zum Port-Management-Team)
-* {tcberner} (Verbindung zum Cluster-Administratoren-Team)
+* {manu} (Verbindung zum Port Management Team)
+* {tcberner} (Verbindung zu den Cluster Administrators)
 * {0mp} (Verbindung zum Bugmeister Team)
 
 [[t-doceng]]
@@ -145,10 +145,10 @@ Darüber hinaus ist es für die Behebung von Software-Fehlern, die die Sicherhei
 Die https://www.FreeBSD.org/security/charter/[Security Team Charter] beschreibt seine Aufgaben und Verantwortlichkeiten ausführlicher.
 
 * {gordon} (Sicherheitsbeauftragter)
-* {bapt} (Verbindung zum Core-Team)
-* {delphij} (emeritierter Sicherheitsbeauftragter, Verbindung zum Primary Release Engineering Team)
+* {bapt} (Verbindung zum Core Team)
+* {delphij} (emeritierter Sicherheitsbeauftragter, Verbindung zum Release Engineering Team)
 * {des} (emeritierter Sicherheitsbeauftragter)
-* {gjb} (Verbindung zum Cluster-Administratoren-Team)
+* {gjb} (Verbindung zu den Cluster Administrators)
 * {emaste} (Stellvertreter des Sicherheitsbeauftragten)
 * {markj}
 * {oshogbo}
@@ -196,7 +196,7 @@ Admins E-Mail-Aliase absichtlich unvollständig gelassen
 Das Accounts-Team ist für die Einrichtung von Accounts für neue Committer im Projekt verantwortlich.
 Anfragen für neue Accounts werden nicht ohne die ordnungsgemäße Genehmigung der entsprechenden Stelle bearbeitet.
 
-E-Mails, die an das Accounts-Team gesendet werden, werden von den Cluster-Administratoren bearbeitet.
+E-Mails, die an das Accounts-Team gesendet werden, werden von den Cluster Administrators bearbeitet.
 
 [[t-backups]]
 == Backup Administrators <backups@FreeBSD.org>
@@ -206,7 +206,7 @@ Admins E-Mail-Aliase absichtlich unvollständig gelassen
 
 Die Backup-Administratoren kümmern sich um die Datensicherung auf dem FreeBSD-Cluster.
 
-E-Mails, die an das Backup-Administratoren-Team gesendet werden, werden von den Cluster-Administratoren bearbeitet.
+E-Mails, die an das Backup-Administratoren-Team gesendet werden, werden von den Cluster Administrators bearbeitet.
 
 [[t-bugmeister]]
 == Bugmeisters <bugmeister@FreeBSD.org>
@@ -225,7 +225,7 @@ Das Bugmeister-Team ist dafür verantwortlich, dass die Software zur Verwaltung 
 Admins E-Mail-Aliase absichtlich unvollständig gelassen
 ////
 
-Die Cluster-Administratoren sind für die Wartung der Computer und Dienste verantwortlich, auf die das Projekt für seine verteilte Arbeit und Kommunikation angewiesen ist.
+Die Cluster Administrators sind für die Wartung der Computer und Dienste verantwortlich, auf die das Projekt für seine verteilte Arbeit und Kommunikation angewiesen ist.
 Fragen, die die Infrastruktur des Projekts oder die Einrichtung neuer Maschinen oder Dienste betreffen, sollten an sie gerichtet werden.
 Dieses Team wird vom leitenden Cluster-Administrator geleitet, dessen Aufgaben und Verantwortlichkeiten in der https://www.freebsd.org/internal/clusteradm/[Cluster Administrator Charter] näher beschrieben sind.
 

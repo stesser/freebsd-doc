@@ -33,7 +33,7 @@ FreeBSD bildet die Basis für diverse kommerzielle oder als Open Source verfügb
 
 == FreeBSD unterstützen
 
-Jeder kann die FreeBSD-Gemeinde unterstützen, selbst ein Einsteiger! Einige arbeiten in der Advocacy Group mit, andere unterstützen das link:../docproj/[Documentation Project] als Korrekturleser. Viele Einsteiger haben besondere Fähigkeiten und Kenntnisse, die sie mit anderen teilen können. Egal, ob diese computerbezogen sind oder nicht. Oder sie wollen einfach nur neue Leute treffen und sie willkommen heißen. Es gibt immer Leute, die es mögen, anderen zu helfen.
+Jeder kann die FreeBSD-Gemeinschaft unterstützen, selbst ein Einsteiger! Einige arbeiten in der Advocacy Group mit, andere unterstützen das link:../docproj/[Documentation Project] als Korrekturleser. Viele Einsteiger haben besondere Fähigkeiten und Kenntnisse, die sie mit anderen teilen können. Egal, ob diese computerbezogen sind oder nicht. Oder sie wollen einfach nur neue Leute treffen und sie willkommen heißen. Es gibt immer Leute, die es mögen, anderen zu helfen.
 
 Freunde, die FreeBSD bereits verwenden, sind auch eine große Hilfe. Kein Buch kann das Gespräch mit jemandem ersetzen, der die gleichen Interessen hat, Ähnliches bereits geschafft hat, und vor den gleichen Herausforderungen steht. Wenn nur wenige Ihrer Freunde FreeBSD verwenden, verteilen Sie doch Ihre alten CDs, damit es mehr werden.
 

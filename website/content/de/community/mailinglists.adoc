@@ -8,7 +8,7 @@ include::shared/de/urls.adoc[]
 
 = Mailing-Listen
 
-Mailing-Listen sind der wichtigste Kommunikationskanal für die FreeBSD-Gemeinde und decken viele Themenbereiche ab:
+Mailing-Listen sind der wichtigste Kommunikationskanal für die FreeBSD-Gemeinschaft und decken viele Themenbereiche ab:
 
 - https://lists.freebsd.org/[]
 - link:{mailing-list-faq}[häufig gestellte Fragen].

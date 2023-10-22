@@ -1,14 +1,14 @@
 ---
-title: "Gemeinde"
+title: "Gemeinschaft"
 sidenav: community
 ---
 
 include::shared/de/urls.adoc[]
 
-= Gemeinde
+= Gemeinschaft
 
-Die FreeBSD-Gemeinde ist vielfältig und umfangreich und kann überall dort gefunden werden, wo großartige Unterhaltungen und Aktivitäten stattfinden.
-Sie werden feststellen, dass unsere Gemeinde und ihre Foren intelligent, einladend und zugänglich sind.
+Die FreeBSD-Gemeinschaft ist vielfältig und umfangreich und kann überall dort gefunden werden, wo großartige Unterhaltungen und Aktivitäten stattfinden.
+Sie werden feststellen, dass unsere Gemeinschaft und ihre Foren intelligent, einladend und zugänglich sind.
 
 Das Projekt unterhält mehrere offizielle Community-Foren, in denen Entwickler, Mitwirkende und Benutzer Hilfe und Unterstützung finden, sich auf dem Laufenden halten, koordinieren und zusammenarbeiten oder sich einfach nur zurücklehnen, entspannen und Kontakte knüpfen können.
 
@@ -26,7 +26,7 @@ Letztes Jahr gab es {{< get-event-last-year-info "events" >}} Veranstaltungen in
 
 Auf Twitter können Sie https://twitter.com/freebsd[@freebsd], https://twitter.com/freebsdhelp[@freebsdhelp], oder https://twitter.com/freebsdcore[@freebsdcore] folgen.
 
-Auf Reddit finden Sie den Link zur FreeBSD-Gemeinde: https://www.reddit.com/r/freebsd/[hier].
+Auf Reddit finden Sie den Link zur FreeBSD-Gemeinschaft: https://www.reddit.com/r/freebsd/[hier].
 
 Neben den offiziell betriebenen Community-Bereichen gibt es https://www.freebsd.org/usergroups/[User Groups] in {{< get-usergroups-info "countries" >}} Ländern sowie sehr aktive FreeBSD-Communities auf https://twitter.com/search?q=freebsd[Twitter], https://stackoverflow.com/questions/tagged/freebsd[StackOverflow], https://serverfault.com/questions/tagged/freebsd[ServerFault] und https://www.meetup.com/topics/freebsd/[MeetUp.com], neben vielen anderen technologiebezogenen Bereichen.
 

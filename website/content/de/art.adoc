@@ -69,4 +69,4 @@ Das Rendering des BSD-Daemons von {phk-name} wurde unter der "`THE BEER-WARE LIC
 [[trademark]]
 == Warenzeichen
 
-Die https://www.freebsdfoundation.org[FreeBSD Foundation] hält diverse FreeBSD-spezifische Warenzeichen (darunter die Warenzeichen für den Begriff "`FreeBSD`" selbst). Weitere Informationen zu diesen Warenzeichen finden sich in den https://www.freebsdfoundation.org/faqs.shtml#Trademark[FreeBSD Trademark Usage Terms and Conditions].
+Die https://www.freebsdfoundation.org[FreeBSD Foundation] hält diverse FreeBSD-spezifische Warenzeichen (darunter die Warenzeichen für den Begriff "`FreeBSD`" selbst). Weitere Informationen zu diesen Warenzeichen finden sich in den https://www.freebsdfoundation.org/legal/trademark-usage-terms-and-conditions/[FreeBSD Trademark Usage Terms and Conditions].

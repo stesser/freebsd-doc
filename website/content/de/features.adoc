@@ -12,7 +12,7 @@ Der Fokus von FreeBSD liegt auf Leistung, Netzwerk- und Speichereffizienz kombin
 
 == Ein komplettes Betriebssystem auf Basis von 4.4BSD
 
-Unter link:https://freebsdfoundation.org/freebsd/timeline/[FreeBSDs roots] finden Sie die *BSD*-Software-Releases der Computer Systems Research Group an der University of California, Berkeley.
+Unter link:https://freebsdfoundation.org/freebsd/timeline/[Entwicklungsweg von FreeBSD] finden Sie die *BSD*-Software-Releases der Computer Systems Research Group an der University of California, Berkeley.
 Jahrzehntelange Entwicklung hat zu fortschrittlicher Skalierbarkeit, Netzwerkleistung, Verwaltungstools, Unterstützung von Dateisystemen, Sicherheit und anderen Funktionen geführt.
 FreeBSD ist im gesamten Internet in zentralen Router-Produkten zu finden, betreibt Root-Name-Server, hostet große Websites und bildet die Grundlage für weit verbreitete Desktop-Betriebssysteme.
 
@@ -27,11 +27,9 @@ Durch die Kombination der traditionell getrennten Rollen von Software-RAID, Volu
 
 ZFS verfolgt drei Hauptziele bei der Entwicklung:
 
-*Datenintegrität
-
+* Datenintegrität
 * Gepoolter Speicher
-
-*Leistung.
+* Leistung.
 
 [[zfs-boot-environments]]
 === ZFS-Boot-Umgebungen

@@ -5,7 +5,7 @@ sidenav: support
 
 = FUnterstützung
 
-Für FreeBSD gibt es sowohl Hilfestellung durch die FreeBSD-Gemeinde als auch durch kommerzielle Anbieter. Der Abschnitt link:../community/[Community] dieser Internetseiten beschreibt, wie man die Hilfe der FreeBSD-Gemeinde (beispielsweise über eine der link:../community/mailinglists/[Mailinglisten]) in Anspruch nehmen kann.
+Für FreeBSD gibt es sowohl Hilfestellung durch die FreeBSD-Gemeinschaft als auch durch kommerzielle Anbieter. Der Abschnitt link:../community/[Community] dieser Internetseiten beschreibt, wie man die Hilfe der FreeBSD-Gemeinschaft (beispielsweise über eine der link:../community/mailinglists/[Mailinglisten]) in Anspruch nehmen kann.
 
 Benötigen Sie kommerziellen Support, können Sie auf einen der zahlreichen https://www.FreeBSD.org/commercial/[Anbieter] zurückgreifen, die kommerzielle Produkte, Dienste und/oder Beratung für FreeBSD anbieten.
 

@@ -9,7 +9,7 @@ sidenav: about
 
 FreeBSD kann fast jede Aufgabe übernehmen, die Sie von einer UNIX(R) Workstation erwarten, aber auch solche, die Sie vielleicht nicht erwarten:
 
-== FreeBSD ist ein echtes Betriebssystem mit vollständig verfügbarem Quelltext.
+== FreeBSD ist ein echtes offenes Betriebssystem mit vollständig verfügbarem Quelltext.
 
 Es besteht kein Zweifel, dass so genannte "Offene Systeme" _die_ Bedingung für heutige Computer-Anwendungen sind. Aber keine kommerzielle Lösung ist offener als eine, die den vollständigen Quelltext des gesamten Betriebssystemes enthält, sowohl des Kernels als auch sämtlicher Dienste und Programme. Sie können jeden Teil von FreeBSD an Ihre persönlichen Bedürfnisse oder die Ihrer Organisation oder Ihres Unternehmens anpassen.
 

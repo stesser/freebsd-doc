@@ -37,7 +37,7 @@ Dazu brauchen Sie lediglich der link:{handbook}#bsdinstall[Installationsanweisun
 [.right]
 image:../../gifs/dae_up3.gif[Der BSD-Daemon,width=72,height=81]
 
-Während man erwarten könnte, dass ein Betriebssystem mit diesen Funktionen zu einem hohen Preis verkauft wird, ist FreeBSD link:../copyright[kostenlos] verfügbar und wird mit dem Quellcode geliefert. Wenn Sie FreeBSD herunterladen oder käuflich erwerben wollen, finden Sie in link:{handbook}#mirrors[Bezugsquellen für FreeBSD] weitere Informationen.
+Während man erwarten könnte, dass ein Betriebssystem mit diesen Funktionen zu einem hohen Preis verkauft wird, ist FreeBSD link:../../en/copyright[kostenlos] verfügbar und wird mit dem Quellcode geliefert. Wenn Sie FreeBSD herunterladen oder käuflich erwerben wollen, finden Sie in link:{handbook}#mirrors[Bezugsquellen für FreeBSD] weitere Informationen.
 
 == Mitmachen bei FreeBSD
 

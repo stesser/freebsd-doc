@@ -14,7 +14,7 @@ Bitte beachten Sie, dass Sie sich für einige Listen anmelden müssen, bevor Sie
 
 == Fragen zu FreeBSD
 
-Schreiben Sie an die {freebsd-questions}; weitere Möglichkeiten finden Sie auf der Seite:../community[Community].
+Schreiben Sie an die {freebsd-questions}; weitere Möglichkeiten finden Sie auf der link:../community[Gemeinschafts-Seite].
 
 == Inhalt der Website
 

@@ -1,0 +1,60 @@
+---
+title: "FreeBSD Verhaltenskodex - Anweisungen zur Berichterstattung"
+sidenav: docs
+---
+
+= FreeBSD Verhaltenskodex Meldeanweisungen
+
+== FreeBSD Verhaltenskodex - Hinweise zum Melden von Verstößen
+
+Wenn Sie glauben, dass jemand gegen den link:../code-of-conduct[Verhaltenskodex] verstößt, bitten wir Sie, dies dem FreeBSD Code of Conduct-Komitee per E-Mail an conduct@freebsd.org zu melden.
+
+Alle Meldungen werden nach Möglichkeit vertraulich behandelt.
+Wir sind bestrebt, die Identität und Sicherheit der Meldenden zu schützen.
+In einigen Fällen kann es sein, dass wir eine öffentliche Erklärung abgeben müssen. In diesem Fall werden wir so wenig Details und identifizierende Informationen wie möglich verwenden, um unsere Gemeinschaft zu schützen.
+In seltenen Fällen kann es sein, dass wir einige der beteiligten Personen identifizieren müssen, um das Gesetz einzuhalten oder andere potenzielle Opfer zu schützen.
+In diesen Fällen werden wir uns mit dem Anzeigenden beraten, um herauszufinden, welche Wünsche er hat, und diese in unsere endgültige Entscheidung einfließen lassen.
+In jedem Fall werden wir ohne die Zustimmung des Meldenden weder direkt noch indirekt dessen Identität preisgeben, es sei denn, wir sehen keine andere Möglichkeit.
+
+Wenn Sie glauben, dass jemand in Gefahr ist, benachrichtigen Sie bitte zuerst die zuständigen Strafverfolgungsbehörden.
+
+Bitte geben Sie in Ihrer Meldung Folgendes an:
+
+* Ihren Namen und Ihre Kontaktdaten (damit wir uns mit Ihnen in Verbindung setzen können, falls wir nachhaken müssen).
+* Namen (echte Namen, Spitznamen und/oder Pseudonyme) aller beteiligten Personen. Wenn es außer Ihnen noch andere Zeugen gab, versuchen Sie bitte, auch diese anzugeben.
+* Wann und wo sich der Vorfall ereignet hat. Bitte seien Sie so genau wie möglich.
+* Ihre Schilderung des Vorfalls. Wenn es eine öffentlich zugängliche Aufzeichnung gibt (z. B. ein Mailinglisten-Archiv, einen Tweet oder einen öffentlichen IRC-Logger), fügen Sie bitte einen Link und/oder Screenshots bei.
+* Jeder zusätzliche Kontext, den Sie für den Vorfall für relevant halten.
+* Wenn Sie glauben, dass dieser Vorfall noch andauert.
+* Alle anderen Informationen, die wir Ihrer Meinung nach haben sollten.
+
+== Was passiert, nachdem Sie eine Meldung gemacht haben?
+
+Da das FreeBSD Code of Conduct-Komitee vom Core Team verwaltet wird, erhalten Sie innerhalb von 48 Stunden eine E-Mail vom Core Team, in der Ihnen mitgeteilt wird, dass die Beschwerde eingegangen ist.
+
+Das Komitee wird so schnell wie möglich zusammenkommen, um den Vorfall zu prüfen und zu entscheiden:
+
+* ob eine Untersuchung erforderlich ist, einschließlich der Befragung weiterer Parteien oder Zeugen;
+* was anscheinend geschehen ist und;
+* ob das Verhalten einen Verstoß gegen den Verhaltenskodex darstellt.
+
+Wenn ein Mitglied des FreeBSD Code of Conduct-Komitees eine der Personen ist, die in dem Bericht vorkommen, wird es sich von der Bearbeitung des Berichts zurückziehen.
+
+Sobald die Arbeitsgruppe einen vollständigen Bericht über die Ereignisse erhalten hat, wird sie entscheiden, wie sie reagieren wird.
+Folgende Maßnahmen können ergriffen werden:
+
+* Nichts (z. B. wenn wir feststellen, dass kein Verstoß vorliegt).
+* Wenn der Vorfall ausschließlich technischer Natur ist oder nicht in den Geltungsbereich des Verhaltenskodexes fällt, wird er an das FreeBSD Core Team weitergeleitet.
+* Eine private Rüge der Arbeitsgruppe an die betroffene(n) Person(en).
+* Ein öffentlicher Verweis.
+* Ein auferlegter Abstand von den vom FreeBSD-Projekt kontrollierten Bereichen (z.B. die Aufforderung an jemanden, eine Woche Abstand von einer Mailingliste oder dem IRC zu nehmen).
+* Ein dauerhafter oder vorübergehender Ausschluss von einigen oder allen vom FreeBSD-Projekt kontrollierten Bereichen (Veranstaltungen, Treffen, Mailinglisten, IRC usw.)
+* Eine Bitte um eine öffentliche oder private Entschuldigung.
+* Eine Aufforderung zur Schlichtung und/oder einem Rechenschaftsbericht.
+
+Wir werden uns bemühen, der Person, die die Meldung gemacht hat, innerhalb einer Woche zu antworten und entweder eine Lösung zu finden oder zu erklären, warum die Situation noch nicht gelöst ist.
+
+Sobald wir unsere endgültigen Maßnahmen festgelegt haben, setzen wir uns mit dem ursprünglichen Melder in Verbindung, um ihm mitzuteilen, welche Maßnahmen wir ergreifen werden (falls überhaupt).
+Wir werden das Feedback des Meldenden zur Angemessenheit unserer Reaktion berücksichtigen, aber wir garantieren nicht, dass wir darauf reagieren werden.
+
+Das Core Team kann beschließen, einen öffentlichen Bericht über den Vorfall zu veröffentlichen.

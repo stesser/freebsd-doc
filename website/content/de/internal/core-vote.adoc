@@ -1,0 +1,42 @@
+---
+title: "Abstimmungsverfahren des Core Teams"
+sidenav: docs
+---
+
+= Abstimmungsverfahren des Core Teams
+
+== Committer
+
+* Alle Core Team-Mitglieder stimmen mit "ja", "nein" oder "keine Einwände".
+* Erfolgreiche Kandidaten müssen mindestens eine Ja-Stimme erhalten.
+* Erfolgreiche Kandidaten dürfen keine "Nein"-Stimmen erhalten.
+* Mindestens drei Personen müssen abstimmen.
+* Die Abstimmungsfrist beträgt normalerweise eine Woche oder endet früher, wenn das Ergebnis feststeht.
+* Ein Sekretär kümmert sich um die Einzelheiten der Abstimmung, Benachrichtigung usw.
+
+== Personal
+
+* Alle Core Team-Mitglieder stimmen mit "Ja" oder "Nein".
+* Erfolgreiche Kandidaten müssen mindestens (2/3 * Core Team-Größe) Ja-Stimmen erhalten.
+* Mindestens (2/3 * Core-Team-Größe) Personen müssen abstimmen, sonst ist die Maßnahme gescheitert.
+* Die Abstimmungsfrist beträgt normalerweise 1 Woche oder endet früher, wenn das Ergebnis sicher ist.
+* Ein Sekretär kümmert sich um die Details der Abstimmung, Benachrichtigung, etc.
+
+== Themen
+
+* Es findet eine Diskussion statt.
+* Wenn eine einvernehmliche Lösung erreicht scheint, wird darüber abgestimmt.
+* Alle Kernmitglieder stimmen mit "Ja" oder "Nein".
+* Erfolgreiche Resolutionen müssen mindestens (2/3 * Core Team-Größe) Ja-Stimmen erhalten.
+* Mindestens (2/3 * KerCore Team-Größengröße) Personen müssen abstimmen, sonst ist die Maßnahme nicht erfolgreich.
+* Die Abstimmungsfrist beträgt normalerweise 1 Woche oder endet früher, wenn das Ergebnis sicher ist.
+* Ein Sekretär kümmert sich um die Details der Abstimmung, Benachrichtigung usw.
+
+== Ohne Einspruch
+
+* Jedes Mitglied des Core Teams kann per E-Mail an das Core Team anfragen, ob es eine einfache Maßnahme ergreifen darf, vorbehaltlich einer kurzen Überprüfung der geplanten Maßnahme durch das restliche Core Team.
+* Wenn niemand innerhalb von 48 Stunden Einwände erhebt, kann diese Person fortfahren (oder früher, wenn (2/3 * Core Team-Größe) Mitglieder zustimmen).
+* Wenn es irgendwelche Einwände gibt, dann wird dies durch das Abstimmungsverfahren für das Thema geklärt.
+* Der Sekretär des Core Teams kann die Nachricht "OK to proceed" senden, wenn er dies für angemessen hält.
+
+Jeder Committer kann diesen Mechanismus ebenfalls nutzen, solange mindestens ein Core Team-Mitglied "Ja" sagt und der vorherige Absatz befolgt wird. Dieser Mechanismus ist für alltägliche Angelegenheiten gedacht, die einer schnellen Überprüfung bedürfen, aber keine aufwändige Beratung erfordern. Es wird davon ausgegangen, dass die in einem Zeitrahmen von 48 Stunden verfügbaren Core Team-Mitglieder ausreichen, um sowohl banale Angelegenheiten zu prüfen als auch nicht banale Angelegenheiten zu erkennen, die im Rahmen des Abstimmungsverfahrens für Angelegenheiten behandelt werden müssen.

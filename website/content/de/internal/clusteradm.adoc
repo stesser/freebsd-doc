@@ -1,0 +1,38 @@
+---
+title: "Charta für die Cluster-Administratoren"
+sidenav: docs
+---
+
+= Charta für die Cluster-Administratoren
+
+Der leitende Cluster-Administrator ist eine delegierte Funktion (auch "Hut" genannt), die dem FreeBSD Core Team und letztendlich der FreeBSD-Gemeinschaft untersteht. Diese Person hat die operative Autorität über die FreeBSD-Cluster-Infrastruktur (in dem Maße, in dem das Core Team diese Autorität delegieren kann) und ist im Allgemeinen für Folgendes verantwortlich:
+
+* Sicherstellung des zuverlässigen Betriebs der Geräte und Netzwerkressourcen des Projekts.
+* Sicherstellung, dass die Ressourcen des Projekts angemessen und effektiv genutzt werden, um den Interessen des Projekts zu dienen.
+* Gewährleistung, dass angemessene Sicherheitsvorkehrungen und -maßnahmen im Rahmen der Grenzen eines stark verteilten Projekts getroffen werden.
+* Delegieren an und Koordinieren mit den standortspezifischen Verwaltungsteams und den Administratoren im Allgemeinen.
+* Sicherstellung, dass Standardbetriebsverfahren, Regeln, Richtlinien usw. dokumentiert und verständlich sind.
+* Ergreifen von Maßnahmen, die sicherstellen, dass ein kompetenter Administrator die Arbeit seines Vorgängers in angemessener Zeit übernehmen kann.
+* Notfallplanung und -umsetzung zur Gewährleistung der Kontinuität bei standortspezifischen Problemen (einschließlich Zurücknahme oder Ausfälle gespendeter Standorte).
+* Angemessene Information der interessierten Parteien (Core Team, Security Team, FreeBSD Foundation, Ports Management Team usw.), der Projektmitglieder und der Mitglieder der Gemeinschaft.
+* Rechtzeitige und kompetente Antworten auf Fragen geben oder direkt an die zuständige Stelle verweisen.
+* Sie helfen anderen Hut-Trägern und Cluster-Administratoren, ihre Arbeit zu erledigen.
+* Wo es sinnvoll und angemessen ist, verwenden Sie das projekteigene Produkt als Erprobungsgrundlage.
+* Sicherstellen, dass es für Entwickler einfach ist, zu wissen, auf welche Hardware-Ressourcen sie für Projektzwecke Zugriff haben.
+
+Der leitende Cluster-Administrator untersteht dem FreeBSD Core Team. Wenn eine Partei mit einer Position des Hutträgers unzufrieden ist und nicht in der Lage ist, ihre Meinung zu ändern, kann sie sich an das Core Team wenden. Das Core Team hat in dieser Angelegenheit das letzte Wort. Wenn der leitende Cluster-Administrator Mitglied des Core Teams ist, kann eine Beschwerde vertraulich über den Sekretär des Core Teams oder ein anderes Mitglied eingereicht werden.
+
+Die folgenden Maßnahmen bedürfen der Genehmigung durch das Core Team:
+
+* Neue öffentlich zugängliche Dienste.
+* Geplante Beendigung von öffentlich zugänglichen Diensten.
+* Neue Teammitglieder.
+
+Bemerkenswerte Interaktion mit anderen Hüten:
+
+* Der leitende Cluster-Administrator berät sich gegebenenfalls mit dem Sicherheitsbeauftragten und dem Sicherheitsteam, trifft jedoch die Entscheidungen in eigener Verantwortung. Der Sicherheitsbeauftragte kann jedoch erforderlichenfalls auf Sicherheitsnotfälle reagieren, die die Projektinfrastruktur betreffen.
+* Das Port Management Team verfügt über umfangreiche Ressourcen und es werden Vereinbarungen mit ihm getroffen, um seine Ressourcen innerhalb der Grenzen des gesamten Clusters effektiv einzusetzen.
+
+Zweckgebundene Ressourcen:
+
+Einige Standortressourcen werden für bestimmte Zwecke bereitgestellt. Eine solche Zweckbindung oder Nutzungsbeschränkung wird dokumentiert, um sicherzustellen, dass diese Ressourcen wie vorgesehen genutzt werden.

@@ -1,0 +1,40 @@
+---
+title: "Politik der Befristung von Funktionsrollen"
+sidenav: docs
+---
+
+= Politik der Befristung von Funktionsrollen
+
+== Begründung
+
+Das FreeBSD Core Team ernennt mehrere Personen ("Hats"), die kritische Aufgaben (Funktionsrollen) innerhalb des Projekts übernehmen. Es ist wichtig, einzelne Fehlerquellen in diesen Rollen zu reduzieren. Außerdem kann ein Wechsel in den funktionsrollen für neue Erkenntnisse sorgen und ein Burnout verhindern.
+
+Die derzeitige Gruppe der vom Core Team ernannten Hats sind der Core Secretary, der Head Release Engineer, der Sicherheitsbeauftragte (Security Officer) und der Postmaster.
+
+Das FreeBSD Core Team hat die folgenden Richtlinien für die Begrenzung der Funktionsrollen beschlossen. Sie wurde erstmals am 22. Juni 2012 auf der Mailingliste Developers veröffentlicht und im Juni 2015 geändert.
+
+== Richtlinie
+
+Eine Person kann als vom Core Team ernannter "Hat" dienen, wenn sie:
+
+* Das Core Team genehmigt ihre Ernennung oder Wiederernennung für diese Rolle.
+* Die Person ist bereit, weiterzumachen.
+* Die Person ist immer noch in der Lage, die Funktion effektiv auszuüben.
+
+Die "Hats" werden nach Belieben des Kerns ernannt. Die Ernennung kann von der Zentrale jederzeit widerrufen werden, wenn dies den Bedürfnissen des Projekts dient.
+
+Die Amtszeit eines Hats beginnt drei Monate nach dem Beginn der zweijährigen Amtszeit des Kernteams und endet drei Monate nach dem Ende der Amtszeit des Kernteams. Die Hats werden vom neuen Kernteam zu Beginn der Amtszeit ausdrücklich genehmigt.
+
+Wird eine Funktionsrolle (Hat) während der Amtszeit frei, ernennt das Core Team einen Ersatz für den Rest der Amtszeit.
+
+Das Core Team überprüft alle Funktionsrollen jährlich.
+
+Im Allgemeinen wird davon ausgegangen, dass Freiwillige, die Funktionsrollen bekleiden, nur vier aufeinanderfolgende Jahre lang tätig sein dürfen, aufgerundet auf den ersten natürlichen Überprüfungs-/Ernennungszyklus.
+
+Von Nicht-Freiwilligen, die Funktionsrollen bekleiden, wird weiterhin erwartet, dass sie an den jährlichen Überprüfungen teilnehmen und zur Zufriedenheit des Core Teams für Kontinuität sorgen.
+
+Jeder Inhaber einer Funktionsrolle muss einen Stellvertreter ernennen, der im Falle von Abwesenheit oder Krankheit seine Rolle übernehmen kann und der geschult und bereit ist, die Rolle zu übernehmen (vorbehaltlich der Zustimmung des Core Teams), falls der Rolleninhaber vor dem Ende seiner Amtszeit zurücktritt.
+
+Wird ein Core Team vorzeitig aufgelöst, so beginnt die nächste Amtszeit für jede Funktionsrolle drei Monate nach Beginn der Amtszeit des neuen Core Teams.
+
+Diese Grenzen gelten für einzelne Funktionsrollen und nicht für Teams. Bei Teams mit einer einzigen Führungsrolle gelten die Grenzen für die Führungsrolle. Eine Person, die nicht mehr für die Leitung eines Teams in Frage kommt, kann weiterhin als Mitglied des Teams fungieren.

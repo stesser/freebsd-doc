@@ -1,0 +1,87 @@
+---
+title: "Verfahren zur Erstellung eines neuen Accounts"
+sidenav: docs
+---
+
+include::shared/de/urls.adoc[]
+
+= Verfahren zur Erstellung eines neuen Accounts
+
+== Vorschlagen eines neuen Committers
+
+Wenn Sie einen neuen Committer vorschlagen wollen, sollten Sie die folgenden Informationen an die entsprechende Stelle senden:
+
+* Informationen darüber, welche etablierten (FreeBSD-)Erfahrungen der Vorgeschlagene hat. Dies ist _nicht_ optional.
+* Wer hat sich bereit erklärt, Mentor des neuen Committers zu werden?
+* Die E-Mail-Adresse des Nominierten (auffallend oft wird diese weggelassen).
+
+Alle Commit-Bit-Anträge, die nicht den oben genannten Richtlinien entsprechen, werden (im besten Fall) verzögert oder bringen Ihnen negative Schwingungen des jeweiligen Teams/Teamsekretärs ein.
+Für einige Richtlinien, wie der Antrag selbst geschrieben werden sollte, siehe hier link:../proposing-committers[eine kurze Zusammenfassung].
+
+Verantwortlich für dieses Verfahren ist:
+
+* src -> core@
+* doc -> doceng@
+* ports -> portmgr@
+
+Sie erhalten ein ACK, nachdem die Nachricht empfangen wurde, und core@, doceng@ und portmgr@ geben Ihnen eine Antwort, wenn die Abstimmung abgeschlossen ist oder wenn die Zeitüberschreitung erreicht ist.
+Die Zeitüberschreitung für core@ und portmgr@ ist auf 7 Tage festgelegt, während sie für doceng@ 14 Tage beträgt. Wie bereits erwähnt, handelt es sich hierbei jedoch nur um den schlimmsten Fall, und die Team-Mitglieder können die Abstimmung auch früher beenden.
+
+== Autorisierung eines neuen Accounts
+
+Jemand aus der untenstehenden Liste schickt eine PGP-signierte E-Mail an accounts@, die Person, die dem neuen Committer als Mentor zugewiesen wurde, und in Kopie an core@FreeBSD.org, um die Genehmigung des neuen Accounts zu bestätigen.
+Diese E-Mail sollte einen Link zu diesem Dokument enthalten, damit der Mentor/Mentee weiß, was von ihm erwartet wird.
+
+Genehmigungen für neue Accounts sind nur von diesen PGP-Einheiten gültig:
+
+* core-secretary (für src commit bits)
+* portmgr-sekretary (für Ports-Commit-Bits)
+* doceng-secretary (für doc commit bits)
+
+_HINWEIS: Anfragen für neue Konten von anderen Personen als diesen Entitäten oder Anfragen, die mit anderen PGP-Schlüsseln als denen dieser Entitäten signiert sind, werden nicht bearbeitet.
+Ohne Ausnahme.
+Im Falle eines neuen Port- oder Doc-Committers sollte die E-Mail mit der Kontoanforderung als CC an core gesendet werden._
+
+== Benötigte Informationen vom Mentor
+
+Die Person, die als Mentor des neuen Committers bestimmt wird, muss die folgenden Informationen sammeln und an accounts@ senden:
+
+* Nutzername (Kleinbuchstaben a-z und 0-9)
+* Vollständiger Name (wie in einem GECOS-Feld; UTF-8 kodiert)
+* optionale zusätzliche GECOS-Informationen (Telefon, Standort usw.)
+* Gewünschte Shell (sh, csh/tcsh, bash, zsh sind verfügbar)
+* SSH V2 öffentlicher Schlüssel
+
+Der Mentor ist dafür verantwortlich, diese Informationen auf sichere Weise von dem neuen Committer zu erhalten und sie auf sichere Weise an accounts@ weiterzuleiten.
+Eine PGP-signierte E-Mail mit dem öffentlichen Schlüssel des Mentors, der bereits im Handbuch verankert ist, ist die bevorzugte Methode für den Mentor, die Informationen an accounts@ zu senden.
+Sollte dies aus irgendeinem Grund nicht möglich sein, ist es ein akzeptabler Ersatz, wenn der Mentor die Kontoinformationen in seinem Heimatverzeichnis auf Freefall ablegt und dann accounts@ mitteilt, wo sie zu finden sind.
+Wir müssen sicher sein, dass die Kontoinformationen wirklich vom Mentor stammen, und eine unsignierte E-Mail reicht dafür heutzutage nicht mehr aus.
+Da accounts@ keine Möglichkeit hat, irgendetwas vom neuen Committer zu verifizieren, muss diese Information vom Mentor an accounts@ geschickt werden, nicht vom neuen Committer.
+
+== accounts@ legt den neuen Account an
+
+accounts@ erstellt den neuen Account mit den oben genannten Informationen auf dem FreeBSD.org-Cluster und benachrichtigt den Mentor und den neuen Committer.
+
+== Mentor aktiviert das Commit-Bit des neuen Committers
+
+Nachdem der neue Committer bestätigt hat, dass der Account funktioniert, fügt der Mentor den neuen Committer in die korrekte `access`-Datei ein und verwendet eine entsprechende Commit-Nachricht.
+Die Commit-Nachricht sollte mindestens den vollständigen Namen und den Benutzernamen des Committers, den Namen des Mentors und den Bereich, in dem der neue Committer zu arbeiten beginnt, enthalten.
+Außerdem sollte ein Eintrag in der Datei `mentors` im entsprechenden Link:{committers-guide}#admin-branch[Git repository] hinzugefügt werden, um die Mentorenbeziehung anzugeben.
+Wenn das alles erledigt ist, gehen der neue Committer und der Mentor gemeinsam die ersten Commit-Vorgänge durch.
+
+== Zusätzliche Dienste
+
+Der Mentor sollte den neuen Committer zur https://wiki.freebsd.org/DevelopersGroup[Developers Group] im Wiki und zum https://reviews.freebsd.org/project/view/3/[Committer-Projekt] auf Phabricator hinzufügen.
+
+Das Lesen des link:{committers-guide}[Committer's Guide] ist ein guter erster Schritt für neue Committer, besonders der Abschnitt link:{committers-guide}#conventions[Konventionen und Traditionen].
+
+== Ende der Mentorenschaft
+
+Es gibt keine festgelegte Dauer für eine Mentorenschaft.
+Sobald der Mentor das Gefühl hat, dass der Mentee bereit ist, "alleine zu fliegen", benachrichtigt er die Entwicklergemeinschaft, indem er den Eintrag aus der `mentors`-Datei in Git entfernt.
+
+== Übertragung der Mentorschaft
+
+Sollte die Notwendigkeit bestehen, die Mentorschaft für einen Committer zu übertragen, senden Sie bitte eine E-Mail an die verantwortliche Partei, wie bei einem Antrag auf ein neues Konto beschrieben.
+Normalerweise wird diese Anfrage so abgesegnet, wie sie ist.
+In Git sollte die Datei `mentors` aktualisiert werden.

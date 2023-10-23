@@ -1,0 +1,153 @@
+---
+title: "Software-Lizenz-Politik"
+sidenav: docs
+---
+
+= Software-Lizenz-Politik
+
+== Philosophie
+
+Das FreeBSD-Projekt hat sich zum Ziel gesetzt, ein vollständiges, BSD-lizenziertes Betriebssystem zu entwickeln, das es den Nutzern des Systems ermöglicht, abgeleitete Produkte ohne Einschränkungen oder weitere Lizenzverpflichtungen zu entwickeln. Wir laden dazu ein, Änderungen und Ergänzungen unter der Zwei-Klausel-BSD-Lizenz einzubringen, und begrüßen es sehr, wenn diese Lizenz auch von anderen Open-Source-Projekten übernommen wird. Die Verwendung der BSD-Lizenz ist der Schlüssel zur Förderung der Übernahme fortschrittlicher Betriebssystemtechnologie und war in vielen bemerkenswerten Fällen ausschlaggebend für die weit verbreitete Nutzung neuer Technologien.
+
+Wir akzeptieren jedoch, dass es zwingende Gründe gibt, die es erlauben, Software unter anderen Lizenzen in den FreeBSD-Quellcodebaum aufzunehmen.
+
+Wir verlangen, dass jede Software unter alternativen Lizenzen sorgfältig im Quellbaum isoliert wird, so dass sie keine BSD-Komponenten verunreinigen kann. Eine solche vorsichtige Verwaltung fördert die Klarheit der Lizenzierung und erleichtert die Produktion von BSD-ausschließlichen Produkten.
+
+Sofern keine besondere Ausnahme gemacht wird, dürfen keine bestehenden BSD-lizenzierten Komponenten durch anders lizenzierte Software ersetzt werden. Wir ermutigen stattdessen FreeBSD- und Drittentwickler, die Neulizenzierung oder Neuimplementierung kritischer Komponenten unter der BSD-Lizenz anzustreben. Dies würde ihre Integration in das FreeBSD-Betriebssystem erleichtern.
+
+== Politik
+
+* Der Import neuer Software, die unter anderen Lizenzen als der BSD-Lizenz und BSD-ähnlichen Lizenzen (wie unten definiert) lizenziert ist, erfordert die vorherige Zustimmung des FreeBSD Core Teams. Anfragen für den Import müssen enthalten:
+** Eine Liste der Funktionen oder Fehlerkorrekturen, die die neue Version oder die Patches enthalten, zusammen mit dem Nachweis, dass unsere Benutzer diese Funktionen benötigen. PRs oder Verweise auf Diskussionen auf der Mailingliste sind ideale Belege.
+** Eine Liste der FreeBSD-Zweige, die betroffen sein könnten. Erweiterungen des Geltungsbereichs bedürfen einer erneuten Anfrage und Genehmigung durch das FreeBSD Core Team.
+
+* Die Apache License 2.0 kann in einigen Fällen verwendet werden. Das Core Team muss den Import neuer Komponenten, die unter der Apache-Lizenz stehen, oder die Änderung der Lizenz bestehender Komponenten auf die Apache-Lizenz genehmigen.
+** Diese Lizenz ist für die folgenden Komponenten zugelassen:
+*** LLVM-Toolchain und (mit LLVM-Ausnahmen) Laufzeitkomponenten,
+*** Subversion und seine Abhängigkeiten.
+
+* Die BSD+Patent-Lizenz ist in einigen Fällen für die Verwendung akzeptabel. Das Core Team muss den Import neuer Komponenten, die unter der BSD+Patent-Licenz lizenziert sind, oder die Änderung der Lizenz bestehender Komponenten auf die BSD+Patent-Licenz genehmigen.
+** Diese Lizenz wird für die folgenden Komponenten genehmigt:
+*** EDK2 abgeleiteter Code, der sich auf die UEFI-Funktionalität bezieht.
+
+* Die Common Development and Distribution License (CDDL) ist in einigen Fällen akzeptabel für die Verwendung. Das Core Team muss den Import neuer CDDL-lizenzierter Komponenten oder die Änderung der Lizenz bestehender Komponenten auf die CDDL genehmigen.
+** Diese Lizenz wird für die folgenden Komponenten genehmigt:
+*** DTrace,
+*** ZFS-Dateisystem einschließlich Kernel-Unterstützung und Userland-Utilities.
+
+* Historisch gesehen war der Ausdruck "Alle Rechte vorbehalten" in allen Copyright-Hinweisen enthalten. Die BSD-Releases hatten ihn, um der Konvention von Buenos Aires von 1910 auf dem amerikanischen Kontinent zu entsprechen. Mit der Ratifizierung der Berner Übereinkunft im Jahr 2000 wurde er obsolet. Das FreeBSD-Projekt empfiehlt daher, den Hinweis in neuem Code wegzulassen und fordert die Inhaber von Urheberrechten auf, ihn zu entfernen. Im Jahr 2018 hat das FreeBSD-Projekt seine Vorlagen aktualisiert, um den Satz zu entfernen.
+
+=== Annehmbare Lizenzen
+
+Die folgenden Lizenzen werden als akzeptable BSD-ähnliche Lizenzen für die Zwecke dieser Richtlinie betrachtet. Sie müssen in jedem neuen Code wortwörtlich wiedergegeben werden. Abweichungen oder die Verwendung einer anderen Lizenz müssen vom FreeBSD Core Team genehmigt werden:
+
+* Die 2-Klausel-Version der BSD-Lizenz
+
+....
+/*-
+ * SPDX-License-Identifier: BSD-2-Clause
+ *
+ * Copyright (c) [year] [your name]
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS "AS IS" AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ */
+....
+* Die 3-Klausel-Version der BSD-Lizenz
+
+....
+/*-
+ * SPDX-License-Identifier: BSD-3-Clause
+ *
+ * Copyright (c) [year] [your name]
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. Neither the name of the author nor the names of its contributors may
+ *    be used to endorse or promote products derived from this software
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS "AS IS" AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ */
+....
+* Die ISC-Lizenz
+
+....
+/*-
+ * SPDX-License-Identifier: ISC
+ *
+ * Copyright (c) [year] [copyright holder]
+ *
+ * Permission to use, copy, modify, and distribute this software for any
+ * purpose with or without fee is hereby granted, provided that the above
+ * copyright notice and this permission notice appear in all copies.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+ */
+....
+* Die MIT-Lizenz
+
+....
+/*-
+ * SPDX-License-Identifier: MIT
+ *
+ * Copyright (c) [year] [copyright holders]
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+....

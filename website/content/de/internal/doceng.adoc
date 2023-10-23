@@ -1,0 +1,43 @@
+---
+title: "FreeBSD Doceng-Team Satzung"
+sidenav: docs
+---
+
+include::shared/authors.adoc[]
+
+= FreeBSD Doceng-Team Satzung
+
+Das link:../../administration/#t-doceng[FreeBSD Documentation Engineering Team] -- doceng@ -- ist ein Gremium, das sich um einige der Meta-Projekte im Zusammenhang mit dem FreeBSD Dokumentations-Projekt kümmert.
+Die Hauptaufgaben dieses Teams sind:
+
+* Die Genehmigung für neue Dokumentations-Committer zu erteilen.
+Zur Dokumentation gehören Artikel und Bücher, Webseiten, Handbücher, Release Notes und Übersetzungen der genannten Dokumente.
+Es gibt zwei Arten von Doc-Commit-Bits: Übersetzer-Commit-Bit, das auf Übersetzungen in eine bestimmten Sprache beschränkt ist, und Full-Commit-Bit, das nur Anwärtern gewährt wird, die ausreichende englische Schreibkenntnisse nachweisen können.
+* Die Pflege des Dokumentations-Projekt Leitfadens, der die besten Praktiken für das FreeBSD Dokumentations-Projekt dokumentiert.
+* Verwaltung des Doc/Release-Prozesses.
+Dies beinhaltet die Koordination der Aktualisierungen der Release-Dokumentation mit den verschiedenen Übersetzungsteams, die Koordination mit dem Release-Engineering-Team, um den Doc-Baum während des Release-Zyklus mit einem Tag zu markieren, und die Dokumentation dieser Verfahren.
+* Sicherstellen, dass die generierte Dokumentation (PDF, HTML usw.) auf der Website und der FTP-Site auf dem neuesten Stand ist, entsprechend den Versionen der Dokumente im Git-Baum.
+Dazu gehört auch das Sichestellen der korrekten Funktionsweise des Website-Builds und die Zusammenarbeit mit dem Administrator Team, um sicherzustellen, dass auf dem primären Webserver die gesamte erforderliche Software installiert ist (einschließlich der Build-Skripte).
+* Als MAINTAINER zu agieren (wenn nötig) oder in Koordination mit bestehenden MAINTAINERn zu arbeiten, um sicherzustellen, dass die Dokumentations-Toolchains (DocBook, groff, etc.) in gutem Zustand sind.
+* Die Unversehrtheit des FreeBSD Doc-Baums zu wahren.
+Da diese Dateien und Dokumente für die Außenwelt sichtbar sind, behält sich doceng@ das Recht vor, Änderungen, die zu fehlerhaften Links führen, den Aufbau der Webseite stören oder die Zugänglichkeit der FreeBSD-Webseite und der Dokumentation anderweitig beeinträchtigen, sofort zurückzunehmen (oder zu korrigieren, ohne auf eine Antwort des ursprünglichen Committers zu warten).
+* Ein FreeBSD-Webmaster-Team zu ernennen und zu beaufsichtigen, das die tägliche Wartung der Webserver des Projekts in Zusammenarbeit mit anderen Teams durchführt.
+
+Es wird ausdrücklich darauf hingewiesen, dass doceng@ *kein* Konfliktlösungsorgan für das FreeBSD Dokumentations-Projekt ist.
+Diskussion und Konsens auf der Mailingliste freebsd-doc ist die Art und Weise, wie sich das Projekt bisher verhalten hat und wie es sich auch in Zukunft verhalten soll.
+
+== Aktuelle Mitgliedschaft
+
+Die derzeitigen Mitglieder dieses Teams sind {doceng-members}.
+
+== Neue Doc-Committer
+
+Neue Doc-Committer werden von doceng@ durch eine Abstimmung per E-Mail und einer zweiwöchigen Sperrfrist zugelassen.
+Ein Committer ist angenommen, wenn mindestens ein doceng@-Mitglied mit Ja und kein doceng@-Mitglied mit Nein stimmt.
+Wenn ein Commit-Bit-Vorschlag angenommen wird, sendet doceng@ eine Annahme-E-Mail an den Mentor und den neuen Committer mit core@ und accounts@ CC'ed.
+
+== Untätige Doc-Committer
+
+Doc-Committer, die seit 18 Monaten keinen Commit gemacht haben, werden von einem doceng@-Mitglied kontaktiert und ohne Antwort nach einer Frist von 2 Wochen automatisch aus der Access-Liste entfernt.
+Falls keine Antwort erfolgt, wird doceng@ auch core@ wegen der untätigen Committer kontaktieren.
+Committer, die ihre Commit-Bits zurückhaben wollen, müssen sich erneut bei der zuständigen Stelle bewerben.

@@ -1,0 +1,16 @@
+---
+title: "Commit Bit und Projektressourcen-Richtlinie"
+sidenav: docs
+---
+
+include::shared/de/urls.adoc[]
+
+= Commit Bit und Projektressourcen-Richtlinie
+
+== Begründung
+
+Das Core Team verwaltet den Zugang zu Projektressourcen, einschließlich der Gewährung und des Entzugs von Commit Bits und Benutzerkonten. Das Core Team kann Teile dieser Aufgaben nach eigenem Ermessen an andere Gruppen oder Einzelpersonen delegieren. Zum Beispiel werden bestimmte Commit-Bits von anderen Gruppen verwaltet, wie in link:{committers-guide}#committer.types[Arten von Commit Bits] vermerkt, vorbehaltlich der endgültigen Zustimmung des Core Teams. Das Core Team hat diese Befugnis seit den Anfängen von FreeBSD inne, wollte sie aber explizit machen, um Verwirrung zu vermeiden. Das FreeBSD Core Team hat die folgenden Richtlinien für Commit Bits und Projektressourcen verabschiedet, die am 4. August 2011 auf der Mailingliste Developers veröffentlicht wurden.
+
+== Richtlinie
+
+Das Core Team hat die alleinige Befugnis, den Zugriff auf Projektressourcen zu verwalten. Dies beinhaltet die Vergabe und den Entzug von Commit Bits und Benutzerkonten.

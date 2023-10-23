@@ -1,0 +1,45 @@
+---
+title: "Ressourcen für FreeBSD-Committer"
+sidenav: docs
+---
+
+include::shared/de/urls.adoc[]
+
+= Ressourcen für FreeBSD-Committer
+
+== link:{committers-guide}[Committers Guide]
+
+Dieses Dokument ist ein allgemeiner Leitfaden für alle neuen Committer, der sowohl technische Details als auch Details zu den Richtlinien enthält.
+Für ersteres siehe die Kapitel über link:{committers-guide}#git-primer[das Git VCS], das link:{committers-guide}#bugzilla[Bugzilla] Fehlerverfolgungssystem, und den link:{committers-guide}#ssh.guide[SSH Quick-Start Guide].
+
+Er enthält fast alles, was ein neuer Committer im FreeBSD Project wissen muss.
+Weitere Informationen finden Sie im Documentation Project Primer und im Porter's Handbook.
+
+== link:{fdp-primer}[FreeBSD Dokumentations-Projekt Leitfaden für neue Beitragende]
+
+Alles, was Sie wissen müssen, um mit der Mitarbeit am Project zu beginnen - von obligatorischer und empfohlener Software bis hin zur Philosophie des Projects.
+
+=== link:{fdp-primer}doc-build/#doc-build-rendering-html[Umsetzung auf HTML]
+
+Verwendung des Git-Repositorys zur Aktualisierung und Erstellung der Seiten.
+
+== link:{porters-handbook}[FreeBSD Porter's Handbook]
+
+Ein Leitfaden für FreeBSD Ports-Mitwirkende und Committer.
+Dazu gehört auch die kanonische link:{porters-handbook}versions[Tabelle der `__FreeBSD_version`-Werte].
+
+== FreeBSD-Projekte
+
+* link:../../docproj/[FreeBSD Dokumentations-Projekt]
+* link:../../releng/[FreeBSD Release Engineering]
+* link:../../platforms/[FreeBSD Hardware-Plattformen]
+* link:../../projects/[FreeBSD Entwickler-Projekte]
+
+== Andere Ressourcen
+
+* link:../../support/[Fehlerberichte]
+* link:../../security/[FreeBSD-Sicherheitsinformationen]
+* link:../../copyright/[Copyright]
+* https://wiki.FreeBSD.org[FreeBSD Wiki]
+
+link:..[FreeBSD Internal Home]

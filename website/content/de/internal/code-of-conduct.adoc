@@ -1,0 +1,52 @@
+---
+title: "FreeBSD Community Verhaltenskodex"
+sidenav: docs
+---
+
+= FreeBSD Community Verhaltenskodex
+
+== Verhaltenskodex der FreeBSD-Gemeinschaft
+
+Die FreeBSD-Gemeinschaft hat sich immer bemüht, eine einladende und respektvolle Gemeinschaft zu sein, und wir wollen sicherstellen, dass sich das auch in Zukunft nicht ändert, wenn wir wachsen und uns weiterentwickeln.
+Zu diesem Zweck haben wir ein paar Grundregeln aufgestellt, die wir von allen Teilnehmern einfordern:
+
+* Sei freundlich und geduldig,
+* sei einladend,
+* sei rücksichtsvoll,
+* sei respektvoll,
+* sei vorsichtig in der Wortwahl und sei freundlich zu Anderen,
+* wenn wir nicht einer Meinung sind, versuche zu verstehen, warum.
+
+Dies soll keine erschöpfende Liste von Dingen sein, die Sie nicht tun dürfen.
+Nehmen Sie sie vielmehr in dem Sinne, in dem sie gedacht ist - als Leitfaden, der die Kommunikation und die Teilnahme an der Gemeinschaft erleichtern soll.
+
+Dieser Verhaltenskodex gilt für alle Bereiche, die vom FreeBSD-Projekt verwaltet werden.
+Dazu gehören Online-Chats, Mailinglisten, Bug-Tracker, FreeBSD-Veranstaltungen wie Entwicklertreffen und Soziale Netzwerke sowie alle anderen vom Projekt eingerichteten Foren, die von der Gemeinschaft zur Kommunikation genutzt werden.
+Er gilt für Ihre gesamte Kommunikation und Ihr Verhalten in diesen Bereichen, einschließlich E-Mails, Chats, Äußerungen, Folien, Videos, Poster, Schilder und sogar T-Shirts, die Sie in diesen Bereichen zeigen.
+Darüber hinaus können Verstöße gegen diesen Kodex außerhalb dieser Bereiche in seltenen Fällen die Fähigkeit einer Person beeinträchtigen, an diesen Bereichen teilzunehmen, wenn das Verhalten einen schwerwiegenden Verstoß gegen diesen Kodex darstellt.
+
+Wenn Sie glauben, dass jemand gegen den Verhaltenskodex verstößt, bitten wir Sie, dies per E-Mail an mailto:conduct@freebsd.org[conduct@FreeBSD.org] zu melden.
+Weitere Einzelheiten finden Sie unter dem link:../conduct-reporting/[Reporting Guide].
+
+* *Seien Sie freundlich und geduldig.*
+* *Seien Sie einladend.* Wir sind bestrebt, eine Gemeinschaft zu sein, die Menschen mit unterschiedlichem Hintergrund und unterschiedlicher Identität willkommen heißt und unterstützt. Dazu gehören unter anderem Angehörige aller Rassen, Ethnien, Kulturen, nationaler Herkunft, Hautfarbe, Einwanderungsstatus, sozialer und wirtschaftlicher Schichten, Bildungsniveaus, Geschlechts, sexueller Orientierung, Geschlechtsidentität und -ausdruck, Alter, Größe, Familienstand, politischer Überzeugung, Religion oder deren Fehlen sowie geistiger und körperlicher Fähigkeiten.
+* *Nehmen Sie Rücksicht.* Ihre Arbeit wird von anderen Menschen genutzt, und Sie selbst sind wiederum von der Arbeit Anderer abhängig. Jede Entscheidung, die Sie treffen, wirkt sich auf Nutzer und Kollegen aus, und Sie sollten diese Konsequenzen berücksichtigen. Denken Sie daran, dass wir eine weltweite Gemeinschaft sind, so dass Sie vielleicht nicht in der Hauptsprache eines Anderen kommunizieren.
+* *Seien Sie respektvoll.* Nicht alle von uns werden immer einer Meinung sein, aber Meinungsverschiedenheiten sind keine Entschuldigung für schlechtes Benehmen und schlechte Manieren. Wir alle sind vielleicht hin und wieder frustriert, aber wir dürfen nicht zulassen, dass diese Frustration in einen persönlichen Angriff umschlägt. Es ist wichtig, daran zu denken, dass eine Gemeinschaft, in der sich Menschen unwohl oder bedroht fühlen, nicht produktiv ist. Mitglieder der FreeBSD-Gemeinschaft sollten sich sowohl gegenüber anderen Mitgliedern als auch gegenüber Personen außerhalb der FreeBSD-Gemeinschaft respektvoll verhalten.
+* *Seien Sie vorsichtig bei der Wahl Ihrer Worte und seien Sie freundlich zu Anderen.* Beleidigen oder erniedrigen Sie andere Teilnehmer nicht. Belästigungen und anderes ausgrenzendes Verhalten sind nicht akzeptabel. Dies schließt ein, ist aber nicht beschränkt auf:
+** Gewalttätige Drohungen oder gegen eine andere Person gerichtete Sprache.
+** Diskriminierende Witze und Sprache.
+** Das Einstellen von sexuell eindeutigem oder gewalttätigem Material.
+** Veröffentlichung (oder Androhung der Veröffentlichung) von persönlichen Informationen anderer Personen ("Doxing").
+** Persönliche Beleidigungen, insbesondere mit rassistischen oder sexistischen Begriffen.
+** Unerwünschte sexuelle Aufmerksamkeit.
+** Befürwortung oder Ermutigung eines der oben genannten Verhaltensweisen.
+* *Wenn Sie jemand bittet, damit aufzuhören, hören Sie auf.* Wenn Sie ein unerwünschtes Verhalten fortsetzen, nachdem Sie aufgefordert wurden, damit aufzuhören, gilt dies als Belästigung.
+* *Wenn wir uns nicht einig sind, versuchen Sie zu verstehen, warum.* Meinungsverschiedenheiten, sowohl sozialer als auch technischer Art, gibt es immer wieder, und FreeBSD ist da keine Ausnahme. Es ist wichtig, dass wir Meinungsverschiedenheiten und abweichende Ansichten konstruktiv lösen. Denken Sie daran, dass wir unterschiedlich sind. Die Stärke von FreeBSD liegt in seiner vielfältigen Gemeinschaft, in Menschen mit unterschiedlichem Hintergrund. Unterschiedliche Menschen haben unterschiedliche Sichtweisen auf Themen. Wenn Sie nicht verstehen können, warum jemand einen bestimmten Standpunkt vertritt, heißt das nicht, dass er falsch liegt. Vergessen Sie nicht, dass es menschlich ist, sich zu irren, und gegenseitige Schuldzuweisungen bringen uns nicht weiter. Konzentrieren Sie sich stattdessen darauf, bei der Lösung von Problemen zu helfen und aus Fehlern zu lernen.
+
+== Fragen?
+
+Wenn Sie Fragen haben, können Sie sich gerne an das FreeBSD Code of Conduct-Komitee wenden, indem Sie eine E-Mail an mailto:conduct@freebsd.org[conduct@FreeBSD.org] schicken.
+
+(Dieser Text basiert auf dem https://llvm.org/docs/CodeOfConduct.html[Draft CoC des LLVM-Projekts], der wiederum auf dem https://www.djangoproject.com/conduct/[Django Project Verhaltenskodex] basiert, der wiederum auf Formulierungen des Speak Up!-Projekts basiert).
+
+Datum der Veröffentlichung: 9. Juni 2020

@@ -1,0 +1,29 @@
+---
+title: "Das FreeBSD.org-Netzwerk"
+sidenav: docs
+---
+
+= Das FreeBSD.org-Netzwerk
+
+Diese Seite dokumentiert für alle, die einen Account im FreeBSD.org-Netzwerk haben, welche Rechnerressourcen derzeit zur Verfügung stehen und für welche Aufgaben sie genutzt werden.
+
+Eine Liste der SSH-Host-Schlüssel und ihrer Fingerprints für die öffentlichen FreeBSD.org-Rechner finden Sie in link:../ssh-keys.asc[dieser Datei].
+
+== FreeBSD.org-Hosts für Entwickler
+
+Diese Systeme sind für FreeBSD-Entwickler und Committer verfügbar. Referenzsysteme können für Build-Tests usw. verwendet werden.
+
+[.tblbasic]
+[cols=",,,",options="header",]
+|===
+|Host |OS |Typ |Zweck
+|freefall |14-CURRENT |amd64 |Shell Logins.
+|ref[15\|14\|13\|12]-amd64 |X-STABLE |amd64 |Referenzmaschine für allgemeine Tests und die Erstellung von Ports.
+|ref[15\|14\|13\|12]-i386 |X-STABLE |i386 |Referenzmaschine für allgemeine Tests und die Erstellung von Ports.
+|ref[15\|14\|13\|12]-aarch64 |X-STABLE |arm64\|aarch64 |Referenzmaschine für allgemeine Tests und die Erstellung von Ports.
+|universe[15\|14\|13\|12][a\|b] |X-STABLE |amd64 |Universe-Build-Maschine für schnelles, umfangreiches Kompilieren.
+|===
+
+Die Maschinen sind in der Regel mit 1 Gbit/s Vollduplex an einen dedizierten Switch mit redundanten Gigabit-Uplinks angeschlossen. Alle Systeme verfügen über protokollierte serielle Konsolen und Remote Power Management.
+
+link:../[FreeBSD Internal Home]

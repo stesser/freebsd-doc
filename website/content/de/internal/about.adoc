@@ -1,0 +1,69 @@
+---
+title: "Über den FreeBSD Web-Server"
+sidenav: docs
+---
+
+include::shared/de/urls.adoc[]
+
+= Über den FreeBSD Web-Server
+
+== Die Maschine
+
+[right]
+image:../../../gifs/powerlogo.gif[Powered by FreeBSD]
+
+Natürlich laufen alle Systeme im FreeBSD.org-Cluster unter FreeBSD. Die Hardware und die Netzwerkverbindung wurden großzügig zur Verfügung gestellt von:
+
+* https://www.bytemark.co.uk/[Bytemark Hosting]
+* Cloud and SDN Laboratory bei https://www.bbtower.co.jp/en/corporate/[BroadBand Tower, Inc]
+* https://www.cs.nycu.edu.tw/[Fakultät für Informatik, Nationale Yang Ming Chiao Tung Universität]
+* https://deploy.equinix.com/[Equinix]
+* https://internet.asn.au/[Internet Association of Australia]
+* https://www.isc.org/[Internet Systems Consortium]
+* https://www.inx.net.za/[INX-ZA]
+* https://www.kddi-webcommunications.co.jp/english/[KDDI Web Communications Inc]
+* https://www.mohe.gov.my/en/services/research/myren[Malaysian Research & Education Network]
+* https://www.metapeer.com/[MetaPeer]
+* https://www.nyi.net/[New York Internet]
+* https://nic.br/[NIC.br]
+* https://your.org/[Your.Org]
+
+-- und andere zum FreeBSD-Projekt link:../../../donations/donors[Beitragende].
+
+Eine Liste der allgemein zugänglichen Rechner in der FreeBSD.org-Domäne finden Sie unter dem link:../../machines[Das FreeBSD.org Netzwerk].
+
+== Die Software
+
+Diese Seiten werden von dem schnellen und flexiblen http://www.nginx.org/[NGINX Webserver] und https://varnish-cache.org/[Varnish HTTP Cache] bereitgestellt.
+Zusätzlich gibt es ein paar lokal erstellte CGI-Skripte.
+Die Indizierung des Mailinglistenarchivs wird von freewais-sf, einem Derivat des CNIDR freewais, bereitgestellt.
+
+== Die Seiten
+
+[.right]
+image:../../../gifs/lynx.gif[Lynx Friendly Logo]
+
+Die ursprünglichen Webseiten wurden von John Fieber https://people.FreeBSD.org/~jfieber/[<jfieber@FreeBSD.org>] mit Beiträgen aus der FreeBSD-Gemeinschaft und *Ihnen* zusammengestellt. http://wolfram.schneider.org[<wosch@FreeBSD.org>] war unser erster Webmaster, aber diese Verantwortung wird nun von einem größeren Team von Web- und Dokumentationsmitarbeitern geteilt. Die FreeBSD-Seiten sind gültiges XHTML 1.0 Transitional und sollten sich in jedem Browser problemlos darstellen lassen.
+
+Siehe auch das link:../../docproj/[FreeBSD Dokumentations-Projekt]
+
+== Seitendesign
+
+Das aktuelle Design der Webseite wurde von Emily Boyd im Rahmen des https://summerofcode.withgoogle.com[Google Summer of Code]-Programms im Jahr 2005 entworfen.
+
+Das ursprüngliche Design der Seite war von Megan McCormack erstellt worden.
+
+== Aktualisierung der FreeBSD-Webseiten
+
+Die FreeBSD-Webseiten auf `www.FreeBSD.org` werden derzeit nach folgendem Zeitplan überarbeitet:
+
+[.tblbasic]
+[cols=",",options="header",]
+|===
+|Erstellungszeit (UTC) |Erstellungstyp
+|Alle 10 Minuten |Wenn es eine Änderung im https://cgit.freebsd.org/doc/log/[doc-Repository] gibt
+|===
+
+Das Dokument link:{fdp-primer}doc-build/[FreeBSD Dokumentations-Projekt Leitfaden für neue Beitragende] beschreibt, wie man die FreeBSD-Dokumentation aus dem Git-Repository erstellt.
+
+link:..[FreeBSD Internal Home]

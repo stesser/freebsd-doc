@@ -1,0 +1,10 @@
+---
+title:  "Internationalisierungspolitik"
+sidenav: docs
+---
+
+= Internationalisierungspolitik
+
+== Richtlinie
+
+Das FreeBSD-Projekt verwendet eine von ISO 3166 abgeleitete Liste, um Länder und Regionen der Welt zu beschreiben. Diese Liste ist in den Release-Distributionen enthalten und wird auf der offiziellen Webseite veröffentlicht. Das FreeBSD-Projekt unterstützt keine bestimmte Position und Änderungen an dieser Liste müssen vom FreeBSD Core Team genehmigt werden.

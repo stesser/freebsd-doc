@@ -1,0 +1,26 @@
+---
+title: "Commit Bit Expiration Policy"
+sidenav: docs
+---
+
+= Commit Bit Expiration Policy
+
+== Begründung
+
+Im Laufe der Zeit können FreeBSD-Committer andere Anforderungen an ihre Zeit stellen und beschließen, ihr Commit-Bit aufzugeben.
+Unter bestimmten Umständen kann es jedoch vorkommen, dass ein Committer über einen längeren Zeitraum inaktiv wird, ohne dass er sein Bit explizit zurückgibt.
+Auf lange Sicht können diese Konten ein Sicherheitsrisiko darstellen. Außerdem stellt sich die Frage, inwieweit die Kontaktinformationen und Zugriffsmethoden für das Konto gepflegt werden können.
+Aus diesen Gründen hat das FreeBSD Core Team die folgende Richtlinie zum Ablauf von Commit-Bits verabschiedet, die zuletzt im Februar 2021 aktualisiert wurde.
+
+== Richtlinie
+
+Dokumentations- und Source-Committer, die seit 18 Monaten keinen Commit gemacht haben, können ihr Commit-Bit aus der Zugriffsdatei entfernen lassen.
+Für Ports-Committer beträgt dieser Zeitraum 12 Monate.
+Committer werden ermutigt, ihr Commit-Bit zu reaktivieren, indem sie sich an die zuständige Stelle wenden.
+
+Wenn alle Commit-Bits eines Committers ablaufen, wird der `FreeBSD.org`-Account des Committers gesperrt.
+Er kann auf Anfrage und nach Ermessen des FreeBSD Core Teams aktiv bleiben.
+Ein Account wird gesperrt, indem der Login-Zugang und alle anderen Dienste (wie CGI-Skripte oder nicht-triviale Mail-Weiterleitungskonfigurationen), die unter dem Account des Committers laufen, deaktiviert werden.
+Einfache Mail-Weiterleitungen funktionieren weiterhin, und eine Person kann eine E-Mail an `postmaster@FreeBSD.org` senden, um die Einstellungen für Mail-Weiterleitungen zu aktualisieren.
+Die Dateien des Committers können nach Ermessen des FreeBSD Core Teams erhalten bleiben oder nicht.
+Ein gesperrtes Konto wird reaktiviert, wenn die Commit-Bits eines Committers wiederhergestellt werden.

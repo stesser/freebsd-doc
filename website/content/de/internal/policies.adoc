@@ -1,0 +1,43 @@
+---
+title: "Richtlinien für FreeBSD-Projektmitglieder"
+sidenav: docs
+---
+
+include::shared/de/urls.adoc[]
+
+= Richtlinien für FreeBSD Projektmitglieder
+
+== *Committer's Guide*
+
+Der link:{committers-guide}[Committer's Guide] ist ein allgemeiner Leitfaden für alle neuen Committer, der sowohl technische Details als auch Details zu den Richtlinien enthält. Letztere finden Sie in den Kapiteln link:{committers-guide}#conventions[Konventionen und Traditionen], link:{committers-guide}#developer.relations[Entwickler-Beziehungen] und link:{committers-guide}#rules[Die große Liste der Regeln für FreeBSD Committer].
+
+Sie enthält fast alles, was ein neuer Committer für das FreeBSD-Projekt wissen muss. Weitere Informationen finden Sie im Dokumentations-Projekt Leitfaden und im Porter's Guide, siehe unten.
+
+== *General Policies*
+
+* link:../code-of-conduct[Verhaltenskodex]
+* link:../resources[Commit Bit und Projekt-Ressourcen-Richtline]
+* link:.../expire-bits[Commit Bit Expiration Policy]
+* link:../bylaws[Geschäftsordnung des Core Teams]
+* link:../core-vote[Abstimmungsverfahren des Core Teams]
+* link:../hats[Politik der Befristung von Funktionsrollen]
+* link:../i18n[Internationalisierungspolitik]
+* link:../new-account[Verfahren zur Einrichtung eines neuen Accounts]
+* link:{pr-guidelines}[Richtlinien zur Behandlung von Problemberichten]
+* link:../software-license[Software-Lizenz-Richtlinie]
+* link:../data[Benutzerdaten-Richtlinie]
+* link:../members[FreeBSD Projektmitgliedschaft]
+
+== *Das FreeBSD Documentation Project*
+
+Der link:{fdp-primer}[FreeBSD Dokumentations-Projekt Leitfaden für neue Beitragende] behandelt alles, was Sie wissen müssen, um mit der Mitarbeit am FreeBSD Dokumentations-Projekt zu beginnen, von den Werkzeugen und der Software, die Sie verwenden werden (sowohl obligatorisch als auch empfohlen) bis hin zur Philosophie des Dokumentations-Projekts.
+
+Der link:../doceng[FreeBSD Doceng Team Charta] beschreibt den Zweck von Doceng.
+
+== *Die FreeBSD Ports Richtlinien*
+
+Das link:{porters-handbook}[FreeBSD Porter's Handbook] ist ein allgemeiner Leitfaden für FreeBSD Ports Committer, der sowohl technische Informationen als auch Richtlinien enthält.
+
+Das link:../../portmgr/[Ports Management Team] hat eine eigene Seite mit Richtlinien und anderen Informationen zur FreeBSD Ports-Sammlung.
+
+link:..[FreeBSD Internal Home]

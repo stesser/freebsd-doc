@@ -1,0 +1,69 @@
+---
+title: "FreeBSD-Projektmitglieder"
+sidenav: docs
+---
+
+include::shared/de/urls.adoc[]
+
+= FreeBSD-Projektmitglieder
+
+Ein FreeBSD Projektmitglied ist eine Person, die einen bemerkenswerten Beitrag zum FreeBSD-Projekt geleistet hat und auch weiterhin zum Projekt beiträgt.
+Dies kann in Form von neuem Code, Dokumentation oder Patches zu bestehendem Code und allgemeiner Dokumentation geschehen, oder auf andere Weise, die vom Core Team bestimmt wird, wie z.B. Community Management und Advocacy.
+
+== Committers
+
+Committer sind die Projektmitglieder, die einen Commit-Zugang (ein "Commit-Bit") zu einem oder mehreren Repositories des Projekts erhalten haben.
+Eine aktuelle Liste der FreeBSD-Committer finden Sie link:{contributors}#staff-committers[hier].
+
+== Vorteile für Mitglieder:
+
+* eine @freebsd.org-E-Mail-Adresse, mit der sie auch reguläre Bugzilla- und Phabricator-Zugänge erhalten
+* Erlaubnis, sich selbst Bugs in Bugzilla zuzuweisen
+* Zugang zu Freefall und den Universe-Build-Maschinen
+* Zugang zu den Testclustern
+* das Recht, an Entwickler-Gipfeltreffen teilzunehmen
+* Zugriff auf die Mailingliste developers@
+
+== Committer-Vorteile:
+
+Zusätzlich zu den Vorteilen eines ordentlichen Mitglieds sind aktive Committer (die innerhalb des letzten Jahres einen Commit gemacht haben) in der Lage, bei Core-Wahlen abzustimmen.
+
+== Verantwortlichkeiten der Mitglieder:
+
+Alle Mitglieder sollten sicherstellen, dass alle Beiträge:
+
+* sich an die Standards und Praktiken des Projekts halten,
+* den Autoren korrekt zugeordnet ist,
+* eine angemessene Lizenzierung hat. Wenn es sich um die Originalarbeit des Projektmitglieds handelt, wird die Standard-FreeBSD-Lizenz bevorzugt.
+
+Mitglieder MÜSSEN SSH- und PGP-Schlüssel erstellen, um Zugang zu den Ressourcen des Projekts zu erhalten.
+
+Die Mitglieder sind an den Verhaltenskodex des Projekts gebunden, insbesondere wenn sie das Projekt in externen Foren vertreten.
+
+Der Mitgliedsstatus wird durch eine Abstimmung der Core Team-Mitglieder oder durch eine Abstimmung anderer Gruppen, die vom Core Teambestimmt werden, wie z.B. Portmgr oder Doceng, verliehen.
+Jeder FreeBSD-Committer oder jedes Mitglied kann Kandidaten für den Mitgliedsstatus vorschlagen.
+
+Das Core Team oder von ihm bestimmte Gruppen, die den Mitgliedsstatus vergeben, sollten diesen Status mindestens einmal jährlich überprüfen und inaktive Accounts aus dem Verkehr ziehen.
+Es gibt keine formale Definition für inaktive Accounts. Das Core Taam und die benannten Teams können nach eigenem Ermessen handeln.
+
+'''''
+
+== FAQ:
+
+Wird jedem neu angelegten Projektmitglied ein Mentor zugewiesen?
+
+* Projektmitgliedern wird nur dann ein Mentor zugewiesen, wenn sie Committer werden oder wenn sie ein Commit-Bit nach einem längeren Zeitraum der Inaktivität reaktiviert haben. Dies gilt nur für Committer, da der Hauptzweck eines Mentors darin besteht, zu überprüfen, was der zu committen Mentee plant.
+
+* Eine solche formelle Vereinbarung ist nicht erforderlich, wenn jemand ein gewöhnliches Projektmitglied wird, aber es wird erwartet, dass die Personen, die ein neues Mitglied sponsern, ihm bei der Einrichtung seines Kontos und dem Zugang zu den Projektressourcen usw. helfen.
+
+Muss man erst ordentliches Mitglied werden, bevor man ein Commit-Bit erhalten kann?
+
+* Nein. Es ist nicht erforderlich, dass angehende Committer eine gewisse Zeit als ordentliches Mitglied verbracht haben. Es wird jedoch davon ausgegangen, dass dies eine gängige Praxis auf dem Weg zur Commit-Mitgliedschaft sein wird.
+
+Werden Committer, die ihre Commit-Bits aufgegeben haben, effektiv nur noch ordentliche Mitglieder?
+
+* Alle Committers sind Projektmitglieder, aber ehemalige Committer werden als Committer-Alumni betrachtet. Ehemalige Committer können zu aktiven Committern zurückkehren, indem sie einfach die Wiederherstellung ihres Commit-Zugangs beantragen.
+
+Wie wirkt sich dies auf den Status eines 3rd Party Developers aus?
+
+* Bestehende 3rd-Party-Entwickler werden zu Projektmitgliedern befördert.

@@ -1,0 +1,14 @@
+---
+title: "Benutzerdatenrichtlinie"
+sidenav: docs
+---
+
+= Benutzerdatenrichtlinie
+
+== Begründung
+
+Das FreeBSD-Projekt stellt Entwicklern verschiedene Ressourcen zur Verfügung, darunter verschiedene Maschinen und Datenspeicher. Diese Ressourcen sollen für Aktivitäten im Zusammenhang mit dem FreeBSD Project genutzt werden. Das Projekt gibt Entwicklern keine Garantien bezüglich der Daten, die nicht im Zusammenhang mit dem Projekt stehen und auf den Projektressourcen gespeichert sind. Entwicklern wird dringend empfohlen, Projektressourcen nicht für die Speicherung von projektfremden Daten zu verwenden. Das FreeBSD Core Team hat die folgende Richtlinie für Benutzerdaten verabschiedet, die am 4. August 2011 auf der Mailingliste Developers veröffentlicht wurde.
+
+== Richtlinie
+
+FreeBSD-Projektressourcen sollten nur für projektbezogene Aktivitäten und zum Speichern von projektbezogenen Daten verwendet werden.

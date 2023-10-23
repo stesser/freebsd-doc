@@ -1,0 +1,18 @@
+---
+title: "Charta des Release Engineering Teams"
+sidenav: Entwickler
+---
+
+= Charta des Release Engineering Teams
+
+Das Release Engineering Team hat die folgenden Aufgaben:
+
+* Festlegung und Veröffentlichung des Release-Zeitplans für die offiziellen FreeBSD-Releases.
+* Dokumentation und Formalisierung der RE-Prozeduren, damit der Prozess kontinuierlich überprüft und verbessert werden kann. Dazu gehört auch die Dokumentation des Ports-Clusters und des Package-Split-Verfahrens.
+* Festlegen und Veröffentlichen von "Code Freeze"-Terminen und Handeln als Change-Review-Komitee, um zu entscheiden, welche Änderungen an einem Zweig während eines Code Freeze vorgenommen werden dürfen. Dazu gehören Freezes für HEAD, wenn man sich einer .0-Veröffentlichung nähert, sowie das traditionelle `releng/*` Code Freeze in Erwartung einer -STABLE-Veröffentlichung.
+* Erstellung und Pflege von `releng/*`-Zweigen des `src/`-Baums. Dies beinhaltet die endgültige Autorität darüber, welche Commits im -STABLE-Zweig gemacht werden (und dort verbleiben), bevor ein Release-Zweig erzeugt wird.
+* Zusammenarbeit mit Core und/oder der FreeBSD Foundation, um eine Reihe von Richtlinien zu kodifizieren, die Hersteller erfüllen müssen, wenn sie ein Produkt "FreeBSD" oder ein "Official FreeBSD Release" nennen dürfen.
+* Testen und Integrieren der benötigten Pakete aus der Ports-Sammlung in die offiziellen Release-Medien des Projekts. Portmgr@ ist dafür verantwortlich, den `ports/` Code Freeze zu verwalten und einen vollständigen Package-Build der weiterverteilbaren Ports bereitzustellen. re@ ist dann dafür verantwortlich, diese Packages auf verschiedene ISOs aufzuteilen, wie es die Release-Medien erfordern. re@ ist letztendlich dafür verantwortlich, dass alle benötigten Packages auf den FreeBSD-Release-Medien verfügbar sind, aber die Zusammenarbeit mit portmgr@ ist unerlässlich.
+* Koordination mit dem FreeBSD Dokumentations-Projekt, um sicherzustellen, dass eine konsistente Dokumentation für das Release zur Verfügung gestellt wird. Dazu gehört auch die Möglichkeit, zu verlangen, dass in den Wochen vor einem Release keine größeren Änderungen an der Dokumentation vorgenommen werden.
+* Koordination mit dem Sicherheitsbeauftragten, um sicherzustellen, dass anstehende FreeBSD-Releases nicht von kürzlich bekannt gewordenen Sicherheitslücken betroffen sind. Außerdem wird etwa eine Woche nach einem Release die Kontrolle über die Änderungsgenehmigung von Release-Zweigen (`releng/X.Y/`) von den Release-Ingenieuren auf das Team der Sicherheitsbeauftragten übertragen. Das genaue Übergabedatum ist von den beiden Parteien festzulegen, sobald klar ist, dass der Release erfolgreich fertig gestellt ist. Zu diesem Zeitpunkt sollte eine Vorankündigung an developers@ gesendet werden.
+* Versenden von Nachrichten an announce@FreeBSD.org im Namen des Projekts, um neue Releases von FreeBSD anzukündigen.

@@ -1,0 +1,145 @@
+---
+title: "Release Engineering Information"
+sidenav: Entwickler
+---
+
+include::shared/authors.adoc[]
+include::shared/de/urls.adoc[]
+
+= Informationen zur Entwicklung von neuen Versionen
+
+Diese Seite enthält die Dokumentation über den FreeBSD-Release-Engineering-Prozess.
+
+* <<schedule,Release-Planung>>
+* <<freeze,Code Freeze Status>>
+* link:../releng/charter/[Charta des Release Engineering Teams]
+* <<docs,Release Engineering Dokumentation>>
+* <<team,Aktuelles Release Engineering Team>>
+* <<old,Frühere Releases>>
+
+////
+Allgemeine Informationen zur Übergabe an -STABLE.
+////
+
+[[schedule]]
+== Zukünftiger Zeitplan für Veröffentlichungen
+
+Hinweis: Die Veröffentlichungstermine sind ungefähre Angaben und können sich verschieben.
+
+//Am 2022-05-31 wurde die nächste Version noch nicht angekündigt.
+
+[.tblbasic]
+[cols=",,",options="header",]
+|===
+|Datum |Ereignis |Information
+|Oktober 2023 |FreeBSD 14.0 |link:../releases/14.0R/schedule/[Zielzeitplan]
+|===
+
+[[freeze]]
+== Code-Freeze-Status
+
+Diese Tabelle listet den Code-Freeze-Status für die wichtigsten Zweige des `src/`-Repositorys in den FreeBSD-Git-Repositories auf. Commits in einem als "frozen" aufgelisteten Zweig müssen zuerst von der zuständigen Kontaktperson überprüft und genehmigt werden. Der Status anderer Repositories wie `ports/` und `doc/` ist ebenfalls unten aufgeführt.
+
+[.tblbasic]
+[cols=",,,",options="header",]
+|===
+|Branch |Status |Contact |Notes
+|`main` |Open |committers |Active development branch for 15.0-CURRENT.
+|`stable/14` |Open |committers |Development branch for FreeBSD 14-STABLE.
+|`releng/14.0` |Frozen |re@FreeBSD.org |FreeBSD 14.0 supported errata fix branch.
+|`stable/13` |Open |committers |Development branch for FreeBSD 13-STABLE.
+|`releng/13.2` |Frozen |security-officer@FreeBSD.org |FreeBSD 13.2 supported errata fix branch.
+|`releng/13.1` |Frozen |security-officer@FreeBSD.org |FreeBSD 13.1 errata fix branch (not officially supported).
+|`releng/13.0` |Frozen |security-officer@FreeBSD.org |FreeBSD 13.0 errata fix branch (not officially supported).
+|`stable/12` |Open |committers |Development branch for FreeBSD 12-STABLE.
+|`releng/12.4`|Frozen|security-officer@FreeBSD.org|FreeBSD 12.4 supported errata fix branch.
+|`releng/12.3` |Frozen |security-officer@FreeBSD.org |FreeBSD 12.3 errata fix branch (not officially supported).
+|`releng/12.2` |Frozen |security-officer@FreeBSD.org |FreeBSD 12.2 errata fix branch (not officially supported).
+|`releng/12.1` |Frozen |security-officer@FreeBSD.org |FreeBSD 12.1 errata fix branch (not officially supported).
+|`releng/12.0` |Frozen |security-officer@FreeBSD.org |FreeBSD 12.0 errata fix branch (not officially supported).
+|`stable/11` |Open |committers |Maintenance branch for FreeBSD 11-STABLE (not officially supported).
+|`releng/11.4` |Frozen |security-officer@FreeBSD.org |FreeBSD 11.4 errata fix branch (not officially supported).
+|`releng/11.3` |Frozen |security-officer@FreeBSD.org |FreeBSD 11.3 errata fix branch (not officially supported).
+|`releng/11.2` |Frozen |security-officer@FreeBSD.org |FreeBSD 11.2 errata fix branch (not officially supported).
+|`releng/11.1` |Frozen |security-officer@FreeBSD.org |FreeBSD 11.1 errata fix branch (not officially supported).
+|`releng/11.0` |Frozen |security-officer@FreeBSD.org |FreeBSD 11.0 errata fix branch (not officially supported).
+|`stable/10` |Open |committers |Maintenance branch for 10-STABLE (not officially supported).
+|`releng/10.4` |Frozen |security-officer@FreeBSD.org |FreeBSD 10.4 errata fix branch (not officially supported).
+|`releng/10.3` |Frozen |security-officer@FreeBSD.org |FreeBSD 10.3 errata fix branch (not officialy supported).
+|`releng/10.2` |Frozen |security-officer@FreeBSD.org |FreeBSD 10.2 errata fix branch (not officially supported).
+|`releng/10.1` |Frozen |security-officer@FreeBSD.org |FreeBSD 10.1 errata fix branch (not officially supported).
+|`releng/10.0` |Frozen |security-officer@FreeBSD.org |FreeBSD 10.0 errata fix branch (not officially supported).
+|`stable/9` |Open |committers |Maintenance branch for FreeBSD 9-STABLE (not officially supported).
+|`releng/9.3` |Frozen |security-officer@FreeBSD.org |FreeBSD 9.3 errata fix branch (not officially supported).
+|`releng/9.2` |Frozen |security-officer@FreeBSD.org |FreeBSD 9.2 errata fix branch (not officially supported).
+|`releng/9.1` |Frozen |security-officer@FreeBSD.org |FreeBSD 9.1 errata fix branch (not officially supported).
+|`releng/9.0` |Frozen |security-officer@FreeBSD.org |FreeBSD 9.0 errata fix branch (not officially supported).
+|`stable/8` |Open |committers |Maintenance branch for 8-STABLE (not officially supported).
+|`releng/8.4` |Frozen |security-officer@FreeBSD.org |FreeBSD 8.4 errata fix branch (not officially supported).
+|`releng/8.3` |Frozen |security-officer@FreeBSD.org |FreeBSD 8.3 errata fix branch (not officially supported).
+|`releng/8.2` |Frozen |security-officer@FreeBSD.org |FreeBSD 8.2 errata fix branch (not officially supported).
+|`releng/8.1` |Frozen |security-officer@FreeBSD.org |FreeBSD 8.1 errata fix branch (not officially supported).
+|`releng/8.0` |Frozen |security-officer@FreeBSD.org |FreeBSD 8.0 errata fix branch (not officially supported).
+|`stable/7` |Open |committers |Maintenance branch for 7-STABLE (not officially supported).
+|`releng/7.4` |Frozen |security-officer@FreeBSD.org |FreeBSD 7.4 errata fix branch (not officially supported).
+|`releng/7.3` |Frozen |security-officer@FreeBSD.org |FreeBSD 7.3 errata fix branch (not officially supported).
+|`releng/7.2` |Frozen |security-officer@FreeBSD.org |FreeBSD 7.2 errata fix branch (not officially supported).
+|`releng/7.1` |Frozen |security-officer@FreeBSD.org |FreeBSD 7.1 errata fix branch (not officially supported).
+|`releng/7.0` |Frozen |security-officer@FreeBSD.org |FreeBSD 7.0 errata fix branch (not officially supported).
+|`stable/6` |Open |committers |Maintenance branch for 6-STABLE (not officially supported).
+|`releng/6.4` |Frozen |security-officer@FreeBSD.org |FreeBSD 6.4 errata fix branch (not officially supported).
+|`releng/6.3` |Frozen |security-officer@FreeBSD.org |FreeBSD 6.3 errata fix branch (not officially supported).
+|`releng/6.2` |Frozen |security-officer@FreeBSD.org |FreeBSD 6.2 errata fix branch (not officially supported).
+|`releng/6.1` |Frozen |security-officer@FreeBSD.org |FreeBSD 6.1 errata fix branch (not officially supported).
+|`releng/6.0` |Frozen |security-officer@FreeBSD.org |FreeBSD 6.0 errata fix branch (not officially supported).
+|`stable/5` |Open |committers |Maintenance branch for 5-STABLE (not officially supported).
+|`releng/5.5` |Frozen |security-officer@FreeBSD.org |FreeBSD 5.5 errata fix branch (not officially supported).
+|`releng/5.4` |Frozen |security-officer@FreeBSD.org |FreeBSD 5.4 errata fix branch (not officially supported).
+|`releng/5.3` |Frozen |security-officer@FreeBSD.org |FreeBSD 5.3 errata fix branch (not officially supported).
+|`releng/5.2` |Frozen |security-officer@FreeBSD.org |FreeBSD 5.2 / 5.2.1 security fix branch (not officially supported).
+|`releng/5.1` |Frozen |security-officer@FreeBSD.org |FreeBSD 5.1 security fix branch (not officially supported).
+|`releng/5.0` |Frozen |security-officer@FreeBSD.org |FreeBSD 5.0 security fix branch (not officially supported).
+|`stable/4` |Open |committers |Maintenance branch for 4-STABLE (not officially supported).
+|`releng/4.11` |Frozen |security-officer@FreeBSD.org |FreeBSD 4.11 errata fix branch (not officially supported).
+|`releng/4.10` |Frozen |security-officer@FreeBSD.org |FreeBSD 4.10 security fix branch (not officially supported).
+|`releng/4.9` |Frozen |security-officer@FreeBSD.org |FreeBSD 4.9 security fix branch (not officially supported).
+|`releng/4.8` |Frozen |security-officer@FreeBSD.org |FreeBSD 4.8 security fix branch (not officially supported).
+|`releng/4.7` |Frozen |security-officer@FreeBSD.org |FreeBSD 4.7 security fix branch (not officially supported).
+|`releng/4.6` |Frozen |security-officer@FreeBSD.org |FreeBSD 4.6 security fix branch (not officially supported).
+|`releng/4.5` |Frozen |security-officer@FreeBSD.org |FreeBSD 4.5 security fix branch (not officially supported).
+|`releng/4.4` |Frozen |security-officer@FreeBSD.org |FreeBSD 4.4 security fix branch (not officially supported).
+|`releng/4.3` |Frozen |security-officer@FreeBSD.org |FreeBSD 4.3 security fix branch (not officially supported).
+|`stable/3` |Open |committers |Maintenance branch for 3-STABLE (not officially supported).
+|`stable/2.2` |Open |committers |Maintenance branch for 2.2-STABLE (not officially supported).
+|*Repository* |*Status* |*Contact* |*Notes*
+|`ports/` |Open |portmgr@FreeBSD.org |FreeBSD Ports Collection.
+|`doc/` |Open |freebsd-doc@FreeBSD.org |ASCIIDoc-based documentation set.
+|===
+
+[[docs]]
+== Release Engineering Dokumentation
+
+* link:{freebsd-releng}[FreeBSD Release Engineering] +
+Dieses Dokument beschreibt den Ansatz, den das FreeBSD Release Engineering Team verwendet, um produktionsreife Releases des FreeBSD Betriebssystems zu erstellen. Es beschreibt die Werkzeuge, die denjenigen zur Verfügung stehen, die daran interessiert sind, angepasste FreeBSD-Releases für den Rollout in Unternehmen oder für die kommerzielle Vermarktung zu erstellen.
+
+[[team]]
+== Release Engineering Team
+
+Das primäre Release-Engineering-Team ist verantwortlich für die Genehmigung von link:{handbook}#mfc-glossary[MFC]-Anfragen während Code-Freezes, die Festlegung von Release-Zeitplänen und alle anderen Verantwortlichkeiten, die in unserer link:../releng/charter/[Charta] festgelegt sind.
+
+*Primäres RE-Team (re@FreeBSD.org)*: {re-members} bilden die primäre Entscheidungsgruppe für das Release Engineering.
+
+Das Builders-Release-Engineering-Team ist für die Erstellung und Paketierung von FreeBSD-Releases für die verschiedenen unterstützten Plattformen verantwortlich.
+
+*Builders RE-Team (re-builders@FreeBSD.org)*: {re-builders}
+
+Die Drittanbieter-Pakete in der Ports-Sammlung werden vom pkgmgr@-Team verwaltet. Neben vielen anderen Aufgaben halten die Paketmanager den Ports-Cluster reibungslos am Laufen, um Binärpakete zu produzieren.
+
+*Package Builders (pkgmgr@FreeBSD.org)*: {pkgmgr-members}
+
+[[old]]
+== Frühere Releases
+
+Das FreeBSD Project unterhält kein vollständiges Archiv alter Release-ISO-Images, aber viele von ihnen sind unter http://ftp-archive.FreeBSD.org/pub/FreeBSD-Archive/old-releases/ verfügbar.
+
+Ältere Versionen, die nicht mehr auf einem FTP-Spiegel vorhanden sind, können noch von CD-ROM-Anbietern erhältlich sein.

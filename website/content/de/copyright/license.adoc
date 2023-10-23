@@ -1,0 +1,65 @@
+---
+title: "Das 4.4BSD Copyright"
+sidenav: about
+---
+
+= Das 4.4BSD Copyright
+
+*Die deutschen Übersetzungen dieser Texte sind nicht rechtlich bindend.* +
+*Im Zweifelsfall gelten nur die englischsprachigen Originalversionen!*
+
+Die gesamte Dokumentation und Software, die in den 4.4BSD- und 4.4BSD-Lite-Releases enthalten ist, unterliegt dem Copyright von The Regents of the University of California.
+
+Copyright 1979, 1980, 1983, 1986, 1988, 1989, 1991, 1992, 1993, 1994 The Regents of the University of California. Alle Rechte vorbehalten.
+
+Die Weitergabe und Verwendung in Quell- und Binärform, mit oder ohne Änderungen, ist gestattet, sofern die folgenden Bedingungen erfüllt sind:
+
+. Bei der Weitergabe des Quellcodes müssen der obige Urheberrechtsvermerk, diese Liste der Bedingungen und der folgende Haftungsausschluss beibehalten werden.
+. Weiterverteilungen in binärer Form müssen den obigen Copyright-Hinweis, diese Liste der Bedingungen und den folgenden Haftungsausschluss in der Dokumentation und/oder anderen mit der Verteilung gelieferten Materialien wiedergeben.
+. Alle Werbematerialien, die Funktionen oder die Verwendung dieser Software erwähnen, müssen den folgenden Hinweis enthalten:
++
+____
+Dieses Produkt enthält Software, die von der University of California, Berkeley und ihren Mitarbeitern entwickelt wurde.
+____
+. Weder der Name der Universität noch die Namen ihrer Mitwirkenden dürfen ohne ausdrückliche vorherige schriftliche Genehmigung verwendet werden, um von dieser Software abgeleitete Produkte zu unterstützen oder zu bewerben.
+
+DIESE SOFTWARE WIRD VON DEN REGENTS UND DEN BEITRAGSZAHLERN OHNE MÄNGELGEWÄHR ZUR VERFÜGUNG GESTELLT. JEGLICHE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GEWÄHRLEISTUNG, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF DIE STILLSCHWEIGENDE GEWÄHRLEISTUNG DER MARKTGÄNGIGKEIT UND DER EIGNUNG FÜR EINEN BESTIMMTEN ZWECK, IST AUSGESCHLOSSEN. UNTER KEINEN UMSTÄNDEN HAFTEN DIE REGENTEN ODER MITWIRKENDEN FÜR DIREKTE, INDIREKTE, ZUFÄLLIGE, BESONDERE, BEISPIELHAFTE ODER FOLGESCHÄDEN (EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF DIE BESCHAFFUNG VON ERSATZWAREN ODER -DIENSTLEISTUNGEN, NUTZUNGS-, DATEN- ODER GEWINNVERLUSTE ODER GESCHÄFTSUNTERBRECHUNGEN), WIE AUCH IMMER DIESE VERURSACHT WURDEN UND AUF WELCHER HAFTUNGSTHEORIE SIE BERUHEN, UNABHÄNGIG DAVON, OB ES SICH UM VERTRAGSHAFTUNG, VERSCHULDENSUNABHÄNGIGE HAFTUNG ODER UNERLAUBTE HANDLUNG (EINSCHLIESSLICH FAHRLÄSSIGKEIT ODER SONSTIGES) HANDELT, DIE IN IRGENDEINER WEISE AUS DER NUTZUNG DIESER SOFTWARE RESULTIEREN, AUCH WENN AUF DIE MÖGLICHKEIT SOLCHER SCHÄDEN HINGEWIESEN WURDE.
+
+Das Institute of Electrical and Electronics Engineers und das American National Standards Committee X3, on Information Processing Systems haben uns die Genehmigung erteilt, Teile ihrer Dokumentation nachzudrucken.
+
+In der folgenden Erklärung bezieht sich die Formulierung "dieser Text" auf Teile der Systemdokumentation.
+
+Teile dieses Textes sind nachgedruckt und in elektronischer Form in der zweiten BSD Networking Software Release wiedergegeben, aus IEEE Std 1003.1-1988, IEEE Standard Portable Operating System Interface for Computer Environments (POSIX), copyright C 1988 by the Institute of Electrical and Electronics Engineers, Inc. Bei Unstimmigkeiten zwischen diesen Versionen und dem ursprünglichen IEEE-Standard ist der ursprüngliche IEEE-Standard das maßgebliche Dokument.
+
+In der folgenden Erklärung bezieht sich die Formulierung "Dieses Material" auf Teile der Systemdokumentation.
+
+Dieses Material wird mit Genehmigung des American National Standards Committee X3, on Information Processing Systems, wiedergegeben. Computer and Business Equipment Manufacturers Association (CBEMA), 311 First St., NW, Suite 500, Washington, DC 20001-2178. Die Entwicklungsarbeit der Programmiersprache C wurde vom Technischen Komitee X3J11 abgeschlossen.
+
+Die in der Software und der Dokumentation enthaltenen Ansichten und Schlußfolgerungen sind die der Autoren und sollten nicht so ausgelegt werden, daß sie die offizielle Politik der Regents of the University of California darstellen, weder ausdrücklich noch implizit.
+
+_HINWEIS:_ Das Copyright der Berkeley Software Distribution ("BSD") der UC Berkeley wurde aktualisiert. Die Copyright-Ergänzung ist unter ftp://ftp.cs.berkeley.edu/pub/4bsd/README.Impt.License.Change zu finden und wird im Folgenden aufgeführt.
+
+____
+22 Juli 1999
+
+An alle Lizenznehmer und Distributoren jeder BSD-Version:
+
+Wie Sie wissen, erfordern bestimmte Quellcode-Dateien der Berkeley Software Distribution ("BSD"), dass weitere Vertreiber von Produkten, die die Software ganz oder teilweise enthalten, in ihren Werbematerialien bestätigen, dass diese Produkte Software enthalten, die von der UC Berkeley und ihren Mitwirkenden entwickelt wurde.
+
+Im Einzelnen lautet die Bestimmung wie folgt:
+
+....
+      * 3. alle Werbematerialien, die Funktionen oder die Verwendung dieser Software erwähnen
+      *    müssen die folgende Bestätigung enthalten:
+      *    Dieses Produkt enthält Software, die von der University of
+      *    California, Berkeley und ihren Mitwirkenden entwickelt wurde.
+....
+
+Ab sofort sind Lizenznehmer und Vertreiber nicht mehr verpflichtet, diesen Hinweis in Werbematerialien aufzunehmen. Dementsprechend wird der vorstehende Absatz in denjenigen BSD-Unix-Dateien, die ihn enthalten, hiermit vollständig gelöscht.
+
+William Hoskins +
+Direktor, Büro für Technologie-Lizenzierung +
+Universität von Kalifornien, Berkeley
+____
+
+link:..[Legal Home]

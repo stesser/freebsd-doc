@@ -1,0 +1,22 @@
+---
+title: "Kommerzielle Anbieter"
+sidenav: support
+---
+
+= Kommerzielle Anbieter
+
+Die Leistungsfähigkeit, Flexibilität und Zuverlässigkeit von FreeBSD zieht eine Vielzahl von Benutzern und Anbietern an.
+Im Folgenden finden Sie eine Liste von Anbietern, die kommerzielle Produkte, Dienstleistungen und/oder Beratung für FreeBSD anbieten.
+
+* link:consult_bycat[Consulting Services]: Egal, ob Sie gerade erst mit FreeBSD anfangen oder ein größeres Projekt abschließen müssen, die Beauftragung eines Beraters könnte die richtige Lösung für Sie sein.
+Sie können die Liste link:consult[alphabetisch] sehen, oder, wenn Sie es bevorzugen, sie nach link:consult_bycat[Kategorien] betrachten.
+* link:hardware[Hardware-Anbieter]: Sie benötigen spezielle Werkzeuge, wollen einen neuen Desktop kaufen oder einen Käfig mit Rackmount-Servern füllen, auf denen FreeBSD vorinstalliert ist?
+Diese Firmen haben vielleicht, was Sie brauchen!
+* link:isp[Internet Service Providers]: Wenn Sie Webspace auf einem FreeBSD-basierten System benötigen oder Ihre Firma an das Internet anschließen wollen, haben diese Firmen vielleicht das, was Sie brauchen!
+* link:misc[Weitere Anbieter]: Bücher und Zubehör, ohne das Sie nicht leben können!
+* link:software_bycat[Software Anbieter]: Von Audio-Playern über Netzwerktreiber bis hin zu kommerziellen Datenbanken gibt es für FreeBSD eine große Auswahl an professioneller Software.
+Sie können sich die Liste link:software[alphabetisch] ansehen, oder, wenn Sie es bevorzugen, sie nach link:software_bycat[Kategorien] sortieren.
+
+Wenn Ihr Unternehmen ein FreeBSD-bezogenes Produkt, eine Dienstleistung, eine Beratung oder einen Support anbietet, das/die auf diese Seite aufgenommen werden sollte, füllen Sie bitte einen Link:../support/bugreports/[Problembericht] in der Kategorie "Dokumentation->Website" aus.
+Die Einsendungen sollten einen mittelgroßen Absatz enthalten, der Ihr Unternehmen beschreibt.
+Bitte beachten Sie, dass die Aufnahme von Anbietern in unsere Liste nicht bedeutet, dass das FreeBSD-Projekt deren Produkte oder Dienstleistungen befürwortet.

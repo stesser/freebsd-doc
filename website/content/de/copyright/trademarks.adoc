@@ -1,0 +1,47 @@
+---
+title: "Registrierte Marken"
+sidenav: about
+---
+
+= Registrierte Marken
+
+*Die deutschen Übersetzungen dieser Texte sind nicht rechtlich bindend.* +
+*Im Zweifelsfall gelten nur die englischsprachigen Originalversionen!*
+
+FreeBSD ist eine registrierte Marke von "The FreeBSD Foundation".
+
+Das FreeBSD-Logo ist ein registriertes Markenzeichen von "The FreeBSD Foundation".
+
+Siehe unter https://www.freebsdfoundation.org/[The FreeBSD Foundation] die https://www.freebsdfoundation.org/legal/trademark-usage-terms-and-conditions/[Bedingungen für die Verwendung von Markenzeichen] der FreeBSD-Marken.
+
+Adobe, Acrobat, Acrobat Reader, and PostScript sind registrierte Marken der Adobe Systems Incorporated in den USA und/oder anderen Ländern.
+
+AMD, Am486, Am5X86, AMD Athlon, AMD Duron, AMD Opteron, AMD-K6, Athlon, Élan, Opteron, and PCnet sind Marken der Advanced Micro Devices, Inc.
+
+Apple, FireWire, Mac, Macintosh, Mac OS, Quicktime, und TrueType sind Marken der Apple Computer, Inc., registriert in den USA und anderen Ländern.
+
+CVSup ist eine registrierte Marke von John D. Polstra.
+
+F5, F5 Networks, und das F5-Logo sind Marfken von F5 Networks, Inc. in den USA und verschiedenen anderen Ländern. Weitere F5-Marken werden unter f5.com gelistet. All weiteren Produkte, Service-Angebote, Any other products, services, Werbe-Slogans oder Firmennamen, auf die hier Bezug genommen wird, können Marken der jeweiligen Eigentümer sein, ohne dass F5 eine ausdrückliche oder stillschweigende Befürwortung oder Zugehörigkeit behauptet.
+
+IBM and PowerPC sind Handelsmarken der International Business Machines Corporation in den USA und/oder anderen Ländern.
+
+IEEE, POSIX, and 802 sind registrierte Marken von The Institute of Electrical and Electronics Engineers, Inc.
+
+Intel, Celeron, EtherExpress, i386, i486, Itanium, Pentium und Xeon sind Marken oder registrierte Handelsmarken der Intel Corporation oder deren Tochterunternehmen in den USA und anderen Ländern.
+
+Linux ist eine registrierte Marke von Linus Torvalds in den USA.
+
+Motif, OSF/1, and UNIX sind registrierte Marken und IT DialTone und The Open Group sind Marken von The Open Group in den USA und anderen Ländern.
+
+MySQL ist eine registrierte Handelsmarke der MySQL AB in den USA, der Europäischen Union und anderen Ländern.
+
+NVIDIA, das NVIDIA-Logo, 3D Play, 3D Vision Pro, 4-Plus-1, APEX, BattleBox, BFGD, Big Format Gaming Display, CUDA, Dabbler, DALI, DGX Station, DirectStylus, DirectTouch, Game Ready, GameStream, Geared For Gaming, GeForce, GeForce Experience, GeForce GTX, GeForce RTX, GPUDirect, G-SYNC, GRID LINK, GRID VGX, IceClear, ICERA, I AM AI, Iray, Jetson, Jetson AGX Xavier, Kepler, Made To Game, Maximus, Mental Ray, NSIST on NVIDIA, nTersect, NVIDIA 3D Vision, NVIDIA AGX, NVIDIA AutoWorks, NVIDIA BATTERY BOOST, NVIDIA BFGD, NVIDIA Big Format Gaming Display, NVIDIA Business Platform, NVIDIA Clara, NVIDIA DALI, NVIDIA Denver, NVIDIA DesignWorks, NVIDIA DGX, NVIDIA DGX POD, NVIDIA DGX Superpod, NVIDIA DRIVE, NVIDIA DRIVE Autopilot, NVIDIA DRIVE Constellation, NVIDIA DRIVE Hyperion, NVIDIA DRIVE Sim, NVIDIA GameWorks, NVIDIA GPU BOOST, NVIDIA GPU CLOUD, NVIDIA GRID, NVIDIA GRID vGPU, NVIDIA G-SYNC, NVIDIA HGX, NVIDIA Holodeck, NVIDIA IndeX, NVIDIA Isaac, NVIDIA Isaac SDK, NVIDIA Isaac SIM, NVIDIA Jetpack, NVIDIA Kepler, NVIDIA Maglev, NVIDIA Maximus, NVIDIA Maxwell, NVIDIA nForce, NVIDIA OptiX, NVIDIA Orin, NVIDIA PartnerForce, NVIDIA PureAudio, NVIDIA Quadro, NVIDIA RTX, NVIDIA SHIELD, NVIDIA SLI, NVIDIA SLI Ready, NVIDIA Slide Cover, NVIDIA SPOT, NVIDIA Tegra, NVIDIA Turing, nView, NVLink, NVS, NVSwitch, OpenACC, Openautomate, Optimus, OptiX, Pascal, Pegasus, PGI, PGI Visual Fortran, PhysX, Quadro, Quadro Experience, Quadro RTX, RealityServer, SceniX, Shadowplay, SHIELD, SLI, Surround, Tegra, Tegra NOTE, TegraZone, TensorRT, Tesla, The Way It's Meant to be Played,  TWIMTBP, ULMB, vGPU, Vibrante, VisionWorks, VRLync und Xavier sind Marken und/oder registrierte Marken der NVIDIA Corporation in den USA und/oder anderen Ländern.
+
+Silicon Graphics, SGI und OpenGL sind registrierte Marken von Silicon Graphics, Inc. in den USA und/oder anderen Ländern weltweit.
+
+Sparc, Sparc64, SPARCEngine, and UltraSPARC sind Marken von SPARC International, Inc in den USA und anderen Ländern. Produkte die eine SPARC Handelsmarke tragen basieren auf Architekturen die von Sun Microsystems, Inc. entwickelt wurden.
+
+Sun, Sun Microsystems, SunOS, Solaris und Java sind Marken oder registrierte Handelmarken von Sun Microsystems, Inc. in den USA und anderen Ländern.
+
+Viele der Bezeichnungen, die von Herstellern und Verkäufern verwendet werden, um ihre Produkte zu kennzeichnen, werden als Markenzeichen beansprucht. In den Fällen, in denen diese Bezeichnungen auf dieser Website erscheinen und das FreeBSD-Projekt Kenntnis von dem Markenanspruch hatte, wurde den Bezeichnungen das Symbol '(TM)' oder '(R)' vorangestellt.

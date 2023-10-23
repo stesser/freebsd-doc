@@ -1,0 +1,11 @@
+---
+title: "Beratungsdienste"
+sidenav: support
+vendor: isp
+---
+
+Die Leistungsfähigkeit, Flexibilität und Zuverlässigkeit von FreeBSD zieht eine Vielzahl von Benutzern und Anbietern an. Hier finden Sie Anbieter, die kommerzielle Produkte und/oder Dienstleistungen für FreeBSD anbieten.
+
+Um Ihnen die Arbeit zu erleichtern, haben wir unsere wachsende Liste kommerzieller Anbieter in mehrere Abschnitte unterteilt. Wenn Ihre Firma ein FreeBSD-bezogenes Produkt, eine Dienstleistung, eine Beratung oder einen Support anbietet, der in diese Seite aufgenommen werden sollte, füllen Sie bitte einen https://www.freebsd.org/support/bugreports/[Problembericht] in der Kategorie "Dokumentation->Website" aus. Die Einsendungen sollten einen mittelgroßen Absatz enthalten, der Ihr Unternehmen beschreibt. Bitte beachten Sie, dass die Aufnahme von Anbietern in unsere Liste nicht bedeutet, dass das FreeBSD-Projekt deren Produkte oder Dienstleistungen befürwortet.
+
+== Internet-Dienstleister

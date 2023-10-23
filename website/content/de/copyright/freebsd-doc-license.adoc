@@ -1,0 +1,34 @@
+---
+title: "Die FreeBSD-Dokumentationslizenz"
+sidenav: about
+---
+
+= Die FreeBSD-Dokumentationslizenz
+
+*Die deutschen Übersetzungen dieser Texte sind nicht rechtlich bindend.* +
+*Im Zweifelsfall gelten nur die englischsprachigen Originalversionen!*
+
+Copyright 1994-2023 The FreeBSD Project.
+
+Die Weitergabe und Verwendung im Quelltext (AsciiDoc) und in "kompilierter" Form (HTML, PDF, EPUB usw.) mit oder ohne Änderungen ist erlaubt, sofern die folgenden Bedingungen erfüllt sind:
+
+. Die Weitergabe des Quellcodes (AsciiDoc) muss den obigen Copyright-Hinweis, diese Liste von Bedingungen und den folgenden Haftungsausschluss als erste Zeilen dieser Datei unverändert beibehalten.
+. Weiterverteilungen in kompilierter Form (konvertiert in PDF, EPUB und andere Formate) müssen den obigen Copyright-Hinweis, diese Liste der Bedingungen und den folgenden Haftungsausschluss in der Dokumentation und/oder anderen mit der Verteilung gelieferten Materialien wiedergeben.
+
+DIESE DOKUMENTATION WIRD VOM FREEBSD-DOKUMENTATIONSPROJEKT OHNE GEWÄHR ZUR VERFÜGUNG GESTELLT. JEGLICHE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GEWÄHRLEISTUNG, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF DIE STILLSCHWEIGENDE GEWÄHRLEISTUNG DER MARKTGÄNGIGKEIT UND DER EIGNUNG FÜR EINEN BESTIMMTEN ZWECK, WIRD ABGELEHNT. IN KEINEM FALL HAFTET DAS FREEBSD-DOKUMENTATIONSPROJEKT FÜR DIREKTE, INDIREKTE, ZUFÄLLIGE, BESONDERE ODER BEISPIELHAFTE SCHÄDEN ODER FOLGESCHÄDEN (EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF DIE BESCHAFFUNG VON ERSATZGÜTERN ODER -DIENSTLEISTUNGEN, NUTZUNGS-, DATEN- ODER GEWINNVERLUSTE ODER GESCHÄFTSUNTERBRECHUNGEN), WIE AUCH IMMER DIESE VERURSACHT WURDEN UND AUF WELCHER HAFTUNGSTHEORIE SIE BERUHEN, OB AUS VERTRAG, VERSCHULDENSUNABHÄNGIGER HAFTUNG ODER UNERLAUBTER HANDLUNG (EINSCHLIESSLICH FAHRLÄSSIGKEIT ODER SONSTIGEM), DIE SICH IN IRGENDEINER WEISE AUS DER NUTZUNG DIESER DOKUMENTATION ERGEBEN, AUCH WENN AUF DIE MÖGLICHKEIT SOLCHER SCHÄDEN HINGEWIESEN WURDE.
+
+== Handbuchseiten
+
+Einige FreeBSD-Handbuchseiten enthalten Text aus der _IEEE Std 1003.1, 2004 Edition, Standard for Information Technology -- Portable Operating System Interface (POSIX(R)) specification_. Für diese Handbuchseiten gelten die folgenden Bedingungen:
+
+____
+Das Institute of Electrical and Electronics Engineers und The Open Group haben uns die Erlaubnis erteilt, Teile ihrer Dokumentation nachzudrucken.
+
+In der folgenden Erklärung bezieht sich die Formulierung "dieser Text" auf Teile der Systemdokumentation.
+
+Teile dieses Textes sind nachgedruckt und in elektronischer Form in den FreeBSD-Handbuchseiten wiedergegeben, aus IEEE Std 1003.1, 2004 Edition, Standard for Information Technology -- Portable Operating System Interface (POSIX), The Open Group Base Specifications Issue 6, Copyright(C) 2001-2004 by the Institute of Electrical and Electronics Engineers, Inc and The Open Group. Im Falle von Unstimmigkeiten zwischen diesen Versionen und dem ursprünglichen IEEE- und The Open Group-Standard gilt der ursprüngliche IEEE- und The Open Group-Standard als Referenzdokument. Der Originalstandard kann online unter https://www.opengroup.org/membership/forums/platform/unix abgerufen werden.
+
+Dieser Hinweis muss auf jedem Produkt erscheinen, das dieses Material enthält.
+____
+
+link:..[Legal Home]

@@ -23,7 +23,7 @@ Um der FreeBSD Foundation Geld zu spenden, besuchen Sie bitte die Spendenseite h
 == Weitere Spenden-Links
 
 * https://wiki.freebsd.org/Donations/WantList[FreeBSD Projekt-Wunschliste]
-* link:../../en/donations/donors[Liste von FreeBSD Spendern]
+* link:../../donations/donors[Liste von FreeBSD Spendern]
 
 [[goal]]
 == Projektziel
@@ -33,7 +33,7 @@ Mit der wachsenden Zahl der FreeBSD-Benutzer ist auch die Zahl derer gestiegen, 
 [[charter]]
 == Charta der Spendenbeauftragten
 
-Die Aufgabe des `Donations Liaison Office` besteht darin, Spenden zu fördern und zu lenken, und zwar gemäß einer Reihe von Regeln, die von der Gemeinschaft akzeptiert werden. Das DLO hat die folgenden Aufgaben.
+Die Aufgabe des Donations Liaison Office besteht darin, Spenden zu fördern und zu lenken, und zwar gemäß einer Reihe von Regeln, die von der Gemeinschaft akzeptiert werden. Das DLO hat die folgenden Aufgaben.
 
 * Festlegung und Aufrechterhaltung klarer Verfahren für den Umgang mit Spenden.
 * Rechtzeitige Reaktion auf Spendenangebote.
@@ -61,7 +61,7 @@ Eine Steuergutschrift ist nicht so einfach, wie es vielleicht scheint. Das Spend
 
 Die FreeBSD Foundation stellt eine Quittung für die Lieferung von Geräten aus. Die FreeBSD Foundation wird jedoch keinen Marktwert der Geräte angeben - das Gesetz verbietet es ihr sogar. Wir empfehlen, sich anderweitig über die Bewertung von Hardware-Spenden zu informieren. Da viele unserer Spenden veraltet sind und der faire Marktwert daher schwer zu beurteilen ist, empfehlen wir, auf Ebay oder anderen Websites für Gebrauchtgeräte nach Preisen für ähnliche Geräte zu suchen.
 
-Um eine Steuerbescheinigung für Ihre Spende zu erhalten, müssen Sie ein https://www.freebsdfoundation.org/wp-content/uploads/2015/12/Hardware-Donation-Form.pdf[Hardware Donation Form] von der FreeBSD Foundation Website ausfüllen.
+Um eine Steuerbescheinigung für Ihre Spende zu erhalten, müssen Sie ein https://www.freebsdfoundation.org/wp-content/uploads/2015/12/Hardware-Donation-Form.pdf[Hardware-Spenden-Formular] auf der FreeBSD Foundation Website ausfüllen.
 
 === Wie man spendet
 

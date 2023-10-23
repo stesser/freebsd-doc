@@ -1,0 +1,25 @@
+---
+title: "FreeBSD Copyright und rechtliche Informationen"
+sidenav: about
+---
+
+= FreeBSD Copyright und rechtliche Informationen
+
+*Die deutschen Übersetzungen dieser Texte sind nicht rechtlich bindend.* +
+*Im Zweifelsfall gelten nur die englischsprachigen Originalversionen!*
+
+== link:freebsd-license[Copyright des FreeBSD-Projekts]
+
+== link:freebsd-doc-license[Die FreeBSD-Dokumentationslizenz]
+
+== link:trademarks[Registrierte Marken]
+
+== link:license[Das 4.4BSD Copyright]
+
+== link:daemon[Der BSD-Daemon]
+
+== https://www.gnu.de/documents/gpl-2.0.de.html[GNU GENERAL PUBLIC LICENSE]
+
+== https://www.gnu.de/documents/lgpl-2.1.de.html[GNU LIBRARY GENERAL PUBLIC LICENSE]
+
+== link:../privacy[Datenschutzrichtlinie des FreeBSD-Projekts]

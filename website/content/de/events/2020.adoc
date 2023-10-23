@@ -1,0 +1,11 @@
+---
+title: "Vergangene FreeBSD-Veranstaltungen"
+sidenav: community
+year: 2020
+---
+
+= Vergangene FreeBSD-Veranstaltungen
+
+Bitte senden Sie Details zu FreeBSD-bezogenen Veranstaltungen oder Veranstaltungen, die für FreeBSD-Anwender von Interesse sind und die hier nicht aufgeführt sind, an freebsd-doc@FreeBSD.org.
+
+In den Ländern und Regionen, die auf der Karte unten dunkelrot dargestellt sind, finden demnächst FreeBSD-bezogene Veranstaltungen statt. Länder, in denen in der Vergangenheit bereits FreeBSD-bezogene Veranstaltungen stattgefunden haben, sind gelb oder orange dargestellt, wobei dunklere Farben für eine größere Anzahl von Veranstaltungen stehen.

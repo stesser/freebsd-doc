@@ -1,0 +1,37 @@
+---
+title: "FreeBSD Interne Seiten"
+sidenav: docs
+---
+
+include::shared/authors.adoc[]
+include::shared/de/urls.adoc[]
+
+= FreeBSD-interne Seiten
+
+Diese Seite enthält Verweise auf Seiten, die Aspekte des FreeBSD-Projekts dokumentieren, unabhängig von der Codebasis.
+
+== Projekte
+
+Es gibt verschiedene Projekte, die link:../projects/[außerhalb des Hauptentwicklungspfades] liegen. Eine Reihe von Gruppen arbeitet daran, die Möglichkeiten von FreeBSD in neue Richtungen zu erweitern.
+
+Hier finden Sie einen Überblick über den link:{freebsd-releng}[FreeBSD Release Engineering Process].
+
+Und hier finden Sie den link:../releng/[Zeitpläne für kommende offizielle Releases von FreeBSD].
+
+== Richtlinien
+
+Um bei einem so großen Projekt, das über den ganzen Globus verteilt ist, Chaos zu vermeiden, gibt es einige link:policies[Richtlinien für FreeBSD-Committer].
+
+== Leute
+
+Der FreeBSD Project Staff besteht aus link:/administration[Teams, Gruppen und Einzelpersonen] mit bestimmten Projektrollen und Verantwortungsbereichen und den link:{contributors}#staff-committers[Entwicklern]. Wenn man den Links folgt, findet man eine Liste von ihnen, sowie Erklärungen, wer für was verantwortlich ist.
+
+Sie können hier über die link:hats[Politik der begrenzten Amtszeit] des Core Teams und einige Richtlinien von {imp-name} zum Thema link:working-with-hats[wie man als Verantwortlicher arbeitet] lesen.
+
+== Ressourcen
+
+Hier ist eine Liste einiger link:developer[technische Ressourcen für FreeBSD-Committer].
+
+Für diejenigen, die einen Account auf dem link:machines[Hauptnetzwerk von FreeBSD.org] haben, finden Sie hier die verfügbaren Maschinenressourcen und die Art der Nutzung, für die sie gedacht sind.
+
+Sie können mehr link:about[über den FreeBSD-Web-Server] erfahren, einschließlich der Maschine, der Software und der Spiegelung der FreeBSD-Webseiten.

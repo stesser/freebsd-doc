@@ -1,0 +1,34 @@
+---
+title: "Der BSD-Daemon"
+sidenav: about
+---
+
+= Der BSD-Daemon
+
+*Die deutschen Übersetzungen dieser Texte sind nicht rechtlich bindend.* +
+*Im Zweifelsfall gelten nur die englischsprachigen Originalversionen!*
+
+Der kleine rote Kerl, der viele dieser Seiten ziert, ist der BSD-Daemon. Im Zusammenhang mit UNIX(R)-Systemen sind "Daemons" Prozesse, die im Hintergrund laufen und sich ohne menschliches Zutun um verschiedene Aufgaben kümmern. Im allgemeinen Sinne ist Daemon eine ältere Form des Wortes Dämon. Im _Unix System Administration Handbook_ sagt Evi Nemeth folgendes über Daemons:
+
+____
+"Viele Leute setzen das Wort "Daemon" mit dem Wort "Dämon" gleich und implizieren damit eine Art satanische Verbindung zwischen UNIX(R) und der Unterwelt. Dies ist ein ungeheuerliches Missverständnis. "Daemon" ist eigentlich eine viel ältere Form von "Dämon"; Dämonen haben keine besondere Vorliebe für Gut oder Böse, sondern dienen eher dazu, den Charakter oder die Persönlichkeit einer Person zu definieren. Das Konzept der alten Griechen von einem "persönlichen Dämon" ähnelt dem modernen Konzept eines "Schutzengels" - "eudaemonia" ist der Zustand, von einem gütigen Geist geholfen oder beschützt zu werden. In der Regel scheinen UNIX(R)-Systeme sowohl von Daemonen als auch von Dämonen befallen zu sein." (p403)
+____
+
+Die frühesten (und populärsten) Versionen des BSD-Daemon wurden von John Lasseter entwickelt. Neuere FreeBSD-spezifische Versionen wurden von http://FromTo.Cc/hosokawa/gallery/[Tatsumi Hosokawa] erstellt, aber die grundlegende Inspiration stammt definitiv von John Lasseter. Der Urheberrechtsinhaber und Ersteller des Daemon-Bildes ist mailto:mckusick@mckusick.com[Marshall Kirk McKusick]. Eine kurze http://www.mckusick.com/beastie/index.html[Entwicklungsgeschichte der Abbildung] ist ebenfalls verfügbar. Es gibt eine Galerie von FreeBSD-bezogenen link:../../publish[Veröffentlichungen], die Variationen der Daemon-Grafik verwenden.
+
+Eine Stoff-Version des Daemon ist erhältlich bei https://www.freebsdmall.com/cgi-bin/fm/bsdbeanie[The FreeBSD Mall] image:../../../gifs/plueschtier-tiny.jpg[Plüsch-Daemon].
+
+BSD-Daemon Copyright 1988 von Marshall Kirk McKusick. Alle Rechte vorbehalten.
+
+Die Erlaubnis, den Daemon zu verwenden, kann eingeholt werden bei:
+
+____
+Marshall Kirk McKusick +
+1614 Oxford St +
+Berkeley, CA 94709-1608 +
+USA
+____
+
+oder per E-Mail an mckusick@mckusick.com.
+
+link:..[Legal Home]

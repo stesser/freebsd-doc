@@ -5,8 +5,8 @@ sidenav: about
 
 = Die FreeBSD-Dokumentationslizenz
 
-*Die deutschen Übersetzungen dieser Texte sind nicht rechtlich bindend.* +
-*Im Zweifelsfall gelten nur die englischsprachigen Originalversionen!*
+*Diese deutsche Übersetzung ist nicht rechtlich bindend.* +
+*Im Zweifelsfall gilt nur die link:../../../copyright/freebsd-doc-license[englischsprachige Originalversion]!*
 
 Copyright 1994-2023 The FreeBSD Project.
 

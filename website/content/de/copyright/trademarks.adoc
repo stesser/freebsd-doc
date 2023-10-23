@@ -5,8 +5,8 @@ sidenav: about
 
 = Registrierte Marken
 
-*Die deutschen Übersetzungen dieser Texte sind nicht rechtlich bindend.* +
-*Im Zweifelsfall gelten nur die englischsprachigen Originalversionen!*
+*Diese deutsche Übersetzung ist nicht rechtlich bindend.* +
+*Im Zweifelsfall gilt nur die link:../../../copyright/trademarks[englischsprachige Originalversion]!*
 
 FreeBSD ist eine registrierte Marke von "The FreeBSD Foundation".
 

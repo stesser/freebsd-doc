@@ -5,8 +5,8 @@ sidenav: about
 
 = Der BSD-Daemon
 
-*Die deutschen Übersetzungen dieser Texte sind nicht rechtlich bindend.* +
-*Im Zweifelsfall gelten nur die englischsprachigen Originalversionen!*
+*Diese deutsche Übersetzung ist nicht rechtlich bindend.* +
+*Im Zweifelsfall gilt nur die link:../../../copyright/daemon[englischsprachige Originalversion]!*
 
 Der kleine rote Kerl, der viele dieser Seiten ziert, ist der BSD-Daemon. Im Zusammenhang mit UNIX(R)-Systemen sind "Daemons" Prozesse, die im Hintergrund laufen und sich ohne menschliches Zutun um verschiedene Aufgaben kümmern. Im allgemeinen Sinne ist Daemon eine ältere Form des Wortes Dämon. Im _Unix System Administration Handbook_ sagt Evi Nemeth folgendes über Daemons:
 

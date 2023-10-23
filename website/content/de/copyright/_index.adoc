@@ -6,7 +6,7 @@ sidenav: about
 = FreeBSD Copyright und rechtliche Informationen
 
 *Die deutschen Übersetzungen dieser Texte sind nicht rechtlich bindend.* +
-*Im Zweifelsfall gelten nur die englischsprachigen Originalversionen!*
+*Im Zweifelsfall gelten nur die link:../../copyright[englischsprachigen Originalversionen]!*
 
 == link:freebsd-license[Copyright des FreeBSD-Projekts]
 

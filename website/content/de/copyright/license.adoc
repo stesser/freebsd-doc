@@ -5,8 +5,8 @@ sidenav: about
 
 = Das 4.4BSD Copyright
 
-*Die deutschen Übersetzungen dieser Texte sind nicht rechtlich bindend.* +
-*Im Zweifelsfall gelten nur die englischsprachigen Originalversionen!*
+*Diese deutsche Übersetzung ist nicht rechtlich bindend.* +
+*Im Zweifelsfall gilt nur die link:../../../copyright/license[englischsprachige Originalversion]!*
 
 Die gesamte Dokumentation und Software, die in den 4.4BSD- und 4.4BSD-Lite-Releases enthalten ist, unterliegt dem Copyright von The Regents of the University of California.
 

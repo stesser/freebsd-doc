@@ -1,0 +1,21 @@
+title: "FreeBSD Kurznachrichten! (1996)"
+sidenav: about
+loadNews: false
+---
+
+= FreeBSD Kurznachrichten! (1996)
+
+== Dezember 1996
+
+* *24-Dez-1996* FreeBSD ftp://ftp.freebsd.org/pub/FreeBSD/2.2-BETA[2.2-BETA] ist veröffentlicht worden. Bitte lesen Sie die ftp://ftp.freebsd.org/pub/FreeBSD/2.2-BETA/RELNOTES.TXT[Release Notes] für weitere Informationen.
+
+* *13-Dez-1996* FreeBSD 2.2-RELEASE kann nicht auf Rechnern mit weniger als 5MB RAM oder 1.2MB Diskettenlaufwerken installiert werden. Weitere Informationen finden Sie unter der ursprünglichen link:../../releases/2.2r/install-media/[Ankündigung].
+
+
+== November 1996
+
+* *15-Nov-1996* FreeBSD 2.1.6-RELEASE ist erschienen. Bitte lesen Sie die Release Notes für weitere Informationen.
+
+* *4-Nov-1996* Der FreeBSD http://cvsweb.freebsd.org/[CVS] Entwicklungsbaum hat einen neuen Zweig bekommen. link:../../releases[Siehe hier] für weitere Informationen.
+
+link:..[Nachrichten]

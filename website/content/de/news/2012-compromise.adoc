@@ -1,0 +1,162 @@
+---
+title: "Einbruch in FreeBSD.org, am 17. November 2012 angekündigt"
+sidenav: about
+loadNews: false
+---
+
+include::shared/de/urls.adoc[]
+
+= FreeBSD.org Einbruch, angekündigt 17. November 2012
+
+[.tblbasic]
+[width="100%",cols="100%",]
+|===
+a|
+[[announce]]
+
+=== Sicherheitsvorfall in der FreeBSD-Infrastruktur
+
+*From:* FreeBSD Security Officer <security-officer@FreeBSD.org> +
+*To:* FreeBSD Security <FreeBSD-security@FreeBSD.org> +
+*Bcc:* freebsd-announce@freebsd.org, freebsd-security-notifications@FreeBSD.org +
+*Reply-To:* secteam@FreeBSD.org +
+*Subject:* Sicherheitsvorfall in der FreeBSD-Infrastruktur +
+
+Am Sonntag, den 11. November, wurde auf zwei Rechnern des FreeBSD.org-Clusters ein Sicherheitsvorfall festgestellt. Die betroffenen Maschinen wurden zur Analyse vom Netz genommen. Zusätzlich wurde ein großer Teil der verbleibenden Infrastruktur-Rechner als Vorsichtsmaßnahme vom Netz genommen.
+
+Wir haben keine Hinweise auf Veränderungen gefunden, die einen Endanwender gefährden könnten. Wir empfehlen jedoch allen Nutzern, den Bericht zu lesen, der unter link:..[http://www.freebsd.org/news/2012-compromise/] verfügbar ist und selbst über erforderliche Maßnahmen zu entscheiden. Wir werden diese Seite weiter aktualisieren, sobald weitere Informationen bekannt werden. Aufgrund der aktuellen forensischen Analyse gehen wir derzeit nicht davon aus, dass Benutzer betroffen sind, aber wir werden aktuelle Informationen bereitstellen, falls sich dies ändert.
+
+Als Konsequenz aus diesem Vorfall werden beim FreeBSD-Projekt eine Reihe von operativen Sicherheitsänderungen vorgenommen, um unsere Widerstandsfähigkeit gegenüber potentiellen Angriffen weiter zu verbessern. Wir planen daher, einige alte Dienste, wie z.B. die CVSup-Distribution der FreeBSD-Quellen, zugunsten der robusteren Subversion-, freebsd-update- und portsnap-Modelle abzuschaffen.
+
+Weitere Informationen finden Sie unter link:..[http://www.freebsd.org/news/2012-compromise/].
+
+Samstag, 17. November 2012
+
+|===
+
+[[toc]]
+== Inhaltsverzeichnis
+
+* <<announce,Ankündigung>>
+* <<update20130430,Aktualisierung: 30. April 2013>>
+* <<update20130323,Aktualisierung: 23. März 2013>>
+* <<update20130303,Aktualisierung: 3. März 2013>>
+* <<update20121229,Aktualisierung: 29. Dezember 2012>>
+* <<update20121127,Aktualisierung: 27. November 2012>>
+* <<update20121122,Aktualisierung: 22. November 2012>>
+* <<update20121118,Aktualisierung: 18. November 2012>>
+* <<details,Erste Details: 17. November 2012>>
+* <<impact,Was sind die Auswirkungen?>>
+* <<done,Was hat FreeBSD.org in dieser Sache unternommen?>>
+* <<recommend,Empfehlungen>>
+
+[[update20130430]]
+== Aktualisierung: 30. April 2013
+
+Portmanager und Clusteradministratoren haben in den letzten Wochen die Wiederherstellung der Erzeugung von Binärpaketen abgeschlossen. Dies hat uns die kontinuierlichen Aktualisierungen für die Binärpakete des alten Stils auf den 8.x und 9.x -STABLE Zweigen zurückgebracht. Beachten Sie, dass die Release Candidate-Builds für den 8.4-Veröffentlichungszyklus nun Binärpakete auf den Installationsmedien enthalten können, und das Projekt war in der Lage, die fehlenden Binärpakete rückwirkend für 9.1-RELEASE auf i386- und amd64-Plattformen hinzuzufügen.
+
+Die Port-Manager arbeiten derzeit an der Einführung von Binärpaketen im neuen Stil (bekannt als "pkgng") in den kommenden Monaten. Bitte überprüfen Sie die http://lists.freebsd.org/subscription/freebsd-ports-announce[FreeBSD Port Ankündigungs-Liste] für weitere schrittweise Status-Updates.
+
+Dies wird voraussichtlich die letzte Statusaktualisierung dieser Seite sein. Eine offizielle Ankündigung mit weiteren Details wird in Kürze an die http://lists.freebsd.org/subscription/freebsd-announce[FreeBSD Ankündigungs Mail-Liste] geschickt werden.
+
+[[update20130323]]
+== Aktualisierung: 23. März 2013
+
+Die Portmanager haben erfolgreich einen Teil der Kapazitäten des Projekts zur Erstellung von Binärpaketen wiederhergestellt. Es gibt noch einige Probleme zu lösen, z.B. wie man die resultierenden Paketsätze auf sichere Weise veröffentlicht oder wie man Pakete für 8.x und 9.x Systeme nahtlos auf einem aktuellen 10.x System baut, auf dem der Hauptknoten ("pointyhat") läuft, aber wir stehen kurz vor dem Abschluss der Vorbereitungen, die für die Bereitstellung von Binärpaketen für die kommende 8.4 und weitere Versionen erforderlich sind.
+
+[[update20130303]]
+== Aktualisierung: 3. März 2013
+
+Redports wurde einer vollständigen Sicherheitsüberprüfung unterzogen und konnte daraufhin wieder in Betrieb genommen werden. Dies geschah am 5. Februar, und seither wurde weitere Backend-Hardware hinzugefügt, um das System wieder auf den vollen Stand zu bringen. Am 11. Februar wurden die Sanity Checks für die Ports wieder aktiviert, wodurch die Erzeugung und Aktualisierung der verwendeten INDEX-Dateien wieder möglich wurde. Der portsnap(8)-Dienst wurde am 25. Februar von CVS auf SVN umgestellt. Die Infrastruktur zur Erstellung von Binärpaketen wurde einer umfassenden Sicherheitsüberprüfung unterzogen, in deren Folge viele Änderungen am Code vorgenommen wurden. Die Überprüfung wurde am 16. Februar abgeschlossen und wir sind nun dabei, sie auf neuer Hardware zu installieren. Zu diesem Zeitpunkt erwarten wir, dass neue Binärpakete in 2-4 Wochen verfügbar sein werden.
+
+[[update20121229]]
+== Aktualisierung: 29. Dezember 2012
+
+Mit Ausnahme der Systeme, die sich auf die Erstellung und das Testen von Paketen beziehen, wurde die gesamte Infrastruktur von FreeBSD.org wieder in Betrieb genommen. Die Überprüfung der Infrastruktur für die Paketerstellung ("pointyhat") und der Infrastruktur für das Testen von Paketen ("redports") dauert noch an, und beide Systeme werden erst nach Abschluss der Überprüfung wieder in Betrieb genommen.
+
+Aus diesem Grund wird FreeBSD 9.1-RELEASE nur mit minimalen vorkompilierten Paketen für i386 und amd64 (x86_64) veröffentlicht, für andere Architekturen sind keine Pakete verfügbar. Diese Pakete werden auf dem DVD-Image verfügbar sein und reichen aus, um entweder die GNOME- oder die KDE-Desktopumgebung zu installieren. Für alle anderen Verwendungszwecke oder für alle Pakete, die nicht auf der CD enthalten sind, wird empfohlen, entweder die neueste verfügbare -stable-Paketsammlung zu verwenden oder Ports aus dem Ports-Tree zu kompilieren. Pakete für 9.1-RELEASE werden zu einem späteren Zeitpunkt zur Verfügung gestellt. Eine Anleitung zum Beziehen und Aktualisieren der Ports-Sammlung finden Sie unter dem link:{handbook}#ports-using[FreeBSD Handbook].
+
+[[update20121127]]
+== Aktualisierung: 27. November 2012
+
+Aufgrund der Tatsache, dass die Kopfknoten des Legacy Third-Party Package Build Controllers bis zur Neuinstallation offline sind, konnten wir in den letzten zwei Wochen keine neuen Paketsätze erstellen. Aus diesem Grund hat sich die Veröffentlichung von FreeBSD 9.1-RELEASE verzögert, da wir der Meinung waren, dass wir die Version nicht ausliefern sollten, ohne dass zumindest ein minimaler Paketsatz verfügbar ist. Wir sind nun wieder in der Lage, Pakete von Drittanbietern für unsere beiden link:{committers-guide}#archs[Tier-1-Architekturen] (i386 und amd64) zu erstellen und planen, das Release in den nächsten Tagen mit einer leicht eingeschränkten Anzahl von Paketen zu veröffentlichen. Bitte beachten Sie, dass wir in der Vergangenheit auch Pakete auf einer Best-Effort-Basis für einige unserer Tier-2-Architekturen wie sparc64, ia64 und powerpc bereitgestellt haben. Wir gehen derzeit nicht davon aus, dass wir in der Lage sein werden, Tier-2-Pakete vor der Auslieferung von FreeBSD 9.1 zu erstellen, so dass zunächst keine vorkompilierten Pakete für diese Plattformen verfügbar sein werden. Möglicherweise können wir einige Pakete für diese Architekturen kurz nach der Veröffentlichung zur Verfügung stellen.
+
+In einigen Berichten über diesen Vorfall auf externen Tech-News-Websites wurden Details über die Entdeckung des Vorfalls durcheinander gebracht. In den letzten Wochen sind viele unserer primären Cluster-Server entweder physisch umgezogen und/oder durch neue Hardware ersetzt worden, als Teil von Arbeiten, die mehrere Monate im Voraus geplant waren. Die Entdeckung dieses Vorfalls stand in keinem Zusammenhang mit dieser laufenden Cluster-Wartung. Mehrere Serviceausfälle in den Tagen um den Vorfall herum wurden korrekterweise den laufenden Cluster-Arbeiten zugeschrieben und standen in keinem Zusammenhang mit der Kompromittierung. Parallel zu den physischen Upgrades und der Verlagerung von Servern überarbeiten wir auch das Netzwerk-Layout, um eine bessere Funktionalität, Sicherheit und Ausfallsicherheit zu gewährleisten und die Auswirkungen von Vorfällen wie diesem zu verringern. Nicht zuletzt dank der hier bereits erzielten Fortschritte konnten wir so schnell nach der Entdeckung der kompromittierten Hosts im alten Netzwerksegment wieder volles Vertrauen in viele Systeme und Dienste haben.
+
+[[update20121122]]
+== Aktualisierung: 22. November 2012
+
+Obwohl im ursprünglichen Bericht nicht erwähnt, verwendet link:{handbook}#ctm[CTM] (ein weiterer Mechanismus zum Abrufen von FreeBSD-Quellen) das vertrauenswürdige Master-Subversion-Repository als Quelle seiner Daten. Darüber hinaus wurden die CTM-Bäume mit dem Subversion-Baum abgeglichen und es wurde bestätigt, dass es keine Unterschiede zwischen den beiden Bäumen gibt. Unser experimentelles Git-Repository wurde auf ähnliche Weise überprüft.
+
+Die Arbeiten zum Wiederaufbau der internen Infrastruktur und zur Wiederherstellung der während des Vorfalls ausgefallenen Dienste werden fortgesetzt. Die Webschnittstellen zu den alten CVS-Repositorien (CVSweb) und zu GNATS (unserer Datenbank zur Fehlerverfolgung) wurden neben anderen Diensten wiederhergestellt, und andere interne Hosts werden untersucht und gegebenenfalls wiederhergestellt. Eine vollständige Überprüfung der Infrastruktur zur Erstellung von Paketen ist im Gange.
+
+Das FreeBSD-Projekt arbeitet intensiv an mittel- und langfristigen Verbesserungen der Infrastruktur, um die Sicherheit des FreeBSD-Clusters zu erhöhen.
+
+[[update20121118]]
+== Aktualisierung: 18. November 2012
+
+Neuere portsnap(8)-Snapshots sind wieder verfügbar. Die Erstellung dieser Snapshots war im Rahmen der Sperrung der Infrastruktur unterbrochen worden. Alle betroffenen Rechner wurden jedoch entweder auditiert oder neu installiert, so dass wir nun zuversichtlich sind, dass diese Snapshots wieder zur Verfügung gestellt werden können.
+
+Der Exporter von Subversion nach CVS ist nun wieder in Betrieb. Aktualisierungen des Subversion-Repository werden wieder in Repositories erscheinen, die über csup/CVSup verfügbar sind. Bitte beachten Sie, dass die Verwendung dieser Exporte immer noch veraltet ist und dass Benutzer dringend gebeten werden, auf eine der unterstützten Methoden (zum Beispiel freebsd-update(8), portsnap(8) oder Subversion) umzusteigen, um Aktualisierungen zu erhalten. Beachten Sie auch, dass wir derzeit noch nicht in der Lage sind, die Integrität der vergangenen Historie innerhalb des CVS-Repositorys zu garantieren, aber wir sind zuversichtlich, dass die Integrität der Checkouts vom Top-of-Tree eines jeden Zweiges gewährleistet ist.
+
+Bitte beachten Sie, dass aufgrund von Änderungen in der Infrastruktur die erste Aktualisierung durch portsnap(8) oder csup(1) wahrscheinlich Änderungen an einer großen Anzahl von Dateien anzeigen wird. Dies ist jedoch kein Grund zur Sorge.
+
+Wie in der ursprünglichen Ankündigung erwähnt, konnte ein Paketsatz, der in Vorbereitung auf das kommende FreeBSD 9.1-RELEASE hochgeladen wurde, nicht verifiziert werden und wurde daher entfernt. Um Systemintegratoren und Endanwendern die Möglichkeit zu geben, zu überprüfen, ob Pakete, die sie heruntergeladen haben, nicht aus diesem Satz stammen, haben wir Dateien bereitgestellt, die sowohl link:../../../news/2012-compromise/sha256.sums.20121118.txt[SHA256]- als auch link:../../../news/2012-compromise/md5.sums.20121118.txt[MD5]-Prüfsummen für alle entfernten Pakete enthalten.
+
+[[details]]
+== 17. November 2012
+
+=== Erste Details
+
+Am Sonntag, den 11. November 2012, wurde festgestellt, dass zwei Rechner der FreeBSD.org-Infrastruktur kompromittiert wurden. Bei diesen Rechnern handelte es sich um die Hauptknotenpunkte für die alte Infrastruktur zur Erstellung von Paketen Dritter. Es wird vermutet, dass die Kompromittierung bereits am 19. September 2012 stattgefunden haben könnte.
+
+Es wird vermutet, dass die Kompromittierung durch die Weitergabe eines SSH-Schlüssels eines Entwicklers erfolgte, der legitimen Zugang zu den betroffenen Rechnern hatte, und nicht durch eine Schwachstelle oder einen Code-Exploit in FreeBSD.
+
+Um die Auswirkungen dieser Kompromittierung zu verstehen, muss man zunächst wissen, dass das FreeBSD-Betriebssystem in zwei Teile unterteilt ist: die "Basis", die von der FreeBSD-Gemeinschaft gepflegt wird, und eine große Sammlung von "Paketen" von Drittanbietern, die vom Projekt verteilt werden. Der Kernel, die Systembibliotheken, der Compiler, die wichtigsten Kommandozeilenwerkzeuge (z.B. der SSH-Client) und die Daemons (z.B. sshd(8)) sind alle in der "Basis" enthalten. Die meisten Informationen in diesem Advisory beziehen sich nur auf Pakete von Drittanbietern, die vom Projekt vertrieben werden.
+
+Kein Teil des FreeBSD-Basissystems ist gefährdet. Der Angreifer hat zu keinem Zeitpunkt einen Teil der FreeBSD-Basissystemsoftware verändert. Der Angreifer hatte jedoch ausreichend Zugriff, um möglicherweise Pakete von Drittanbietern kompromittieren zu können. Das FreeBSD-Projekt geht jedoch von der Annahme aus, dass Pakete von Drittanbietern, die innerhalb eines bestimmten Zeitfensters erzeugt und verteilt wurden, theoretisch verfälscht werden könnten.
+
+[[Auswirkung]]
+=== Was sind die Auswirkungen?
+
+Wenn Sie ein System betreiben, auf dem zwischen dem 19. September und dem 11. November 2012 keine Pakete von Drittanbietern installiert oder aktualisiert wurden, haben Sie keinen Grund zur Sorge.
+
+Die Subversion-Repositories für Quellcode, Ports und Dokumentation wurden überprüft und wir sind sicher, dass keine Änderungen daran vorgenommen wurden. Alle Benutzer, die sich auf diese Repositories verlassen, haben keinen Grund zur Sorge.
+
+Wir haben den Zustand der FreeBSD-Pakete und -Releases überprüft, die derzeit auf ftp.FreeBSD.org verfügbar sind. Alle Paketsätze für bestehende FreeBSD-Versionen und alle verfügbaren Releases wurden validiert und wir können bestätigen, dass die derzeit verfügbaren Pakete und Releases in keiner Weise verändert wurden.
+
+Ein Paketsatz für das kommende FreeBSD 9.1-RELEASE wurde auf die FTP-Distributionsseiten hochgeladen, um das 9.1-RELEASE vorzubereiten. Wir sind nicht in der Lage, die Integrität dieses Paketsatzes zu überprüfen, daher wurde er entfernt und wird neu erstellt. Bitte beachten Sie, dass diese Pakete für eine zukünftige Version bestimmt waren und die Standardwerkzeuge "pkg_add -r" zur Installation von Paketen diese Pakete nicht heruntergeladen haben können, es sei denn, sie wurden ausdrücklich angefordert.
+
+Wir können leider nicht für die Integrität von Pakete garantieren, die zwischen dem 19. September 2012 und dem 11. November 2012 zur Installation zur Verfügung standen, oder von Ports, die aus Bäumen kompiliert wurden, die auf andere Weise als über svn.freebsd.org oder einen seiner Spiegelserver bezogen wurden. Obwohl wir keine Beweise für eine Manipulation haben und einen solchen Eingriff für unwahrscheinlich halten, müssen wir Ihnen empfehlen, eine Neuinstallation aus vertrauenswürdigen Quellen vorzunehmen.
+
+Wir können bestätigen, dass der binäre Aktualisierungsmechanismus von freebsd-update(8) nicht betroffen ist, da er eine völlig separate Infrastruktur verwendet. Wir haben auch überprüft, dass der letzte verfügbare portsnap(8)-Snapshot mit dem Ports-Subversion-Repository übereinstimmt und somit voll vertrauenswürdig ist. Bitte beachten Sie, dass neuere portsnap(8)-Snapshots vorsichtshalber derzeit nicht erzeugt werden.
+
+[[done]]
+=== Was hat FreeBSD.org in dieser Sache unternommen?
+
+Sobald der Vorfall bekannt wurde, hat das FreeBSD Cluster Administration Team folgende Maßnahmen ergriffen:
+
+* Ausschalten der kompromittierten Maschinen.
+* Ausschalten aller Rechner, auf die der Angreifer möglicherweise Zugriff hatte.
+* Überprüfung der SVN- und Perforce-Repositories, um:
+** Verifizieren, dass kein Eindringen in die Server stattgefunden hat.
+** Verifizieren, dass keine böswilligen Übertragungen an das Repository vorgenommen wurden.
+** Verifizieren, dass das SVN-Repository genau mit einer bekannt sauberen Kopie außerhalb des Standorts übereinstimmt.
+* Prüfung, ob alle FreeBSD-Basisrelease-Medien und Installationsdateien auf den FTP-Master-Distributionsseiten sauber sind.
+* Abgleich der Prüfsummen aller verfügbaren Pakete mit den bekannt guten Kopien, die an einem anderen Ort gespeichert waren.
+* Für die Paketsätze, die für das kommende 9.1-RELEASE erstellt wurden, gab es keine Sicherungskopie, gegen die sie geprüft werden konnten. Sie wurden deshalb gelöscht und werden vor der Veröffentlichung von 9.1 wiederhergestellt.
+* Alle verdächtigen Rechner werden entweder neu installiert, ausgemustert oder gründlich überprüft, bevor sie wieder in Betrieb genommen werden.
+
+[[recommend]]
+=== Zum jetzigen Zeitpunkt empfehlen wir:
+
+* Wenn Sie die veralteten CVSup/csup-Verteilungsmechanismen verwenden, sollten Sie jetzt damit aufhören.
+* Wenn Sie CVSup/csup für Ports benutzt haben, sollten Sie sofort auf portsnap(8) umsteigen. Ports-Entwickler sollten bereits Subversion verwenden. Weitere Informationen über die bevorzugten Mechanismen, um den Ports-Tree zu erhalten und zu aktualisieren, finden Sie unter link:{handbook}#ports-using[http://www.freebsd.org/doc/handbook/ports-using.html]
+* Wenn Sie CVS/anoncvs/CVSup/csup für src benutzt haben, sollten Sie entweder freebsd-update(8) für die signierte Binärdistribution oder Subversion für die Quellen in Betracht ziehen. Bitte lesen Sie das Kapitel link:{handbook}#updating-upgrading[Aktualisierung von FreeBSD aus den Quellen] im Handbuch. Weitere Details zur Verwendung von Subversion und eine Liste der offiziellen Spiegelserver finden Sie unter link:{handbook}#svn[http://www.freebsd.org/doc/handbook/svn.html]
+* Wenn Sie portsnap(8) verwenden, sollten Sie `portsnap fetch && portsnap extract` auf den aktuellsten Snapshot anwenden. Der aktuellste portsnap(8)-Snapshot wurde verifiziert und stimmt genau mit dem geprüften Subversion-Repository überein. Bitte beachten Sie, dass portsnap(8)-Updates als Vorsichtsmaßnahme vorübergehend ausgesetzt wurden.
+* Befolgen Sie die Best-Practice-Sicherheitsrichtlinien, um festzustellen, wie Ihre Organisation betroffen sein könnte.
+* Führen Sie eine Kontrolle Ihres Systems durch, das von FreeBSD.org bereitgestellte Binärpakete verwendet. Alle Pakete, die während des betroffenen Zeitraums installiert wurden, sollten als verdächtig betrachtet werden. Obwohl wir keine Beweise für eine Manipulation von Paketen haben, sollten Sie in Erwägung ziehen, die betroffenen Rechner von Grund auf neu zu erstellen oder, falls dies nicht möglich ist, Ihre Ports/Pakete neu zu erstellen.
+
+Wenn Sie weitere Fragen zu dieser Ankündigung haben, wenden Sie sich bitte an die Mailingliste FreeBSD-security@FreeBSD.org. Bei Fragen, bei denen eine Verbreitung über die öffentliche Mailingliste unangebracht ist, wenden Sie sich bitte an das mailto:secteam@FreeBSD.org[FreeBSD Security Team].
+
+Diese Seite wird aktualisiert, sobald weitere Informationen bekannt sind.

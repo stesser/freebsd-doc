@@ -1,6 +1,6 @@
 ---
 title: "Release Engineering Information"
-sidenav: Entwickler
+sidenav: developers
 ---
 
 include::shared/authors.adoc[]

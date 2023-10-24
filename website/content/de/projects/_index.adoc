@@ -1,6 +1,6 @@
 ---
 title: "FreeBSD-Entwicklungsprojekte"
-sidenav: Entwickler
+sidenav: developers
 ---
 
 include::shared/de/urls.adoc[]

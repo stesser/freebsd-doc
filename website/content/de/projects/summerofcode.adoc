@@ -1,6 +1,6 @@
 ---
 title: "FreeBSD und Google Summer of Code"
-sidenav: Entwickler
+sidenav: developers
 ---
 
 Google Summer of Code (GSoC) ist eine jährlich stattfindende Veranstaltung, die von Google, Inc. gesponsert wird.

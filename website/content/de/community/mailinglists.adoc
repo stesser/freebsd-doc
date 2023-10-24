@@ -1,6 +1,6 @@
 ---
 title: "Mailing-Listen"
-sidenav: Gemeinschaft
+sidenav: community
 ---
 
 include::shared/de/mailing-lists.adoc[]

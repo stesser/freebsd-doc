@@ -1,0 +1,194 @@
+---
+title: "FreeBSD und Google Summer of Code"
+sidenav: Entwickler
+---
+
+Google Summer of Code (GSoC) ist eine jährlich stattfindende Veranstaltung, die von Google, Inc. gesponsert wird.
+Sie ermöglicht es den Teilnehmern, im Sommer 12 bis 22 Wochen lang an Open-Source-Softwareprojekten mitzuarbeiten.
+Die Arbeit wird unter der Anleitung eines oder mehrerer Mentoren durchgeführt und die Bemühungen werden mit https://developers.google.com/open-source/gsoc/help/student-stipends [einem Stipendium] belohnt.
+FreeBSD hat seit 2005 jedes Jahr an dem Programm teilgenommen und wurde auch für 2023 wieder als Mentororganisation ausgewählt.
+
+Wenn Sie sich für die Entwicklung von Betriebssystemen interessieren, ist ein "Praktikum" bei einem langjährigen und erfolgreichen Open-Source-Betriebssystem wie FreeBSD eine hervorragende Gelegenheit.
+FreeBSD wurde 1993 gegründet und ist ein fortschrittliches Betriebssystem für Server-, Desktop- und eingebettete Computerplattformen.
+Es bietet fortschrittliche Netzwerkfunktionen, beeindruckende Sicherheitsmerkmale und eine hohe Leistung.
+Es ist die Grundlage für viele kommerzielle Produkte, darunter Sonys Playstation, Nintendos Switch, NetApps OnTap/GX, Junipers Junos-Betriebssystem, und war der Ausgangspunkt für den Kern von Apples OS X.
+Das Projekt besteht aus Hunderten von "Committern" und vielen weiteren Mitwirkenden, die Erfahrung in verschiedenen Bereichen des Betriebssystems haben.
+Viele unserer ehemaligen GSoC-Studenten sind inzwischen FreeBSD-Entwickler.
+Nach dem Ende des Sommers können Mitarbeiter von Google oder der FreeBSD Foundation gesponsert werden, um ihre Arbeit auf Konferenzen zu präsentieren.
+Dies kann eine großartige Gelegenheit sein, um Kontakte zu knüpfen!
+
+* <<steps,Wichtige Schritte>>
+* <<project,Ein Projekt und einen Mentor finden>>
+* <<proposals,Richtlinien für Projektvorschläge>>
+* <<communication,Kommunikation und Offenheit>>
+* <<faq,Häufig gestellte Fragen (FAQ)>>
+
+[[steps]]
+== Wichtige Schritte
+
+* Stellen Sie fest, ob Sie https://summerofcode.withgoogle.com/get-started[sich für die Teilnahme am GSoC qualifizieren].
+* Behalten Sie den Überblick über https://developers.google.com/open-source/gsoc/timeline[den Zeitplan].
+* Finden Sie ein Projekt und einen Mentor.
+* Reichen Sie einen Vorschlag bei Google ein.
+
+[[project]]
+== Ein Projekt und einen Mentor finden
+
+Ein wichtiger Schritt ist die Auswahl eines geeigneten Projekts und eines Mentors.
+Wenn Sie erfolgreich sein wollen, sollten Sie frühzeitig mit der Suche beginnen.
+Die https://wiki.FreeBSD.org/SummerOfCodeIdeas[Liste der Projektideen] ist ein hilfreicher Ausgangspunkt, aber fühlen Sie sich nicht durch diese Projekte eingeschränkt.
+Sie können versuchen, sich per E-Mail an einen der technischen Kontakte zu wenden, die in einem Projekt aufgeführt sind, und/oder sich an die Liste hackers@FreeBSD.org wenden.
+Stellen Sie sich vor und beschreiben Sie Ihre Interessen und Erfahrungen.
+Dies könnte das Interesse eines oder mehrerer Entwickler wecken, die ein Projekt und einen Mentor vorschlagen könnten.
+
+Wir unterhalten auch eine allgemeinere https://wiki.FreeBSD.org/IdeasPage[Ideas Page].
+Diese Projekte eignen sich weniger gut als Summer of Code-Projekte, da sie einen größeren oder kleineren Umfang als ein Sommerprojekt haben können oder nicht so einen klaren Mentor haben.
+Wir schlagen vor, eine E-Mail an hackers@FreeBSD.org zu schicken, um Hilfe zu erhalten, wenn Sie sich entscheiden, ein solches Projekt vorzuschlagen.
+Diese Seiten sollen Ihnen als Inspiration dienen.
+Ein weiterer Ort, an dem Sie nach Projektideen für anstehende Entwicklungsprojekte in FreeBSD suchen können, ist der link:../../status/[FreeBSD Status Reports].
+Sie sind auch herzlich eingeladen, eigene Ideen vorzuschlagen, und wenn Ihr Vorschlag überzeugend ist, werden wir versuchen, Sie mit einem Mentor zusammenzubringen!
+
+Zur Inspiration können Sie sich die Projekte der Mitwirkenden aus den vergangenen Jahren ansehen.
+
+* https://wiki.FreeBSD.org/SummerOfCode2023Projects[Summer of Code 2023 FreeBSD Projects Wiki]
+* https://wiki.FreeBSD.org/SummerOfCode2022Projects[Summer of Code 2022 FreeBSD Projects Wiki]
+* https://wiki.FreeBSD.org/SummerOfCode2021Projects[Summer of Code 2021 FreeBSD Projects Wiki]
+* https://wiki.FreeBSD.org/SummerOfCode2020Projects[Summer of Code 2020 FreeBSD Projects Wiki]
+* https://wiki.FreeBSD.org/SummerOfCode2019Projects[Summer of Code 2019 FreeBSD Projects Wiki]
+* https://wiki.FreeBSD.org/SummerOfCode2018Projects[Summer of Code 2018 FreeBSD Projects Wiki]
+* https://wiki.FreeBSD.org/SummerOfCode2017Projects[Summer of Code 2017 FreeBSD Projects Wiki]
+* https://wiki.FreeBSD.org/SummerOfCode2016Projects[Summer of Code 2016 FreeBSD Projects Wiki]
+* https://wiki.FreeBSD.org/SummerOfCode2015Projects[Summer of Code 2015 FreeBSD Projects Wiki]
+* https://wiki.FreeBSD.org/SummerOfCode2014Projects[Summer of Code 2014 FreeBSD Projects Wiki]
+* https://wiki.FreeBSD.org/SummerOfCode2013Projects[Summer of Code 2013 FreeBSD Projects Wiki]
+* https://wiki.FreeBSD.org/SummerOfCode2012Projects[Summer of Code 2012 FreeBSD Projects Wiki]
+* https://wiki.FreeBSD.org/SummerOfCode2011Projects[Summer of Code 2011 FreeBSD Projects Wiki]
+* https://wiki.FreeBSD.org/SummerOfCode2010Projects[Summer of Code 2010 FreeBSD Projects Wiki]
+* https://wiki.FreeBSD.org/SummerOfCode2009Projects[Summer of Code 2009 FreeBSD Projects Wiki]
+* https://wiki.FreeBSD.org/SummerOfCode2008[Summer of Code 2008 FreeBSD Projects Wiki]
+* https://wiki.FreeBSD.org/SummerOfCode2007[Summer of Code 2007 FreeBSD Projects Wiki]
+* https://wiki.FreeBSD.org/SummerOfCode2006[Summer of Code 2006 FreeBSD Projects Wiki]
+* https://wiki.FreeBSD.org/SummerOfCode2005[Summer of Code 2005 FreeBSD Projects Wiki]
+
+[[proposals]]
+== Vorschlagsrichtlinien
+
+Es liegt in der Verantwortung der Mitwirkenden, einen Vorschlag zu verfassen und diesen vor Ablauf der Bewerbungsfrist bei Google einzureichen.
+Das folgende Schema wurde von der Perl Foundation übernommen.
+Das Ziel des Vorschlags ist es, herauszufinden, was getan werden soll, zu erklären, warum dies getan werden muss, und uns davon zu überzeugen, dass:
+
+* Sie qualifiziert sind, dieses Projekt durchzuführen. Das bedeutet, dass Sie sowohl über den notwendigen Hintergrund verfügen als auch ein allgemeines Verständnis des Problems nachweisen können.
+* Sie über die erforderlichen Ressourcen (insbesondere Zeit!) verfügen, um das Projekt innerhalb des Zeitraums des Summer of Code durchzuführen.
+
+Ein guter Vorschlag enthält (mindestens):
+
+=== Allgemeine Informationen
+
+* *Name*
+* *Email*
+* *Telefon*
+* *Instant Messenger/IRC ID*
+* *Verfügbarkeit*
++
+Wie viele Stunden pro Woche werden Sie für diese Arbeit aufwenden? Wie viele für andere Dinge?
+Welche anderen Verpflichtungen (Arbeit, Schule, Urlaub, Hochzeiten usw.) haben Sie diesen Sommer?
+Seien Sie so genau wie möglich: Wann wird das Projekt beginnen und enden?
+Sie sollten in der Lage sein, einen Tagesplan zu erstellen, bevor das Programm beginnt).
++
+*Bitte beachten Sie*: Die Teilnahme am Google Summer of Code ist mit einer erheblichen zeitlichen Belastung verbunden, und Sie sollten sich nicht bewerben, wenn Sie bereits eine andere Vollzeitbeschäftigung für den Sommer geplant haben.
+* *Biografie*
++
+Wer sind Sie?
+Welche Fähigkeiten bringen Sie für dieses Projekt mit?
+Was haben Sie in der Vergangenheit für das FreeBSD Project getan? (Eine frühere Beteiligung ist nicht erforderlich, aber idealerweise haben Sie zumindest FreeBSD installiert und vielleicht den einen oder anderen Fehler behoben)
+Wenn Ihr Projekt die Programmierung in einer bestimmten Sprache, wie z.B. C, oder in einer bestimmten Umgebung, wie z.B. dem Kernel oder einer eingebetteten Plattform, beinhaltet, welche Erfahrungen haben Sie in diesem Bereich?
+Kennen Sie sich mit Revisionskontrollsystemen aus oder sind Sie ein Anwender davon?
+Haben Sie Kurse absolviert, die für Ihre Projektidee von Bedeutung sein werden? Was werden Sie Ihrer Meinung nach lernen müssen, um dieses Projekt abzuschließen?
+* *Möglicher Mentor*
++
+Optional, aber sehr empfehlenswert.
+Tragen Sie hier keinen Namen ein, wenn Sie ihn nicht vorher kontaktiert haben.
+
+=== Projektinformationen
+
+* *Projekttitel*
++
+Geben Sie in höchstens vierzig Zeichen an, was Sie zu tun beabsichtigen.
+* *Projektbeschreibung*
++
+Ein paar Absätze, die Ihr Projekt beschreiben.
+Direkte Kopien von der Ideenseite werden abgelehnt - aus den Vorschlägen sollte hervorgehen, dass Sie sich mit dem Problem und seinen Lösungen beschäftigt haben.
+Geben Sie sowohl an, was Sie tun werden, als auch, warum es gut für das FreeBSD Project ist.
+* *Leistungen*
++
+Eine Liste mit quantifizierbaren Ergebnissen und zugehörigen Code-Meilensteinen.
+Wir empfehlen mindestens zwei Meilensteine vor und zwei nach der Halbzeitbewertung.
+Gegebenenfalls sollte dieser Zeitplan mehrere "committable" oder "releasable" Punkte enthalten, damit die Leute so früh wie möglich von Ihrer Arbeit profitieren und/oder sie testen können.
+* *Testplan*
++
+Welche Teile Ihres Codes müssen getestet werden und wie wollen Sie sie testen?
+Dies kann sowohl Funktions- als auch Leistungstests umfassen.
+* *Projektzeitplan*
++
+Wie lange wird das Projekt dauern? Wann können Sie mit der Arbeit beginnen?
+
+[[communication]]
+== Kommunikation und Offenheit
+
+Wir erwarten, dass die Projektarbeit in Git abgeschlossen wird und verlangen, dass die Arbeit regelmäßig in ein öffentliches Repository eingestellt wird.
+Der öffentliche Zugang erleichtert die Zusammenarbeit, ermöglicht die Archivierung des Projekts und hilft den Mentoren und der Gemeinschaft, die laufende Arbeit zu unterstützen und zu überwachen.
+Die Mitwirkenden werden auch gebeten, Wiki-Seiten zu ihrer Arbeit zu pflegen und zu aktualisieren.
+E-Mail (einschließlich Mailinglisten), IRC, Instant Messaging (Matrix, Slack usw.) und Videokonferenzen waren in der Vergangenheit einige der Kommunikationswege für Teilnehmer und Mentoren.
+Die Teilnehmer werden dazu ermutigt, diese und andere Methoden zu nutzen, um sich mit der FreeBSD-Gemeinschaft auszutauschen.
+
+[[faq]]
+== Häufig gestellte Fragen
+
+* *Wo finde ich die Liste der Termine?*
++
+Die https://developers.google.com/open-source/gsoc/timeline/[GSoC Timeline] ist die maßgebliche Quelle für detaillierte Informationen zum Zeitplan.
+
+* *Wo kann ich mich anmelden?*
++
+Alle Teilnehmer müssen sich über https://summerofcode.withgoogle.com/[die Google Summer of Code-Homepage] anmelden und Bewerbungen einreichen.
+
+* *Welchen Rat haben Sie für einen Teilnehmer, der einen Vorschlag einreichen möchte?*
++
+Die Erfahrung zeigt, dass die besten Vorschläge von Teilnehmern kommen, die sich frühzeitig mit FreeBSD-Entwicklern und potenziellen Mentoren in Verbindung setzen, um Feedback zu ihren Vorschlägen einzuholen und Vorschläge zu verfassen, die die Zeit widerspiegeln, die sie mit der Erforschung und dem Verständnis des zu behandelnden Problembereichs verbracht haben.
+Selbst wenn die FreeBSD-Entwickler, mit denen Sie Kontakt aufnehmen, nicht der spätere Mentor des Projekts sind, kann ihr Feedback von unschätzbarem Wert sein. +
+
+
+* *Kann ich mehrere Projektvorschläge beim FreeBSD Project einreichen?*
++
+Ja, aber stellen Sie sicher, dass Sie in jeden Vorschlag ausreichend Zeit investieren.
+Wir sind nicht in der Lage, mehr als ein Projekt pro Teilnehmer zu akzeptieren. Es ist also besser, wenn Sie mehr Zeit in ein oder zwei detaillierte Vorschläge investieren, als wenn Sie viele weniger detaillierte Vorschläge einreichen.
+
+* *Wird das FreeBSD Project mehr als einen Beitrag für dieselbe Idee akzeptieren?*
++
+In der Regel akzeptieren wir nur einen Beitrag für eine Idee, da die meisten Vorschläge in unserer Ideenliste für ein Sommerprojekt mit nur einem Mitarbeiter ausgelegt sind.
+Dies ist ein guter Grund, eine eigene Idee einzureichen oder zumindest sicherzustellen, dass Ihr Vorschlag für eine unserer Projektideen Ihren einzigartigen Beitrag und Ihre Sichtweise widerspiegelt.
+Wenn Sie vorhaben, mehrere Vorschläge einzureichen, könnten Sie in Erwägung ziehen, einen Vorschlag mit einer Idee aus der Liste und einen weiteren mit einer originellen Idee zu machen.
+
+* *Was ist, wenn mein Vorschlag im Bewerbungsverfahren nicht ausgewählt wird? Kann ich trotzdem teilnehmen?*
++
+Wir haben immer mehr gute Bewerbungen als Teilnehmerplätze, aber das bedeutet nicht, dass Sie nicht trotzdem am Projekt teilnehmen können.
+Das FreeBSD Project freut sich immer über neue Freiwillige, die an einem Projekt mitarbeiten wollen, und ist in der Regel gerne bereit, diejenigen, deren Vorschläge nicht ausgewählt werden konnten, zu betreuen und zu unterstützen, damit sie trotzdem an ihrem Projekt arbeiten können.
+Sie müssen mit den FreeBSD Project GSoC-Administratoren zusammenarbeiten, um einen möglichen Mentor zu finden.
+Google wird diese Teilnahme jedoch nicht finanzieren.
+
+* *Wie kann ich mehr über FreeBSD erfahren?*
++
+Der link://www.FreeBSD.org/[FreeBSD Project Home Page] ist der beste Weg, um mehr über das Projekt zu erfahren - von dort aus gelangen Sie zum FreeBSD Handbook, zum FreeBSD Developer's Handbook, zu den Archiven der Mailinglisten des Projekts, zu den regelmäßigen Berichten über den Projektstatus und zu weiteren Informationen.
+Wenn Sie Fragen zu bestimmten Projektideen haben, schicken Sie eine E-Mail an die technischen Ansprechpartner für diese Ideen.
+Wenn Sie allgemeine GSoC-Fragen zu FreeBSD haben, z.B. wenn Sie einen technischen Kontakt nicht erreichen können, wenn Sie Hilfe bei der Suche nach Dokumentation benötigen oder wenn Sie wissen wollen, wer ein guter Ansprechpartner für Ihre Idee sein könnte, schicken Sie diese an soc-admins@FreeBSD.org.
+
+* *Wo kann ich Leute kontaktieren, um Ideen für Vorschläge oder andere Themen im Zusammenhang mit FreeBSD und GSoc zu besprechen?*
++
+Sie können uns im https://wiki.freebsd.org/SummerOfCode/IRC[FreeBSD Summer of Code IRC Channel] kontaktieren, auf der Mailingliste hackers posten oder eine E-Mail an soc-admins@FreeBSD.org schicken.
+
+* *Wo finde ich weitere Informationen von Google?*
++
+https://summerofcode.withgoogle.com/[Google Summer Of Code Homepage] +
+https://developers.google.com/open-source/gsoc/resources/manual[GSoC-Leitfaden für Mitwirkende und Mentoren] +
+https://developers.google.com/open-source/gsoc/faq[GSoC-FAQ] +
+https://developers.google.com/open-source/gsoc/videos[Videos]

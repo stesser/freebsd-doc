@@ -1,0 +1,44 @@
+---
+title: "Ressourcen für Neulinge"
+sidenav: docs
+---
+
+include::shared/de/urls.adoc[]
+
+= Ressourcen für Neueinsteiger
+
+== FreeBSD erhalten
+
+Die neuesten FreeBSD-Releases finden Sie unter link:../../where/[hier]. Bevor Sie beginnen, lesen Sie bitte sorgfältig die link:{handbook}bsdinstall[Installationsanleitung]
+
+== Über FreeBSD lernen
+
+* Das link:{handbook}[FreeBSD Handbuch] und link:{faq}[Frequently Asked Questions (FAQ)] sind die wichtigsten Dokumente zu FreeBSD. Sie sind unentbehrlich, da sie sowohl für Einsteiger als auch für fortgeschrittene Benutzer eine Menge Material enthalten. Für Benutzer, die eine grafische Benutzeroberfläche installieren wollen, gibt es das Kapitel link:{handbook}x11[X Windows].
+* https://man.freebsd.org/cgi/man.cgi[Manual Pages] sind gut zum Nachschlagen, aber nicht immer der beste Einstieg für einen Anfänger. Sie bieten im Allgemeinen Informationen zu einem bestimmten Befehl, Treiber oder Dienst.
+
+== Fragen und Unterstützung
+
+* Treten Sie der Mailingliste FreeBSD-Questions bei, um die Fragen, die Sie sich nicht zu stellen getraut haben, und die Antworten darauf zu lesen. Füllen Sie dazu das folgende Formular aus: https://lists.FreeBSD.org/subscription/freebsd-questions. Sie können alte Fragen und Antworten über die link:../../search/#mailinglists[Suche] nachschlagen.
+* Die FreeBSD https://forums.freebsd.org[Foren] bieten eine weitere Möglichkeit der Unterstützung. Viele Benutzer haben verschiedene Anleitungen geschrieben und viele neue Benutzer erhalten dort Hilfe.
+* Sie können einen Link zu:../../search/[search] dem Handbuch und der FAQ, der gesamten Website oder den Archiven der FreeBSD-Mailinglisten setzen.
+* Die Seite:../../support/[Support] enthält eine Fülle von Informationen über FreeBSD, einschließlich Mailinglisten, Benutzergruppen, Webseiten, Release-Informationen und Links zu einigen UNIX(R)-Informationsquellen.
+
+== Über von FreeBSD abgeleitete Projekte lernen
+
+FreeBSD wird häufig als Baustein für andere kommerzielle und Open-Source-Betriebssysteme verwendet. Einige der am weitesten verbreiteten und öffentlich verfügbaren Systeme sind im Folgenden aufgeführt.
+
+* https://www.truenas.com/[TrueNAS] ist eine Network Attached Storage (NAS)-Software, die Daten gemeinsam nutzt und vor modernen Bedrohungen wie Ransomware und Malware schützt. TrueNAS macht es Benutzern und Client-Geräten leicht, über praktisch jedes Freigabeprotokoll auf freigegebene Daten zuzugreifen.
+* https://www.ghostbsd.org[GhostBSD] ist von FreeBSD abgeleitet. GhostBSD nutzt die GTK-Umgebung, um ein schönes Aussehen und eine komfortable Erfahrung auf der modernen BSD-Plattform zu bieten, die eine natürliche und native UNIX(R)-Arbeitsumgebung bietet.
+* https://nomadbsd.org[NomadBSD] ist ein persistentes Live-System für USB-Flash-Laufwerke, das auf FreeBSD basiert. Zusammen mit der automatischen Hardware-Erkennung und -Einrichtung ist es so konfiguriert, dass es als sofort einsatzbereites Desktop-System verwendet werden kann. Es kann aber auch zur Datenwiederherstellung, für Ausbildungszwecke oder zum Testen der Hardware-Kompatibilität von FreeBSD eingesetzt werden.
+* https://www.midnightbsd.org[MidnightBSD] ist ein von BSD abgeleitetes Betriebssystem, das speziell für Desktop-Benutzer entwickelt wurde. Es enthält die gesamte Software, die Sie für Ihre täglichen Aufgaben erwarten: Mail, Web-Browsing, Textverarbeitung, Spiele und vieles mehr.
+* http://www.pfsense.org[pfSense] ist eine auf FreeBSD basierende Netzwerksicherheitslösung. Die pfSense-Software ist mit Hilfe des Paketsystems in der Lage, die gleiche oder eine höhere Funktionalität als herkömmliche kommerzielle Firewalls zu bieten, ohne die künstlichen Einschränkungen. Sie hat erfolgreich jede namhafte kommerzielle Firewall in zahlreichen Installationen rund um die Welt ersetzt.
+
+== Wie man etwas beitragen kann
+
+Jeder kann etwas zur FreeBSD-Gemeinschaft beitragen, sogar Neulinge! Einige arbeiten in der neuen Advocacy-Gruppe mit, andere engagieren sich als Reviewer für das link:../../docproj/[Dokumentations-Projekt]. Andere FreeBSD-Neulinge haben vielleicht besondere Fähigkeiten und Erfahrungen, die sie weitergeben können, egal ob sie mit Computern zu tun haben oder nicht, oder sie wollen einfach nur Neulinge kennenlernen und ihnen das Gefühl geben, willkommen zu sein. Es gibt immer Leute, die anderen helfen, einfach weil sie es gerne tun.
+
+Freunde, die FreeBSD einsetzen, sind eine großartige Quelle. Kein Buch kann ein Gespräch am Telefon oder bei einer Pizza mit jemandem ersetzen, der die gleichen Interessen hat, sich an ähnlichen Errungenschaften erfreut und sich den gleichen Herausforderungen stellt. Wenn Sie nicht viele Freunde haben, die FreeBSD benutzen, sollten Sie sich überlegen, FreeBSD-Installationsmedien zu erstellen und neue Benutzer in Ihr Lieblingsbetriebssystem einzuführen.
+
+link:../../usergroups/[Benutzergruppen] sind gute Orte, um andere FreeBSD-Benutzer zu treffen. Wenn es in Ihrer Nähe keine Gruppe gibt, sollten Sie eine gründen!
+
+Weitere Informationen darüber, wie Sie sich in der Gemeinschaft engagieren können, finden Sie im Artikel link:{contributing}[Zu FreeBSD beitragen].

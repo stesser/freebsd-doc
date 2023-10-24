@@ -1,42 +1,76 @@
 ---
-title: "Informationen für Einsteiger"
-sidenav: developers
+title: "FreeBSD-Entwicklungsprojekte"
+sidenav: Entwickler
 ---
 
 include::shared/de/urls.adoc[]
 
-= Informationen für Einsteiger
+= FreeBSD-Entwicklungsprojekte
 
-== FreeBSD herunterladen
+Neben dem Mainstream-Entwicklungspfad von FreeBSD gibt es eine Reihe von Entwicklergruppen, die an vorderster Front daran arbeiten, die Anwendungsmöglichkeiten von FreeBSD in neue Richtungen zu erweitern. Folgen Sie den untenstehenden Links, um mehr über diese spannenden Projekte zu erfahren.
 
-Die jeweils aktuellste Version von FreeBSD können Sie link:../where/[hier] herunterladen. Bevor Sie damit beginnen, lesen Sie bitte die link:{handbook}#bsdinstall[Installationsanleitung].
+Wenn Sie der Meinung sind, dass ein Projekt fehlt, senden Sie bitte die URL und eine kurze Beschreibung (3-10 Zeilen) an link:../mailto/[www@FreeBSD.org].
 
-== FreeBSD kennenlernen
+Darüber hinaus legen einige dieser Projekte regelmäßig Statusberichte vor, die auf der Seite link:../status/[Statusberichte] eingesehen werden können.
 
-* Das link:{handbook}[FreeBSD Handbuch] und die link:{faq}[Häufig gestellten Fragen (FAQ)] sind die wichtigsten Dokumentationen für FreeBSD. Sie enthalten viele Informationen sowohl für Einsteiger als auch für Fortgeschrittene. Wenn Sie eine grafische Oberfläche installieren wollen, lesen Sie bitte das Kapitel link:{handbook}#x11[Das X-Window-System] des FreeBSD Handbuchs.
-* https://www.freebsd.org/cgi/man.cgi[Manualpages] sind zwar eine gute Referenz, für Neulinge sind sie aber oft nur schwer verständlich. In der Regel enthalten Manualpages Informationen zu Befehlen, Systemdiensten oder Treibern.
+* <<documentation,Dokumentation>>
+* link:../advocacy/[Advocacy]
+* <<applications,Anwendungen>>
+* <<storage,Speicher>>
+* <<kernelandsecurity,Kernel und Sicherheit>>
+* <<devicedrivers,Gerätetreiber>>
+* <<architecture,Architektur>>
+* <<misc,Verschiedenes>>
+* link:summerofcode[Google Summer of Code]
 
-== Fragen stellen und Hilfe erhalten
+[[Dokumentation]]
+== Dokumentation
 
-* Abonnieren Sie die Mailingliste FreeBSD-Questions, um die Antworten auf Fragen zu finden, die Sie nicht zu stellen wagten. Dazu füllen Sie das Formular unter http://lists.FreeBSD.org/mailman/listinfo/freebsd-questions aus. Ein Durchsuchen der E-Mail-Archive ist über die https://www.FreeBSD.org/search/#mailinglists[Suchseite] möglich.
-* Die FreeBSD https://forums.freebsd.org[Foren] bieten Ihnen einen weiteren Supportkanal. Viele Anwender haben dort Anleitungen bereitgestellt und sind gerne bereit, neuen Benutzern zu helfen.
-* Die https://www.FreeBSD.org/search/[Suchfunktion] für das Handbuch, die FAQ, die komplette Internetseite, sowie die Archive aller Mailinglisten.
-* Die Seite link:../support/[Hilfe] enthält Informationen über FreeBSD, zu den Mailinglisten, Anwendergruppen, Internet- und FTP-Seiten, Release-Informationen, sowie Links zu Informationen über UNIX(R).
+* link:../docproj/[FreeBSD Documentation Project]: Das FreeBSD Documentations-Projekt ist eine Gruppe von Leuten, die die Dokumentation (z.B. das Handbuch und die FAQ) für das FreeBSD-Projekt pflegen und schreiben. Wenn Sie beim Dokumentation-Projekt mithelfen wollen, abonnieren Sie die Mailingliste freebsd-doc@FreeBSD.org und nehmen Sie teil.
+* link:newbies[FreeBSD-Ressourcen für Neueinsteiger]: Eine Liste von Ressourcen, die Neueinsteigern in FreeBSD und UNIX(R) im Allgemeinen helfen sollen.
+* http://www.freebsddiary.org/[Das FreeBSD-Tagebuch]: Eine Sammlung von Anleitungen, die sich an UNIX-Neulinge richtet. Ziel ist es, eine Reihe von Schritt-für-Schritt-Anleitungen für die Installation und Konfiguration verschiedener Ports bereitzustellen.
+* link:{developers-handbook}[The FreeBSD Developers' Handbook].
+* link:{contributing}[Zu FreeBSD beitragen]
 
-== Auf FreeBSD basierende Betriebssysteme
+[[applications]]
+== Anwendungen
 
-FreeBSD bildet die Basis für diverse kommerzielle oder als Open Source verfügbare Betriebssysteme. Die in der folgenden Liste angeführten Versionen werden sehr häufig eingesetzt und sind für FreeBSD-Anwender besonders interessant.
+* link:../java/[Java(R) unter FreeBSD]: Hier finden Sie Informationen darüber, wo Sie das neueste JDK(R) für FreeBSD erhalten, wie Sie es installieren und ausführen können, sowie eine Liste von Java(R)-Software, die für Sie interessant sein könnte.
+* link:../gnome/[GNOME unter FreeBSD]: Hier finden Sie Informationen darüber, wo Sie die neueste Version von GNOME für FreeBSD erhalten können, wie Sie es installieren und betreiben können, aktuelle Neuigkeiten und Aktualisierungen des Projekts, FAQ zu FreeBSD-spezifischen GNOME-Themen, Richtlinien für die Portierung von Anwendungen und vieles mehr.
+* https://freebsd.kde.org[KDE auf FreeBSD]: Hier finden Sie Links zu den neuesten KDE-Versionen für FreeBSD, sowie Dokumentation und Anleitungen zur Installation und zum Betrieb von KDE unter FreeBSD. Neuigkeiten zum Projekt und eine FreeBSD-spezifische FAQ sind ebenfalls verfügbar.
+* http://www.mono-project.com/docs/about-mono/supported-platforms/bsd/[Mono auf FreeBSD]: Hier finden Sie Informationen über den Stand von Mono und C# für FreeBSD.
+* https://porting.openoffice.org/freebsd/[OpenOffice.org unter FreeBSD]: Informationen über die verschiedenen OpenOffice.org-Ports.
+* link:../ports/[FreeBSD Ports-Sammlung]: Die FreeBSD Ports Collection bietet eine einfache Möglichkeit, eine Vielzahl von Anwendungen mit minimalem Aufwand zu kompilieren und zu installieren. Eine Liste der aktuellen Ports ist ebenso verfügbar wie ein Suchmechanismus, mit dem Sie feststellen können, ob eine bestimmte Anwendung in der Ports-Sammlung vorhanden ist.
+* https://portscout.FreeBSD.org/[FreeBSD Ports Distfiles-Scanner]: Eine Liste, die die Ports-Sammlung auf nicht abrufbare Distfiles überprüft und eine Zusammenfassung für jeden Port liefert.
+* https://FreshPorts.org/[FreshPorts]: Stellt die aktuellste Liste von Ports und Portänderungen zur Verfügung. Fügen Sie Ihre bevorzugten Ports zu Ihrer Beobachtungsliste hinzu und lassen Sie sich per E-Mail über alle Änderungen benachrichtigen.
 
-* http://www.freenas.org[FreeNAS] ist eine Speicherlösung, die auf praktisch jeder Hardware lauffähig ist und dazu eingesetzt wird, Daten über ein Netzwerk bereitzustellen. FreeNAS verwendet ZFS, um Ihre Daten zu schützen, zu speichern und zu sichern.
-* http://www.trueos.org[TrueOS] ist eine angepasste FreeBSD-Version, die um ein grafisches Installationsprogramm sowie um verschiedene mächtige Konfigurationswerkzeuge erweitert wurde, um die Arbeit mit dem System zu vereinfachen.
-* http://www.pfsense.org[pfSense] ist eine auf FreeBSD basierende Netzwerksicherheitslösung. In Kombination mit der Paketverwaltung kann pfSense die gleichen (oder sogar mehr) Funktionen bereitstellen, wie sie von diversen kommerziellen Firewalls angeboten werden. Dadurch ist pfSense in der Lage, jede derzeit kommerziell verfügbare Firewall zu ersetzen.
+[[storage]]
+== Speicherung
 
-== FreeBSD unterstützen
+* http://www.coda.cs.cmu.edu/[Coda]: Ein verteiltes Dateisystem. Zu seinen Merkmalen gehören der unverbundene Betrieb, ein gutes Sicherheitsmodell, Server-Replikation und persistentes clientseitiges Caching.
+* http://www.ece.cmu.edu/~ganger/papers/[Journaling versus Soft Updates]: Asynchroner Schutz von Metadaten in Dateisystemen.
 
-Jeder kann die FreeBSD-Gemeinschaft unterstützen, selbst ein Einsteiger! Einige arbeiten in der Advocacy Group mit, andere unterstützen das link:../docproj/[Documentation Project] als Korrekturleser. Viele Einsteiger haben besondere Fähigkeiten und Kenntnisse, die sie mit anderen teilen können. Egal, ob diese computerbezogen sind oder nicht. Oder sie wollen einfach nur neue Leute treffen und sie willkommen heißen. Es gibt immer Leute, die es mögen, anderen zu helfen.
+[[kernelandsecurity]]
+== Kernel, Sicherheit
 
-Freunde, die FreeBSD bereits verwenden, sind auch eine große Hilfe. Kein Buch kann das Gespräch mit jemandem ersetzen, der die gleichen Interessen hat, Ähnliches bereits geschafft hat, und vor den gleichen Herausforderungen steht. Wenn nur wenige Ihrer Freunde FreeBSD verwenden, verteilen Sie doch Ihre alten CDs, damit es mehr werden.
+* http://www.TrustedBSD.org/[TrustedBSD]: Bietet eine Reihe von vertrauenswürdigen Betriebssystemerweiterungen für das FreeBSD-Betriebssystem. Dazu gehören Funktionen wie fein abgestufte Privilegien (Capabilities), Access Control Lists und Mandatory Access Control. Diese Funktionen werden sowohl in die FreeBSD-Basisdistribution integriert als auch auf andere von BSD abgeleitete Systeme portiert.
+* https://people.freebsd.org/~pho/stress/index.html[Kernel Stress Test Suite]: Das Ziel dieses Stresstests ist es, das System zum Absturz zu bringen. Der Stresstest besteht aus kleinen Testprogrammen und Skripten. Jeder Test zielt auf einen bestimmten Bereich des Kernels ab. Das Schlüsselkonzept dieser Testreihe ist Chaos. Jeder Test schläft für eine zufällige Anzahl von Sekunden, bevor er mit einer zufälligen Anzahl von Aufrufen gestartet wird.
 
-https://www.FreeBSD.org/usergroups/[Anwendergruppen] sind eine gute Möglichkeit, um andere FreeBSD-Anwender zu treffen. Gibt es in Ihrer Umgebung keine, können Sie vielleicht eine solche Gruppe gründen.
+[[devicedrivers]]
+== Gerätetreiber
 
-Wenn Sie darüber nachdenken, in der Community aktiv zu werden, lesen Sie bitte auch den Artikel link:{contributing}[FreeBSD unterstützen].
+* https://people.FreeBSD.org/~fsmp/HomeAuto/HomeAuto.html [[Hausautomatisierung]]: Verwendung von FreeBSD für die Steuerung von Haushaltsgeräten, Infrarotsystemen, automatischen Telefonsystemen und mehr.
+
+[[architecture]]
+== Architektur
+
+* link:../platforms/ppc/[Portierung von FreeBSD auf PowerPC(R)-Systeme]: Enthält Informationen über die FreeBSD PPC-Portierung, wie z.B. Mailinglisten-Informationen und so weiter.
+* http://www.cs.utah.edu/flux/oskit/[Das OSKit]: Das OSKit ist ein Framework und ein Satz von 31 Komponentenbibliotheken, die auf Betriebssysteme ausgerichtet sind, zusammen mit einer umfangreichen Dokumentation. Durch die modulare Bereitstellung nicht nur des größten Teils der für ein Betriebssystem erforderlichen Infrastruktur, sondern auch vieler höherer Komponenten, zielt das OSKit darauf ab, die Einstiegshürde für die Entwicklung von Betriebssystemen zu senken und deren Kosten zu reduzieren. Das OSKit erleichtert die Entwicklung eines neuen Betriebssystems, die Portierung eines bestehenden Betriebssystems auf x86 (oder in Zukunft auf andere vom OSkit unterstützte Architekturen) oder die Verbesserung eines Betriebssystems zur Unterstützung einer größeren Anzahl von Geräten, Dateisystemformaten, ausführbaren Formaten oder Netzwerkdiensten. Das OSKit eignet sich auch gut für die Erstellung von Programmen, die mit dem Betriebssystem zusammenhängen, wie z.B. Bootloader oder Server auf Betriebssystemebene auf einem Mikrokernel.
+
+[[misc]]
+== Verschiedenes
+
+* link:{nanobsd}[NanoBSD]: NanoBSD ist ein Werkzeug, mit dem ein möglicherweise reduziertes FreeBSD-Systemabbild erstellt werden kann, das auf eine Compact-Flash-Karte (oder ein anderes Massenspeichermedium) passt und so für den Einsatz in geräteähnlichen Anwendungen geeignet ist. Die FreeBSD-Dokumentationssammlung enthält einen einführenden link:{nanobsd}[Artikel über NanoBSD], der nützliche Tipps zur Einrichtung, zum Betrieb und zur Verwendung von NanoBSD enthält.
+* http://www.gnu.org/software/global/global.html[GLOBAL]: Ein gemeinsames Quellcode-Tag-System, das in verschiedenen Umgebungen auf die gleiche Weise funktioniert. Derzeit unterstützt es die Shell-Kommandozeile, den nvi-Editor, den Webbrowser, den emacs-Editor und den elvis-Editor, und die unterstützten Sprachen sind C, Yacc und Java.
+* link:https://wiki.freebsd.org/ACPI[ACPI unter FreeBSD]: Ein Projekt, das erstellt wurde, um ACPI unter FreeBSD zum Laufen zu bringen.
+* http://wiki.freebsd.org/TestSuite[TestSuite]: Dieses Projekt zielt darauf ab, FreeBSD mit einer umfassenden Test-Suite auszustatten, die sowohl nach dem Auspacken als auch während der Entwicklung des Systems einfach zu benutzen ist. Die Testsuite soll sowohl Entwicklern als auch Anwendern dabei helfen, die Qualität von FreeBSD zu beurteilen.

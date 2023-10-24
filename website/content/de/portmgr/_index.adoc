@@ -14,7 +14,7 @@ Das FreeBSD Ports Management Team (auch bekannt als `portmgr` aufgrund seines E-
 
 Erläutert die Ziele, Rechte und Pflichten des Teams. Der Inhalt dieses Dokuments wurde vom FreeBSD Core Team genehmigt.
 
-== link:policies[Policies]
+== link:policies[Richtlinien]
 
 Diskutiert die aktuellen Richtlinien, die das Team angenommen hat, um seine Ziele zu erreichen, wie link:policies_contributors[Timeouts für Inaktivität] und link:policies_committing[wann Commits erlaubt sind]. Enthält auch die link:policies_eol[Richtlinie für unterstützte Versionen und Zweige].
 

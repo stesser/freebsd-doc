@@ -16,8 +16,8 @@ Um der FreeBSD Foundation Geld zu spenden, besuchen Sie bitte die Spendenseite h
 
 == Inhalt
 
-* <<#goal, Donations Liaison Goals>>
-* <<#charter, Donations Liaison Charter>>
+* <<#goal, Donations Liaison Projektziel>>
+* <<#charter, Donations Liaison Charta>>
 * <<#donating, Dem FreeBSD-Projekt spenden>>
 
 == Weitere Spenden-Links

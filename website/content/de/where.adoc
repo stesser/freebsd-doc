@@ -83,7 +83,7 @@ a|
 ** link:{url-rel}/riscv/riscv64/ISO-IMAGES/{rel132-current}/[GENERICSD]
 
 a|
-* link:../releases/#current[Veröffentlicht]: {rel132-current-date}
+* link:../../releases/#current[Veröffentlicht]: {rel132-current-date}
 * link:{u-rel132-notes}[Versionshinweise]
 * link:{u-rel132-readme}[Readme]
 * link:{u-rel132-hardware}[Hardware-Kompatibilitätsliste]

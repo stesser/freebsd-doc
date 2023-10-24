@@ -28,14 +28,14 @@ Ergebnisse vor Mai 2021 finden Sie unter https://lists.freebsd.org/pipermail/[ei
 
 == Nicht-englischsprachige Mailinglisten
 
-* *brasilianisches Portugiesisch* -- freebsd-subscribe@fug.com.br oder http://www.fug.com.br/[WWW].
-*Tschechisch* -- users-l-request@FreeBSD.cz oder http://www.cz.FreeBSD.org/listserv/listinfo/users-l/[WWW].
-*Deutsch* -- http://www.freebsd.de/mailinglists.html[Verwaltung] oder http://www.freebsd.de[Suche].
-*Ungarisch* -- bsd@lista.bsd.hu, http://lista.bsd.hu/[Verwaltung] oder http://datacast.hu/pipermail/bsd/[Suche].
-*Italienisch* -- mailman-owner@gufi.org oder http://liste.gufi.org/[WWW].
-*Japanisch* -- freebsd-users-jp@FreeBSD.org oder https://lists.freebsd.org/subscription/freebsd-users-jp[WWW].
-*Norwegisch* -- bsd@nobug.no oder http://www.nobug.no/[WWW].
-*Russisch* -- https://groups.google.com/forum/#!forum/uafug[UAFUG].
-*Schwedisch* -- bus@stacken.kth.se oder https://lists.stacken.kth.se/mailman/listinfo/bus[WWW].
+* *Brasilianisches Portugiesisch* -- freebsd-subscribe@fug.com.br oder http://www.fug.com.br/[WWW].
+* *Tschechisch* -- users-l-request@FreeBSD.cz oder http://www.cz.FreeBSD.org/listserv/listinfo/users-l/[WWW].
+* *Deutsch* -- http://www.freebsd.de/mailinglists.html[Verwaltung] oder http://www.freebsd.de[Suche].
+* *Ungarisch* -- bsd@lista.bsd.hu, http://lista.bsd.hu/[Verwaltung] oder http://datacast.hu/pipermail/bsd/[Suche].
+* *Italienisch* -- mailman-owner@gufi.org oder http://liste.gufi.org/[WWW].
+* *Japanisch* -- freebsd-users-jp@FreeBSD.org oder https://lists.freebsd.org/subscription/freebsd-users-jp[WWW].
+* *Norwegisch* -- bsd@nobug.no oder http://www.nobug.no/[WWW].
+* *Russisch* -- https://groups.google.com/forum/#!forum/uafug[UAFUG].
+* *Schwedisch* -- bus@stacken.kth.se oder https://lists.stacken.kth.se/mailman/listinfo/bus[WWW].
 
-Wenn Sie eine weitere Liste erstellen, verlinken Sie bitte:../../mailto/[lassen Sie es uns wissen].
+Wenn Sie eine weitere Liste erstellen, link:../../mailto/[lassen Sie es uns wissen].

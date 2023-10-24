@@ -1,5 +1,5 @@
 ---
-Titel: "Charta für das Ports Management Team"
+title: "Charta für das Ports Management Team"
 sidenav: about
 ---
 

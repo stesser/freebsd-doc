@@ -1,0 +1,18 @@
+---
+title: "Benutzergruppen"
+sidenav: community
+---
+
+= Benutzergruppen
+
+Die große Popularität von FreeBSD hat eine Reihe von Benutzergruppen auf der ganzen Welt hervorgebracht.
+
+Wenn Sie eine FreeBSD-Benutzergruppe kennen, die hier nicht aufgeführt ist, füllen Sie bitte einen link:../support/bugreports[Problemreport] in der Kategorie "Documentation->Website" mit den folgenden Informationen aus:
+
+. Die URL für die Website der Benutzergruppe.
+. Die E-Mail-Kontaktadresse einer verantwortlichen Person für unsere Besucher und Website-Administratoren.
+. Eine kurze Beschreibung (ein Absatz) der Benutzergruppe.
+
+Die Beiträge sollten im HTML-Format eingereicht werden. Im Sinne von FreeBSD bevorzugen wir Benutzergruppen, die aktiv sind und ihre Arbeit öffentlich machen. Wenn es keine lokale Gruppe gibt, kann http://bsd.meetup.com/ genutzt werden, um interessierte Personen in der Nähe ausfindig zu machen. Ziehen Sie in Erwägung, Ihre eigene Benutzergruppe zu gründen!
+
+== Regionen:

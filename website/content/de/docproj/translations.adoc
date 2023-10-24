@@ -1,0 +1,286 @@
+---
+title: "FreeBSD Dokumentationsprojekt: Übersetzungen"
+sidenav: docs
+---
+
+= FreeBSD Dokumentationsprojekt: Translations
+
+* <<brazilian_portuguese,Brazilianisch-Portugiesisch>>
+* <<bulgarian,Bulgarisch>>
+* <<chinese-cn,Vereinfachtes Chinesisch>>
+* <<chinese-tw,Traditionelles Chinesisch>>
+* <<dutch,Niederländisch>>
+* <<estonian,Estnisch>>
+* <<french,Französisch>>
+* <<german,Deutsch>>
+* <<greek,Griechisch>>
+* <<hungarian,Ungarisch>>
+* <<italian,Italienisch>>
+* <<japanese,Japanisch>>
+* <<korean,Koreanisch>>
+* <<mongolian,Mongolisch>>
+* <<polish,Polnisch>>
+* <<russian,Russisch>>
+* <<spanish,Spanisch>>
+* <<turkish,Türkisch>>
+* <<farsi,Farsi/Persisch>>
+
+[[brazilian_portuguese]]
+== Brazilianisch-Portugiesisch
+
+*Web*: https://wiki.freebsd.org/Doc/Translation/BrazilianPortuguese +
+*E-Mail*: ebrandi@FreeBSD.org oder dbaio@FreeBSD.org
+
+Verfügbare Dokumente:
+
+* link:https://docs.freebsd.org/pt-br/articles/[FreeBSD-Artikel]
+* link:https://docs.freebsd.org/pt-br/books/[FreeBSD Bücher]
+
+Dokumente, an denen derzeit gearbeitet wird:
+
+* FreeBSD Architektur-Handbuch
+* FreeBSD-Entwicklerhandbuch
+* The Design and Implementation of the 4.4BSD Operating System
+
+[[bulgarian]]
+== Bulgarisch
+
+*Web*: http://bg-freebsd.org/ +
+*E-Mail*: freebsd-fdp@bg-freebsd.org
+
+Mailingliste verfügbar:
+
+* Senden Sie eine E-Mail an freebsd-fdp-subscribe@bg-freebsd.org.
+* Posting ist für die Mitglieder unter freebsd-fdp@bg-freebsd.org erlaubt.
+////
+Verfügbare Dokumente:
+////
+
+Dokumente, an denen derzeit gearbeitet wird:
+
+* FreeBSD-Handbuch
+* FreeBSD Webseite
+* The Design and Implementation of 4.4BSD (Beispielkapitel)
+* Häufig gestellte Fragen zu FreeBSD
+
+[[chinese-cn]]
+== Vereinfachtes Chinesisch
+
+*E-Mail*: delphij@FreeBSD.org oder ygy@FreeBSD.org
+
+Dokumente, an denen derzeit gearbeitet wird:
+
+* link:https://www.freebsd.org/zh-cn/[FreeBSD-Website]
+* link:https://docs.freebsd.org/zh-cn/books/handbook/[Handbuch]
+
+[[chinese-tw]]
+== Traditionelles Chinesisch
+
+*Web*: https://www.freebsd.org/zh-tw/ +
+*E-Mail*: chinsan@FreeBSD.org
+
+USENET Newsgroup verfügbar:
+
+* Wir benutzen normalerweise tw.bbs.comp.386bsd, um diese Themen zu diskutieren.
+* Sie kann über die folgende URL erreicht werden:
+* link:http://www.ptt.cc/bbs/FreeBSD/index.html[PTT WebBBS]
+* link:http://groups.google.com.tw/group/tw.bbs.comp.386bsd?lnk%27sg%27[Google Group]
+* und alle anderen Newsreader, die tw.bbs.comp.386bsd lesen können.
+
+Verfügbare Dokumente:
+
+* link:https://docs.freebsd.org/zh-tw/books/faq/[FAQ]
+
+Dokumente, an denen derzeit gearbeitet wird:
+
+* FreeBSD-Website
+* link:https://docs.freebsd.org/zh-tw/books/handbook/[Handbuch]
+* link:https://docs.freebsd.org/zh-tw/books/developers-handbook/[Entwicklerhandbuch]
+* link:https://docs.freebsd.org/zh-tw/books/porters-handbook/[Porters' Handbook]
+* link:https://docs.freebsd.org/zh-tw/books/fdp-primer/[FreeBSD Document Project Primer for New Contributors]
+
+[[dutch]]
+== Niederländisch
+
+*E-Mail*: remko@FreeBSD.org oder rene@FreeBSD.org
+
+Veröffentlichte Dokumente:
+
+* link:https://docs.freebsd.org/nl/books/handbook/[Handbuch]
+* link:https://docs.freebsd.org/nl/articles/[Verschiedene Artikel]
+* link:https://www.freebsd.org/nl/[Web-Seite]
+
+[[estonian]]
+== Estnisch
+
+*Web*: http://www.bsd.ee/
+
+[[french]]
+== Französisch
+
+*E-Mail*: blackend@FreeBSD.org oder gioria@FreeBSD.org
+
+Verfügbare Dokumente:
+
+* link:https://docs.freebsd.org/fr/books/faq/[FAQ]
+* link:https://docs.freebsd.org/fr/articles/[Einige Artikel und Anleitungen]
+
+Dokumente, an denen derzeit gearbeitet wird:
+
+* link:https://docs.freebsd.org/fr/books/handbook/[Handbuch], link:https://www.freebsd.org/fr/[Web]
+
+[[german]]
+== Deutsch
+
+*Web*: link:https://people.freebsd.org/~jkois/FreeBSDde/de/[German Project status page] +
+*E-Mail*: de-bsd-translators@de.FreeBSD.org +
+*IRC*: Server: irc.freenode.net, Channel: #FreeBSD-Doc.de
+
+Verfügbare Dokumente/an denen gearbeitet wird: +
+
+* link:https://www.freebsd.org/de/[Web], link:https://docs.freebsd.org/de/books/developers-handbook/[Entwickler-Handbuch], link:https://docs.freebsd.org/de/books/faq/[FAQ], link:https://docs.freebsd.org/de/books/fdp-primer/[FDP-Fibel], link:https://docs.freebsd.org/de/books/handbook/[Handbuch], link:https://docs.freebsd.org/de/books/porters-handbook/[Portier-Handbuch], link:https://docs.freebsd.org/de/articles/[einige Artikel].
+
+[[greek]]
+== Griechisch
+
+*E-Mail*: Giorgos Keramidas <keramida@FreeBSD.org> +
+*E-Mail*: freebsd-doc-el@lists.hellug.gr +
+*IRC*: Server: eu.irc.gr, us.irc.gr, Channel: #bsddocs
+
+Verfügbare Mailinglisten:
+
+* Die freebsd-doc-el ist die Hauptdiskussionsliste für die griechischen Übersetzungen. Die Hauptsprache der Liste ist Griechisch, aber es ist auch in Ordnung, auf Englisch zu schreiben.
+* Listeninfo: http://lists.hellug.gr/mailman/listinfo/freebsd-doc-el
+
+Verfügbare Dokumente:
+
+* link:https://docs.freebsd.org/el/articles/[Einige Artikel und Anleitungen].
+
+Dokumente, an denen derzeit gearbeitet wird:
+
+* link:https://docs.freebsd.org/el/books/handbook/[Handbuch], link:https://docs.freebsd.org/el/books/faq/[FAQ]
+
+Repositories der laufenden Arbeit (Mercurial): +
+
+* link:http://hg.hellug.gr/freebsd/doc/[Imports of the FreeBSD doc tree], link:http://hg.hellug.gr/freebsd/doc-el/[Main translation tree (doc)], link:http://hg.hellug.gr/freebsd/doc-sonicy/[Translation tree of Manolis Kiagias (doc)], link:http://hg.hellug.gr/freebsd/www/[Imports of the FreeBSD www tree], link:http://hg.hellug.gr/freebsd/www-el/[Main www translation tree (www)], link:http://hg.hellug.gr/freebsd/www-sonicy/[Translation tree of Manolis Kiagias (www)].
+
+[[hungarian]]
+== Ungarisch
+
+*Web*: https://www.freebsd.org/hu/docproj/hungarian/ +
+*E-Mail*: gabor@FreeBSD.org
+
+Verfügbare Dokumente: +
+
+* link:https://www.freebsd.org/hu/[Web], link:https://docs.freebsd.org/hu/articles/[einige Artikel], link:https://docs.freebsd.org/hu/books/handbook/[Handbuch], link:https://docs.freebsd.org/hu/books/faq/[FAQ], link:https://docs.freebsd.org/hu/books/fdp-primer/[FDP-Fibel].
+
+[[italian]]
+== Italienisch
+
+*Web*: https://people.freebsd.org/~madpilot/ItalianTranslation/ +
+*E-Mail*: madpilot@freebsd.org
+
+Verfügbare Dokumente:
+
+* link:https://docs.freebsd.org/it/books/handbook/[Handbook]
+
+Dokumente, an denen derzeit gearbeitet wird:
+
+* link:https://docs.freebsd.org/it/books/handbook/[Handbuch]
+
+Git-Repository:
+
+* link:https://github.com/madpilot78/FreeBSD-doc-it[GitHub]
+
+[[japanese]]
+== Japanisch
+
+*Web*: http://www.jp.FreeBSD.org/doc-jp/ +
+*E-Mail*: doc-jp@jp.FreeBSD.org
+
+Verfügbare Dokumente:
+
+* link:https://docs.freebsd.org/ja/books/handbook/[Handbuch], link:https://docs.freebsd.org/ja/books/faq/[FAQ], link:https://www.freebsd.org/ja/[Web], link:http://www.jp.freebsd.org/NewsLetter/Issue2/[FreeBSD NewsLetter Ausgabe #2]
+
+Dokumente, an denen derzeit gearbeitet wird:
+
+* FreeBSD-Tutorials
+
+[[korean]]
+== Koreanisch
+
+*Web*: https://wiki.kr.freebsd.org +
+*E-Mail*: doc@kr.FreeBSD.org
+
+Dokumente, an denen derzeit gearbeitet wird: +
+
+* Handbuch
+
+[[mongolian]]
+== Mongolisch
+
+*E-Mail*: ganbold@micom.mng.net, natsag2000@yahoo.com, admin@mnbsd.org
+
+[[polish]]
+== Polnisch
+
+*E-Mail*: bsd@therek.net
+
+Verfügbare Dokumente: +
+
+* Einige Tutorials
+
+Dokumente, an denen derzeit gearbeitet wird: +
+
+* Handbuch
+
+[[russian]]
+== Russisch
+
+Verfügbare Dokumente:
+
+* link:https://docs.freebsd.org/ru/books/faq/[FAQ]
+* link:https://www.freebsd.org/ru/[WWW]
+* link:http://www.freebsd.org.ua/docs.html[Liste anderer Dokumente]
+
+Dokumente, an denen derzeit gearbeitet wird:
+
+* link:http://www.freebsd.org.ua/doc/ru_RU.KOI8-R/books/handbook/[Handbuch]
+
+[[spanish]]
+== Spanisch
+
+*Web*: https://www.FreeBSD.org/es/ +
+*E-Mail*: carlavilla@FreeBSD.org
+
+Verfügbare Dokumente:
+
+* link:https://docs.freebsd.org/es/books/faq/[FAQ]
+* link:https://docs.freebsd.org/es/books/handbook/[Handbuch]
+* link:https://docs.freebsd.org/es/articles/[Artikel]
+
+[[turkish]]
+== Türkisch
+
+*Web*: http://www.enderunix.org/ftdp/ +
+*E-Mail*: ofsen@enderunix.org
+
+Verfügbare Mailinglisten: +
+
+* Um die Mailingliste ftdp zu abonnieren, besuchen Sie die Webseite des Projekts oder senden Sie eine leere E-Mail an ftpd-subscribe@lists.enderunix.org.
+
+Verfügbare Dokumente: +
+
+* link:http://www.enderunix.org/ftdp/[Liste anderer Dokumente]
+
+Dokumente, an denen derzeit gearbeitet wird: +
+
+* FDP-Primer
+
+[[farsi]]
+== Farsi/Persisch
+
+*Web*: link:https://www.irbug.org/[Iran BSD User Group] +
+*E-Mail*: kfv@irbug.org
+
+link:.[FreeBSD Dokumentationsprojekt]

@@ -1,0 +1,33 @@
+---
+title: "FreeBSD-Archive"
+sidenav: about
+loadNews: false
+---
+
+= FreeBSD-Archive
+
+*An:* interim@bsd.coe.montana.edu (Interim 0.1.5) +
+*Subject:* Re: "386BSD" trademark (fwd) +
+*Von:* David Greenman <davidg@implode.rain.com> +
+*Date:* Sat, 19 Jun 93 17:26:02 -0700 +
+
+....
+> Okay Leute.. wir nehmen neue Namensvorschlaege an.. wir haben:
+>
+> BSDFree86 - Rod, der Jordans verbesserten NON BSDI Namen nimmt..
+> Free86BSD - Jordan, Rod mag diesen auch...
+>        - (kurz: F86BSD)
+>
+> vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+>       v                                         v
+>       v Hier können Sie Ihren Hut hineinwerfen! v
+>       v                                         v
+>       vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
+    Wie waere es mit der einfachen Bezeichnung "FreeBSD"? Keine Verwirrung, kein Aufhebens, scheint mir ein guter
+ Kompromiss zu sein :-)
+
+ ---
+
+ -DG
+....

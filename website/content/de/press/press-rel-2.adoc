@@ -1,0 +1,39 @@
+---
+title: "FreeBSD-Pressemitteilung: 29. April 1999"
+sidenav: about
+loadPress: false
+---
+
+= FreeBSD-Pressemitteilung: 29. April 1999
+
+== Vollständiges XML-Entwicklungssystem in FreeBSD integriert
+
+*Concord, CA, 29. April 1999*: FreeBSD 3.1 enthält ein komplettes, integriertes SGML/XML-Entwicklungssystem, das mit einer einfachen, leicht zu bedienenden Befehlssequenz installiert werden kann.
+
+Das Ports-System und die Multitasking-Architektur von FreeBSD machen es einem SGML/XML-Entwickler leicht, alle aktuellen Versionen der Werkzeuge und des Referenzmaterials herunterzuladen und zu installieren, die er für die Entwicklung von SGML- und XML-Formatierungssprachen und -Dokumenten benötigt, und die Online-Internet-Mailinglisten helfen ihm, zu lernen und mit der sich entwickelnden XML-Implementierung Schritt zu halten.
+
+FreeBSD ist ein Open-Source-Betriebssystem mit vollem Funktionsumfang, das auf praktisch allen x86-basierten Personal Computern von Intel läuft. Sein 580-seitiges "Handbuch" wurde kürzlich vollständig in das DocBook-Format umgewandelt und ist ein lebendiges Beispiel für ein sich entwickelndes Dokument, das mit SGML-Werkzeugen erstellt wurde. Das Handbuch ist im Internet verfügbar unter:
+
+* http://www.FreeBSD.org/handbook/
+* ftp://ftp.FreeBSD.org/pub/FreeBSD/doc/
+
+Das FreeBSD Documentation Project stellt außerdem den "FreeBSD Documentation Project Primer" zur Verfügung, um Neulingen den Einstieg in die FreeBSD-Dokumentation so einfach wie möglich zu machen. Viele der Informationen in der Fibel sind für alle SGML/XML-Anwender geeignet und frei verfügbar. Die Fibel, die ständig vom Documentation Project Team aktualisiert wird, finden Sie unter:
+
+* http://www.FreeBSD.org/tutorials/primer/
+
+=== Zu den Merkmalen des Document Project SGML/XML Systems gehören:
+
+* Jade 1.2.1 von James Clark und SP-Suite Version 1.3.3, die die Formatierung und Validierung von SGML- und XML-Dokumenten ermöglichen.
+* Ein vollständiger Satz von 19 ISO SGML-Zeichensätzen
+* DocBook (v2.4.1, v3.0, v3.1), HTML (alle Versionen) und LinuxDoc Document Type Definitions (DTD)
+* Norm Walshs modulare DocBook-Stylesheets, die eine feine Kontrolle über das Aussehen und die Formatierung von DocBook-Dokumenten ermöglichen.
+* Emacs und XEmacs bieten in Verbindung mit dem PSGML-Erweiterungspaket eine anpassbare, industrietaugliche SGML-Bearbeitungslösung.
+* Das teTeX-beta-Paket in Verbindung mit den JadeTeX-Makros ermöglicht die Konvertierung von DocBook-Dokumenten in die Formate DVI, Postscript und PDF mit eingebetteten Hyperlinks.
+* Weitere SGML-fähige Programme und Hilfsprogramme finden Sie im FreeBSD Ports-System.
+
+Das FreeBSD Dokumentations-Projekt migriert aktiv von der LinuxDoc-DTD zur DocBook-DTD und gibt den DocBook-Maintainern seit einem Jahr Feedback zu neuen Funktionen und möglichen Implementierungen. Weitere Informationen über das FreeBSD Documentation Project erhalten Sie auf der Mailingliste freebsd-doc@FreeBSD.org.
+
+Das FreeBSD-Betriebssystem ist im Internet auf der FreeBSD-Hauptseite und auf verschiedenen Spiegelservern weltweit verfügbar. Außerdem kann es auf praktischen CD-ROMs von Walnut Creek CDROM bezogen werden. Informationen zu all diesen Optionen finden Sie unter:
+
+* http://www.FreeBSD.org/
+* http://www.wccdrom.com/

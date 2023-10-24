@@ -1,0 +1,28 @@
+---
+title: "Historische FreeBSD-Pressemitteilungen"
+sidenav: about
+loadPress: false
+---
+
+= Historische FreeBSD-Pressemitteilungen
+
+Dies sind historische FreeBSD-Pressemitteilungen. Pressemitteilungen seit 2005 finden Sie im Archiv der http://www.FreeBSDFoundation.org/press/[FreeBSD Foundation].
+
+25 November 2005:
+link:../press-rel-9/[Hewlett-Packard spendet Blade-Cluster an FreeBSD]
+4 November 2005:
+link:../press-rel-8/[FreeBSD Project stellt FreeBSD 6.0 vor]
+20 Januar 2003:
+link:../press-rel-7/[FreeBSD Project kündigt FreeBSD 5.0 an]
+31 Oktober 2002:
+link:../press-rel-6/[Der Daemon der Oper: Opera Software veröffentlicht Version für FreeBSD]
+18 Oktober 2000: Neues Core Team:
+link:../press-rel-5/[Erste Wahlen zum FreeBSD Core Team]
+9 März 2000:
+link:../press-rel-4/[BSD-Anbieter vereinigen sich, um das weltweit beliebteste Internet-Betriebssystem bereitzustellen]
+7 Juni 1999:
+link:../press-rel-3/[BSD-Gemeinschaft begrüßt Apples neues Open-Source-Betriebssystem].
+29 April 1999:
+link:../press-rel-2/[Komplettes XML-Entwicklungssystem in FreeBSD integriert].
+22 April 1999: Die Matrix:
+link:../press-rel-1/[Mit FreeBSD wurden spektakuläre Spezialeffekte für den Warner Brothers-Film _The Matrix_ erzeugt].

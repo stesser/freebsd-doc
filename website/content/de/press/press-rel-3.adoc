@@ -1,0 +1,38 @@
+---
+title: "FreeBSD-Pressemitteilung: 7. Juni 1999"
+sidenav: about
+loadPress: false
+---
+
+= FreeBSD-Pressemitteilung: 7. Juni 1999
+
+== BSD-Gemeinschaft begrüßt Apples neues Open-Source-Betriebssystem
+
+*Concord, CA, 7. Juni 1999*: Zu Beginn der jährlichen Usenix-Convention der UNIX-Entwicklergemeinschaft begrüßten heute einflussreiche Vertreter der Betriebssystem-Gemeinschaft Darwin (www.apple.com/darwin) von Apple Computer als neues Mitglied der Berkeley Software Distribution (BSD)-Betriebssystemfamilie.
+
+"Wir freuen uns sehr über Apples Beteiligung an der BSD-Gemeinschaft", sagte Jordan Hubbard, Vorsitzender des Freenix-Tracks der USENIX-Konferenz und Mitbegründer des FreeBSD Projects. "Je mehr clevere Unternehmen die unglaubliche freie Ressource BSD-Software entdecken, desto mehr werden sie erkennen, dass ein Beitrag zur Open-Source-Entwicklung in ihrem eigenen Interesse ist."
+
+Herb Peyerl vom NetBSD Project meint: "Unsere Zusammenarbeit mit Apple im Rahmen des Darwin-Projekts war für NetBSD äußerst lohnend und ist die Art von offener Kooperation, von der wir gerne mehr sehen würden."
+
+"Die Nutzung des zwanzigjährigen BSD-Erbes ermöglicht es den Apple-Entwicklern, sich darauf zu konzentrieren, die solide, robuste Grundlage des BSD-Codes um eine einzigartige Benutzererfahrung zu ergänzen", so Avie Tevanian, Senior Vice President of Software Engineering bei Apple Computer. "Wir glauben, dass wir mit unserer Darwin-Software die Open-Source-Bewegung unterstützen und dadurch bessere Produkte für Millionen von Mac-Kunden weltweit entwickeln können. Der BSD-Code in Darwin ist ein wesentlicher Bestandteil unserer Betriebssystem-Strategie."
+
+Diese Art der Gegenseitigkeit ist eine Rückkehr zum ursprünglichen Softwareentwicklungsmodell, das in den Anfängen der Computertechnik, also vor dem PC, weit verbreitet war. Wilfredo Sanchez, technischer Leiter des Darwin-Projekts, wird diese Woche im Rahmen des Freenix-Tracks, einer Programmreihe der Usenix, die sich ausschließlich mit dieser Art der Open-Source-Softwareentwicklung befasst, über Darwin sprechen.
+
+=== Über NetBSD und FreeBSD
+
+NetBSD und FreeBSD sind Open-Source-Betriebssysteme, die auf der letzten öffentlichen Version von BSD UNIX, 4.4BSDLite2, basieren. Beide Bemühungen haben mit den neuesten Technologien bei Prozessoren und Softwarearchitekturen Schritt gehalten. Die BSD-Entwicklungsteams haben zwar unterschiedliche Prioritäten, stehen aber in freundschaftlicher Rivalität zueinander und spornen sich gegenseitig an, bessere Produkte für ihre weltweiten Benutzer zu entwickeln. In den zwanzig Jahren der Entwicklung wurde eine riesige Softwarebasis rund um BSD entwickelt - einschließlich eines Großteils der Internet-Infrastruktur -, die es ermöglicht, das Betriebssystem in fast jeder Computeranwendung effektiv zu nutzen. Das offene Entwicklungsmodell bedeutet, dass es keine Geheimnisse gibt, wodurch ein weltweites Verständnis des Codes geschaffen wird, das es BSD-Entwicklern ermöglicht, auf den Bemühungen früherer Entwickler aufzubauen, ohne die Schwierigkeiten, die bei proprietären Betriebssystemen und Anwendungen auftreten.
+
+=== Für weitere Informationen kontaktieren Sie bitte:
+
+Das FreeBSD-Projekt +
+Concord, Kalifornien +
+925-682-7859 +
+freebsd-questions@FreeBSD.org +
+http://www.FreeBSD.org +
+
+Das NetBSD-Projekt +
+C/O Charles M. Hannum +
+81 Bromfield Rd, #2 +
+Somerville, MA 02144 +
+mindshare@netbsd.org +
+http://www.netbsd.org +

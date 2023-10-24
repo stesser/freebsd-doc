@@ -1,0 +1,46 @@
+---
+title: "FreeBSD-Pressemitteilung: 31. Oktober 2002"
+sidenav: about
+loadPress: false
+---
+
+= FreeBSD-Pressemitteilung: 31. Oktober 2002
+
+== Der Daemon der Oper: Opera Software veröffentlicht Version für FreeBSD
+
+*Oslo, Norwegen, 31. Oktober 2002:* Opera Software ist stolz darauf, die erste goldene Version seiner neuen Portierung auf die UNIX-Variante FreeBSD zu veröffentlichen. Mit der Aufnahme von FreeBSD in die Opera-Familie ist Opera nun auf acht verschiedenen Betriebssystemen verfügbar.
+
+Das Betriebssystem BSD (Berkeley Software Distribution) hat seinen Ursprung an der University of California, Berkeley. Es begann als Ergänzung zu UNIX, entwickelte sich aber im Laufe der Zeit zu mehreren Betriebssystemen. Von den verschiedenen BSD-Varianten ist die am weitesten verbreitete FreeBSD, die bei anspruchsvollen Benutzern wie Systemadministratoren, die ein schnelles, zuverlässiges Betriebssystem suchen, sehr beliebt ist.
+
+"Die Benutzer von Opera und FreeBSD sind sich insofern ähnlich, als dass sie Stabilität und Zuverlässigkeit schätzen und erwarten. Das Zusammenspiel von FreeBSD und Opera dürfte viele Unternehmenskunden ansprechen", sagt Jon S. von Tetzchner, CEO von Opera Software ASA. "Ich freue mich auch persönlich, FreeBSD-Anwender in der Opera-Familie willkommen zu heißen. FreeBSD ist nicht nur ein Betriebssystem, sondern auch eine Gemeinschaft und eine Philosophie mit Werten, von denen ich weiß, dass sie sich mit unseren eigenen gut decken."
+
+Die FreeBSD-Gemeinschaft ist begeistert, endlich mit Opera surfen zu können.
+
+"Mit der Veröffentlichung von Opera für FreeBSD können FreeBSD-Anwender, die Opera für FreeBSD herunterladen, mit einem der schnellsten Browser auf dem Markt im Internet surfen", sagt Robert Watson, Mitglied des FreeBSD Core Teams. "Der Ruf von FreeBSD als zuverlässiges und schnelles Desktop-Betriebssystem hat sich herumgesprochen, und wir freuen uns, dass Opera Software uns dabei hilft, eine noch vollständigere Desktop-Umgebung zu schaffen."
+
+Opera 6.1 für FreeBSD kann von http://www.opera.com/[www.opera.com] heruntergeladen werden.
+
+== Über Opera Software
+
+Opera Software ASA ist führend in der Entwicklung von Web-Browsern für den Desktop- und Embedded-Markt und arbeitet mit Unternehmen wie IBM, AMD, Symbian, Canal+ Technologies, Ericsson, Sharp und Lineo (jetzt eine Abteilung von Embedix) zusammen. Der Opera-Browser hat internationale Anerkennung von Endbenutzern und der Fachpresse erhalten, weil er schneller, kleiner und standardkonformer als andere Browser ist. Opera ist verfügbar für Windows, Mac, Linux, Solaris, FreeBSD, OS/2, Symbian OS und QNX. Opera Software ASA ist ein privates Unternehmen mit Hauptsitz in Oslo, Norwegen. Erfahren Sie mehr über Opera unter http://www.opera.com/[www.opera.com].
+
+== Über das Berkeley Software Distribution Operating System
+
+Die Betriebssystemtechnologien der Berkeley Software Distribution wurden ursprünglich von 1979 bis 1992 von der Computer Systems Research Group (CSRG) an der University of California in Berkeley entwickelt. Die von Berkeley abgeleiteten Betriebssystem- und Netzwerktechnologien sind das Herzstück der meisten modernen Unix- und Unix-ähnlichen Betriebssysteme. Heute verwendet praktisch jeder größere Internet-Infrastrukturanbieter BSD-Betriebssysteme. BSD-Betriebssystemtechnologien werden von führenden unternehmenskritischen Netzwerkumgebungen verwendet und sind in Internet-Anwendungsplattformen eingebettet, die fortschrittliche Internet-Funktionalität, Zuverlässigkeit und Sicherheit erfordern.
+
+== Über das FreeBSD Project
+
+FreeBSD ist ein populäres Open-Source-Betriebssystem, das vom FreeBSD Project und seinem weltweiten Team entwickelt wird. Es besteht aus mehr als 5.000 Entwicklern, die ihre Arbeit an 185 "Committer"-Entwickler weitergeben. FreeBSD ist kostenlos unter ftp://ftp.FreeBSD.org/[ftp.FreeBSD.org] erhältlich und wird auch über CompUSA, Fry's, Borders, Ingram, FreeBSDmall.com und andere als Shrink-Wrap-Software vertrieben. FreeBSD enthält Tausende von portierten Anwendungen, darunter Büroautomatisierungs-, Groupware- und Multimedia-Anwendungen, und wird in Unternehmen auf der ganzen Welt als Webserver, Dateiserver, Firewall und Router eingesetzt. FreeBSD wird unter der Berkeley-Software-Distributionslizenz vertrieben, was bedeutet, dass es frei kopiert und modifiziert werden kann, auch zu kommerziellen Zwecken. Weitere Informationen über das FreeBSD Project finden Sie unter http://www.FreeBSD.org/[www.FreeBSD.org].
+
+== Pressekontakt
+
+Opera Software +
+Pal A. Hvistendahl +
+Marcom Direktor +
+Tel: +47 99 72 43 31 +
+Fax: +47 24 16 40 01 +
+pal@opera.com +
+US-Gebührenfrei: 1-888-624-4846, bitte nur Presse
+
+Das FreeBSD-Projekt +
+press@FreeBSD.org

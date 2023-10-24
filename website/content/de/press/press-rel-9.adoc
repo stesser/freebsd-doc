@@ -1,0 +1,33 @@
+---
+title: "Hewlett-Packard spendet Blade-Cluster für FreeBSD"
+sidenav: about
+loadPress: false
+---
+
+= Hewlett-Packard spendet Blade-Cluster für FreeBSD
+
+*Die FreeBSD Foundation hat von Hewlett-Packard ein Blade-System gespendet bekommen, das als Software-Build-Cluster für Drittanbieter verwendet werden soll. Dieser HP BladeSystem-Cluster mit 20 Knoten verdreifacht die Geschwindigkeit des Build-Prozesses für i386-Pakete.*
+
+Dank dieser großzügigen Spende von HP sind wir in der Lage, kontinuierlich aktuelle Pakete aus den mehr als 13000 Ports von Drittanbietersoftware zu erstellen, die in der FreeBSD Ports Collection verfügbar sind, und zwar mit der dreifachen Geschwindigkeit des bisherigen Hardware-Clusters", sagte Kris Kennaway, Mitglied des FreeBSD Ports Management Teams.
+
+Dies kommt den Anwendern von FreeBSD direkt zugute, da neue und aktualisierte Softwarepakete schnell zur Verfügung stehen und die neue Hardware mehr Tests und Qualitätskontrollen für FreeBSD ermöglicht.
+
+Wir bei HP sind uns der wichtigen Rolle von FreeBSD in der globalen Netzwerkinfrastruktur des Internets bewusst und freuen uns, dass der HP BladeSystem-Cluster zum anhaltenden Erfolg der FreeBSD Foundation beitragen kann", sagte Mark Potter, Vice President der Hewlett-Packard BladeSystem Division.
+
+Es handelt sich architektonisch um Standard-i386-Systeme mit einem sehr guten ssh- und seriell-basierten Management-Server", sagte Kennaway, der den FreeBSD Ports-Cluster betreut.
+
+Kennaway sagte, dass FreeBSD ein paar Dutzend andere Maschinen rund um den Globus für die Erstellung von Paketen hat. Eine große Anzahl von Sparc-Rechnern wird von Hiroki Sato in Japan gehostet, darunter einige große e4500-Multiprozessoren (10, 12 und 14 CPUs), die sich für SMP-Tests als äußerst nützlich erwiesen haben. Außerdem werden einige von ISC gehostete Maschinen, eine von Scott Long gehostete amd64-Maschine, drei i386-Maschinen bei Yahoo! Korea und manchmal Kennaways eigene Maschinen in Kanada für die offiziellen Paket-Builds verwendet.
+
+Der HP BladeSystem-Cluster wird im Yahoo! Rechenzentrum in der San Francisco Bay Area gehostet. Neben Kennaway halfen auch Paul Saab und Peter Wemm vom FreeBSD Project sowie John Cagle von HP bei der Einrichtung des Blade-Systems.
+
+== Über das FreeBSD Project
+
+Das FreeBSD Project stellt ein modernes, skalierbares Betriebssystem zur Verfügung, das hohe Leistung, Sicherheit und fortschrittliche Netzwerkfunktionen für private Workstations, Internet-Server, Router und Firewalls bietet. Die FreeBSD-Paketsammlung enthält beliebte Software wie Apache Web Server, Gnome, KDE, X.org X11 Window System, Python, Mozilla und über 13.000 Software-Suiten. FreeBSD kann im Internet unter http://www.FreeBSD.org/[http://www.FreeBSD.org] gefunden werden.
+
+== Weitere Informationen:
+
+FreeBSD Ports-Webseite +
+http://www.freebsd.org/ports/[http://www.FreeBSD.org/ports/] +
+ +
+FreeBSD Package building logs and errors webpage +
+http://pointyhat.freebsd.org/errorlogs/

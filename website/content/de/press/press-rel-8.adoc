@@ -1,0 +1,32 @@
+---
+title: "FreeBSD Project führt FreeBSD 6.0 ein"
+sidenav: about
+loadPress: false
+---
+
+= FreeBSD Project führt FreeBSD 6.0 ein
+
+== FreeBSD legt die Messlatte für Open-Source-Betriebssysteme höher.
+
+ZUR SOFORTIGEN FREIGABE +
+Berkeley, CA 4. November 2005
+
+Das FreeBSD Project gibt die Verfügbarkeit von FreeBSD 6.0 bekannt, einem von BSD UNIX abgeleiteten Open-Source-Betriebssystem, das eine leistungsfähige Alternative zu Linux, Solaris und Windows darstellt. FreeBSD ermöglicht es Unternehmen, Open-Source-Technologien zu nutzen, die auf Zuverlässigkeit, Sicherheit und Skalierbarkeit ausgerichtet sind.
+
+"Yahoo! ist beeindruckt von der Leistung und Stabilität von FreeBSD 6.0", sagt David Filo, Mitbegründer von Yahoo! Yahoo! ist eines von vielen Unternehmen, die sich auf die weltweit anerkannte Stabilität und Leistungsfähigkeit des FreeBSD-Betriebssystems verlassen.
+
+Eine der neuen Funktionen in FreeBSD 6.0 ist ein Multithreading-Dateisystem, das die Zugriffszeiten auf lokale Festplatten, RAID-Konfigurationen, Netzwerkdateisysteme und SANs erheblich verbessert. Jüngste Leistungsvergleiche zeigen, dass FreeBSD 6.0 einen höheren Datendurchsatz als Linux aufweist.
+
+Darüber hinaus erweitert FreeBSD 6.0 die Unterstützung für drahtlose Geräte wie Intel Centrino und unterstützt das populäre neue WPA-Protokoll für drahtlose Sicherheit. Mehrere Verbesserungen wurden in den NDISulator integriert, eine Komponente des Betriebssystems, die es ermöglicht, Windows-Netzwerktreiber nativ unter FreeBSD laufen zu lassen.
+
+FreeBSD skaliert jetzt viel effizienter über mehrere Prozessorsysteme. Die Unterstützung von 8 oder mehr Prozessoren, wie z.B. die neuen Dual-Core AMD Opteron-Konfigurationen, bietet den Anwendern eine echte Alternative zu den teuren, proprietären Hardware-Plattformen und Betriebssystemen von IBM, HP und Sun.
+
+== Über das FreeBSD Project
+
+Das FreeBSD Project bietet ein freies, quelloffenes Betriebssystem für verschiedene Plattformen, darunter Intel x86 und AMD64. FreeBSD ist von BSD, der an der UC Berkeley entwickelten Version von UNIX, abgeleitet. Die unbelastete BSD-Lizenz erlaubt die Modifizierung und Weitergabe der Software, während das geistige Eigentum einer Person oder eines Unternehmens erhalten bleibt.
+
+Weitere Informationen finden Sie unter http://www.FreeBSD.org/[www.FreeBSD.org].
+
+== Kontakt für die Presse
+
+Für Interviews oder weitere Informationen wenden Sie sich bitte an: marketing@FreeBSD.org, +1-408-943-4100 ext 113; oder The FreeBSD Foundation, +1-720-207-5142

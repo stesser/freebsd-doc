@@ -1,0 +1,31 @@
+---
+title: "FreeBSD-Pressemitteilung: 9. März 2000"
+sidenav: about
+loadPress: false
+---
+
+= FreeBSD-Pressemitteilung: 9. März 2000
+
+== ZUR SOFORTIGEN FREIGABE
+
+== BSD-ANBIETER SCHLIESSEN SICH ZUSAMMEN, UM DAS WELTWEIT BELIEBTESTE INTERNET-BETRIEBSSYSTEM ANZUBIETEN
+
+=== Die neue BSDI wird renommierte BSD-Betriebssystemtechnologien bereitstellen und die schnell wachsende FreeBSD Open Source Community unterstützen
+
+*Colorado Springs, Colorado, 9. März 2000:* Berkeley Software Design, Inc. (BSDI) gab heute bekannt, dass es mit Walnut Creek CDROM, dem Distributor des beliebten FreeBSD-Betriebssystems, fusioniert hat. Als fusioniertes Unternehmen vereint die neue BSDI die führenden Entwickler und Anbieter des Betriebssystems Berkeley Software Distribution. BSDI wird fortschrittliche BSD(R)-Internet-Betriebssysteme und -Plattformen entwickeln und anbieten und gleichzeitig das Open-Source-Projekt FreeBSD mit Technologie, Rückhalt und erweitertem Support versorgen.
+
+Auf BSD-Betriebssystemen laufen einige der am stärksten frequentierten Websites und größten Dienstanbieter im Internet, darunter Yahoo!, Microsofts Hotmail und UUNET, ein Unternehmen von MCI WorldCom. Laut Survey.com, dem führenden eResearch-Unternehmen, sind BSD und Linux heute die am schnellsten wachsenden Betriebssysteme.
+
+BSD-Betriebssystem-, Netzwerk- und Internet-Technologien haben sich in der Internet-Infrastruktur weitgehend durchgesetzt. Mehr als 100.000 kommerzielle Internet-Kunden nutzen BSD-Betriebssysteme auf mehr als 2.000.000 BSD-gestützten Servern. Man schätzt, dass neun von zehn Internet Service Providern (ISPs) und Network Service Providern (NSPs) sowie 15 Prozent aller Internet-Sites mit BSD-Systemen arbeiten. BSD-Betriebssysteme sind auch in innovative Internet-Anwendungen von Intel, IBM, Lucent, F5 Labs, Hitachi und vielen anderen eingebettet.
+
+BSDI gab außerdem bekannt, dass Yahoo! Inc. eine Kapitalbeteiligung an dem neuen Unternehmen übernehmen wird. BSDI wird die Kapitalbeteiligung nutzen, um seinen Plan umzusetzen, eine Brücke zwischen Open-Source-Innovation und kommerziellen Anforderungen zu schlagen. Die Kapitalbeteiligung wird genutzt, um die Präsenz von BSDI als führender Anbieter der fortschrittlichsten Internet-Betriebssysteme für die Internet-Infrastruktur auszubauen.
+
+BSDI beabsichtigt, eine einheitliche Front für die BSD-Betriebssysteme zu bilden. Das Unternehmen wird sowohl BSD/OS als auch FreeBSD anbieten, unterstützen und weiterentwickeln. BSDI und das FreeBSD Project evaluieren gemeinsam die Technologie- und Marktanforderungen für die Zusammenführung von Teilen der Code-Basis der beiden Betriebssysteme.
+
+== Die neue BSDI-Führung
+
+"BSD-Technologien haben sich aus einer langen Geschichte fortschrittlicher Computertechnik im Kern des Internets entwickelt", sagte Dr. Marshall Kirk McKusick, Vorstandsvorsitzender von BSDI. "Die neue BSDI wird die beliebte BSD-Computerplattform, die bereits weltweit verbreitet ist, weiter bereichern". McKusick war Gründungsmitglied der Computer Systems Research Group (CSRG) der Universität von Kalifornien in Berkeley und ist weithin als ein wichtiger früher Mitstreiter der Open-Source-Bewegung anerkannt.
+
+Um die Vision, den Fahrplan und das weitere profitable Wachstum von BSDI voranzutreiben, wurde Gary J. Johnson zum Chief Executive Officer ernannt. Johnson ist eine erfahrene Technologie-Führungskraft, die in einer Vielzahl von leitenden Management-, Vertriebs-, Marketing- und Betriebsfunktionen bei führenden Silicon Valley-Unternehmen wie Tandem Computers (Compaq), Convergent Technologies (Unisys) und SCO tätig war. Zuletzt war Johnson Präsident von ClickService Software, einem führenden Anbieter von E-Commerce- und Customer Relationship Management (CRM)-Software.
+
+"Innovationen im Bereich der Betriebssysteme hängen stark von der Arbeit der Open-Source-Community ab", so Johnson. "Bislang haben Linux-Anbieter wie Red Hat Software und VA Linux mit ihrem Open-Source-Ansatz bei der Entwicklung beeindruckende Aufmerksamkeit erregt. Im Kern des Internets sind jedoch BSD-Technologien allgegenwärtig. Die neue BSDI wird eng mit der Open-Source-Gemeinschaft zusammenarbeiten, um sicherzustellen, dass fortschrittliche BSD-Internet-Anwendungen auch in Zukunft in der Lage sein werden, das Internet zu nutzen.

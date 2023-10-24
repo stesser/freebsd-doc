@@ -1,0 +1,60 @@
+---
+title: "FreeBSD-Pressemitteilung: 18. Oktober 2000"
+sidenav: about
+loadPress: false
+---
+
+= FreeBSD-Pressemitteilung: 18. Oktober 2000
+
+== Neues FreeBSD Core Team gewählt
+
+*BSD Konferenz, Monterey, CA, 18. Oktober 2000* Das FreeBSD Project hat heute die Wahl eines neuen Core Teams, dem Vorstand des Projekts, bekannt gegeben. Dies ist das erste Mal, dass das Team durch eine Wahl unter den Entwicklern des Projekts ausgewählt wurde. Die neuen Mitglieder des Kernteams sind Greg Lehey, Warner Losh, Mike Smith und Robert Watson. Wiedergewählte Mitglieder sind Satoshi Asami, David Greenman, Jordan Hubbard, Doug Rabson und Peter Wemm.
+
+Jordan Hubbard, Mitbegründer des FreeBSD Projects und weiterhin Mitglied des Core Teams, zeigte sich erfreut über die Ergebnisse: "Zum ersten Mal seit der Gründung des FreeBSD Projects wurde die Zusammensetzung des Core Teams durch offene Wahlen bestimmt und ein wichtiger Präzedenzfall geschaffen, durch den jeder Entwickler Teil der Projektleitung werden kann." Das neue Core Team repräsentiert auch die vielfältigen und hochqualifizierten internationalen Entwickler von FreeBSD, deren Expertise von der Entwicklung von RAID-Dateisystemen und Gerätetreibern bis hin zu umfassenden Sicherheitserfahrungen reicht.
+
+Die neuen Mitglieder des Core Teams wurden von den FreeBSD Committern, den offiziellen Entwicklern des FreeBSD-Projekts, gewählt. Die Committer haben direkten Zugriff auf das FreeBSD Source Repository und führen den Großteil der Software-Entwicklung im Rahmen des Projekts durch. Bis zu diesem Zeitpunkt war das Core Team ein selbstgewähltes Gremium, das die architektonischen und administrativen Vorgaben machte.
+
+In diesem Sommer stimmten die Committer für ein demokratisches Modell, das es dem Projekt ermöglicht, sich an die sich ändernden Entwicklungsanforderungen der Open-Source-Gemeinschaft anzupassen. Da jedoch mehr als die Hälfte des früheren Kernteams wiedergewählt wurde, besteht eine starke Kontinuität.
+
+Das ausscheidende Core-Team-Mitglied Poul-Henning Kamp sagte: "Ich bin sehr stolz auf das, was wir in den letzten acht Jahren im Core-Team gemeinsam erreicht haben. Das neue Core Team und die Tatsache, dass es von den Committern gewählt wird, bedeutet, dass das Projekt in Zukunft viel besser auf Veränderungen reagieren kann."
+
+Die Wachablösung in der Projektleitung findet mit guten Gefühlen statt, so Kamp: Alle bisherigen Core-Mitglieder werden das Projekt weiterführen und sich verstärkt der Entwicklung widmen: "Jetzt kann ich mehr Zeit mit dem FreeBSD-Quellcode verbringen, anstatt mich mit dem Projektmanagement zu beschäftigen."
+
+== Gewählte Core-Team-Mitglieder
+
+*Satoshi Asami* ist Mitbegründer und CTO von DecorMagic, Inc. und verwaltet die FreeBSD Ports-Sammlung.
+
+*David Greenman* ist einer der Mitbegründer des FreeBSD Projects und derzeit Präsident von TeraSolutions, Inc. einem Unternehmen, das Internet-Server und RAID-Speichersysteme herstellt.
+
+*Jordan Hubbard* ist Mitbegründer des FreeBSD Projects, verantwortlich für die Öffentlichkeitsarbeit und Release Engineer. Er ist außerdem Vizepräsident für Open-Source-Lösungen bei BSDi.
+
+*Greg Lehey* ist Open Source Researcher bei Linuxcare; er hat den größten Teil seiner beruflichen Laufbahn in Deutschland verbracht, wo er für Computerhersteller wie Univac, Tandem und Siemens-Nixdorf gearbeitet hat. Er ist Autor der Vinum Volume Management und RAID Software für FreeBSD, war am FreeBSD SMPng Projekt beteiligt und ist Autor von Porting Unix Software und The Complete FreeBSD.
+
+*Warner Losh* hat den pccard-Code von NetBSD auf FreeBSD portiert und ist seit zwei Jahren FreeBSD Security Officer.
+
+*Doug Rabson* ist Mitbegründer der Firma Qube Software Ltd, die sich auf 3D-Grafiktechnologie spezialisiert hat. Seine Arbeit an FreeBSD umfasst die Alpha- und ia64-Ports und er war der Hauptarchitekt für das FreeBSD-Gerätetreiber-Framework.
+
+*Mike Smith* ist Principal Engineer in der Open Source Solutions Group von BSDi und war in der FreeBSD-Entwicklergemeinschaft als Entwicklerressource, OEM-Verbindungsmann, Architekt und Autor von Gerätetreibern aktiv.
+
+*Robert Watson* ist Forscher bei NAI Labs und arbeitet an der Erforschung der Sicherheit von Netzwerken und Betriebssystemen. Zu seinen Beiträgen zum FreeBSD Project gehört die Arbeit an vertrauenswürdigen Betriebssystemen.
+
+*Robert Watson* ist Wissenschaftler bei NAI Labs und arbeitet an der Erforschung der Sicherheit von Netzwerken und Betriebssystemen. Seine Beiträge zum FreeBSD Project umfassen die Arbeit an vertrauenswürdigen Betriebssystemerweiterungen (http://www.trustedbsd.org[TrustedBSD]), die Sicherheitsarchitektur und die Arbeit im Security-Officer-Team.
+
+*Peter Wemm* ist seit den Anfängen der ISP-Industrie in Australien mit FreeBSD befasst und arbeitet seither in den USA als Software-Ingenieur bei Yahoo!, Inc. Zu seinen Aufgaben bei FreeBSD gehören die Verwaltung des FreeBSD-Quellcode-Repositorys und die Kernel-Entwicklung.
+
+== Über FreeBSD
+
+FreeBSD ist ein Open-Source-Betriebssystem mit freien Lizenzen, das seinen Ursprung in BSD Net/2 und 4.4 Lite hat, den Berkeley Software Distributionen, die bis 1994 an der University of California in Berkeley entwickelt wurden. Es wird von einer weltweiten Organisation aus bezahlten und freiwilligen Mitarbeitern entwickelt und gepflegt. FreeBSD zeichnet sich durch seine leistungsstarke Netzwerk- und Dateisystemunterstützung aus und ist bei Internetdienstanbietern weit verbreitet, darunter so bekannte Unternehmen wie *Yahoo!*, *above.net* und *Verio*. FreeBSD wird auch häufig als Plattform für eingebettete Netzwerkgeräte verwendet, darunter Produkte von *IBM*, *Inktomi*, *Juniper Networks* und *Network Alchemy - a Nokia Company*.
+
+Weitere Informationen finden Sie unter http://www.FreeBSD.org[http://www.FreeBSD.org/].
+
+== Pressekontakt
+
+Jordan Hubbard +
+Das FreeBSD-Projekt +
+925-682-7859 +
+jkh@FreeBSD.org
+
+== # # #
+
+BSD ist ein eingetragenes Warenzeichen von Berkeley Software Design, Inc. Andere Marken sind Eigentum ihrer jeweiligen Inhaber. BSD-Technologien wurden ursprünglich von der University of California, Berkeley und ihren Mitarbeitern entwickelt.

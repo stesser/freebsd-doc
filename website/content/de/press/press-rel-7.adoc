@@ -1,0 +1,30 @@
+---
+title: "FreeBSD 5.0-Pressemitteilung"
+sidenav: about
+loadPress: false
+---
+
+= FreeBSD 5.0 Pressemitteilung
+
+== FreeBSD Project kündigt FreeBSD 5.0 an
+
+*Berkeley, CA - 20. Januar 2003 - The FreeBSD Project* Das FreeBSD Project hat heute die Verfügbarkeit von FreeBSD 5.0 nach fast drei Jahren kontinuierlicher Entwicklung bekannt gegeben. Die neueste Version des leistungsfähigen Open-Source-Betriebssystems des Projekts enthält mehrere bahnbrechende Funktionen:
+
+* Die *Multiprozessor-Unterstützung* wurde erweitert und verbessert. Wir unterstützen SMP auf allen Plattformen und haben die Infrastruktur für umfangreiche Leistungsverbesserungen geschaffen.
+* *Dateisystemprüfungen im Hintergrund* ermöglichen einen schnelleren Start in Katastrophensituationen.
+* *Dateisystem-Snapshots* ermöglichen es Administratoren, Dateisysteme in Echtzeit zu duplizieren.
+* *Experimentelle Unterstützung für Mandatory Access Controls (MAC)* bietet Administratoren ein erweiterbares und flexibles Mittel zur Definition von System-Sicherheitsrichtlinien.
+* *Kernel Schedulable Entities* implementieren ein leistungsstarkes Many-to-Many-Multiprozessor-Threading-Modell.
+* *Erweiterte Hardwareunterstützung* umfasst jetzt kryptographische Hardwarebeschleunigung, ACPI, Bluetooth und FireWire.
+
+Das Release enthält außerdem neue, neu implementierte und inkrementelle Verbesserungen in Bereichen, in denen FreeBSD bereits führend ist, wie Netzwerkleistung, Stabilität und Zuverlässigkeit.
+
+"Dieses Release stellt unseren bisher größten technischen Erfolg dar", sagt Murray Stokely, Vice President of Engineering bei FreeBSD Mall Inc. und Mitglied des FreeBSD Release Engineering Teams. "Die neuen Technologien in FreeBSD 5.X werden unseren Kunden aufregende neue Funktionen bieten, ohne unsere legendäre Zuverlässigkeit zu beeinträchtigen."
+
+== Über das FreeBSD Project
+
+Das FreeBSD Project bietet ein freies UNIX-ähnliches Betriebssystem für Intel-kompatible, Alpha- und Sparc-Plattformen, das auf dem Industriestandard Berkeley Software Distribution basiert. Das FreeBSD Project besteht aus mehreren tausend Entwicklern aus Dutzenden von Ländern auf der ganzen Welt, die ihre Arbeit durch ein Team von mehreren hundert Committern koordinieren. FreeBSD ist kostenlos im Internet und als Shrink-Wrap-Produkt bei vielen verschiedenen Anbietern erhältlich, die unter link:../../commercial/[Anbieter] aufgelistet sind. Weitere Informationen zu FreeBSD finden Sie im Internet unter http://www.FreeBSD.org/[www.FreeBSD.org].
+
+== Pressekontakt
+
+press@FreeBSD.org, oder Telefon 1-925-674-0783

@@ -1,0 +1,17 @@
+---
+title: "FreeBSD-Pressemitteilung: 22. April 1999"
+sidenav: about
+loadPress: false
+---
+
+= FreeBSD-Pressemitteilung: 22. April 1999
+
+== FreeBSD zur Erzeugung spektakulärer Spezialeffekte eingesetzt
+
+*Concord, CA, 22. April 1999*: 32 FreeBSD-Systeme mit zwei Prozessoren wurden eingesetzt, um eine große Anzahl von Spezialeffekten in dem aktuellen Warner Brothers-Film _The Matrix_ zu erzeugen.
+
+Manex Visual Effects setzte 32 Dell Precision 410 Dual P-II/450 Prozessor-Systeme mit FreeBSD als Kern der CG Render-Farm ein. Charles Henrich, der leitende Systemadministrator bei Manex, sagt: "Wir kamen an einen Punkt in der Produktion, an dem wir feststellten, dass wir auf unserer bestehenden SGI-Infrastruktur einfach nicht genug Rechenleistung hatten, um die 3-D-intensiven Sequenzen zu bewältigen. An diesem Punkt haben wir uns für eine FreeBSD-basierte Lösung entschieden, da wir die Hardware schnell beschaffen konnten und FreeBSD uns eine hohe Zuverlässigkeit und einfache Administration bietet. In Zusammenarbeit mit Dell haben wir an einem Mittwoch 32 dieser Systeme gekauft und sie am Samstagnachmittag in Betrieb genommen. Das war wirklich eine großartige Leistung aller Beteiligten, und ich glaube nicht, dass dies möglich gewesen wäre, wenn wir uns für eine andere Betriebssystemlösung entschieden hätten."
+
+Das FreeBSD-Betriebssystem ist ein leistungsstarkes, vollständig quelloffenes System, das auf der Berkeley Software Distribution von UNIX basiert. Es ist kostenlos auf zahlreichen Internet-Seiten und auch auf CD-ROM von Walnut Creek CDROM erhältlich und enthält Tausende von portierten Anwendungen, darunter 3D-Grafik-Rendering und viele andere ebenso leistungsfähige Werkzeuge. FreeBSD ist für den Einsatz auf der Intel x86-Prozessorlinie optimiert, die das Herzstück der heutigen vielseitigen Standard-PCs ist. FreeBSD ist unbegrenzt anpassbar und bildet das Herzstück von Internet-Powerhouse-Anwendungen wie Yahoo! und U.S. West, da es nicht durch kommerzielle Lizenzbeschränkungen belastet ist und frei kopiert und verändert werden kann.
+
+Weitere Informationen über FreeBSD finden Sie unter http://www.FreeBSD.org/ und http://www.wccdrom.com/. Weitere Informationen über Manex Visual Effects finden Sie unter http://www.mvfx.com/.

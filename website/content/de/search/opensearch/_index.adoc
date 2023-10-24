@@ -1,0 +1,26 @@
+---
+title: "FreeBSD OpenSearch Plugins"
+sidenav: about
+---
+
+= FreeBSD OpenSearch-Plugins
+
+Firefox hat einige beliebte Suchdienste in die Suchleiste in der oberen rechten Ecke von Firefox aufgenommen. Klicken Sie auf einen Eintrag, um die _FreeBSD Search Services_ zu Ihrer Firefox-Suchleiste hinzuzufügen.
+
+== Von der FreeBSD.org-Website
+
+* link:../../../opensearch/man.xml[FreeBSD Manual-Seiten]
+* link:../../../opensearch/man-freebsd-release-ports.xml[FreeBSD + Ports Manual-Seiten]
+* link:../../../opensearch/message-id.xml[FreeBSD Mail-Listen-Suche nach Message-IDs]
+* link:../../../opensearch/ports.xml[FreeBSD Ports-Suche]
+* link:https://bugs.freebsd.org/bugzilla/search_plugin.cgi[FreeBSD Problem-Reports (Bugzilla)]
+
+== Externe Plugins
+
+* link:../../../opensearch/markmail.xml[FreeBSD Mail-Listen-Suche über MarkMail]
+
+Externe Hilfslinks: https://addons.mozilla.org/en-US/firefox/search/?category=search-tools&sort=recommended%2Cusers&type=extension[Firefox-Suchmaschinen]
+
+link:../[Zurück zur Suchseite]
+
+'''''

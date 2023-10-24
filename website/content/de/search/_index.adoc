@@ -1,0 +1,63 @@
+---
+title: "Suche"
+sidenav: about
+---
+
+include::shared/de/urls.adoc[]
+
+= Suche
+
+== FreeBSD Suchfunktion
+
+* <<web,Web-Seiten>>
+* <<manpages,Manual pages>>
+* <<ports,Portierte Anwendungen>>
+* <<mailinglists,Mailinglistenarchive>>
+* link:search-mid[Message-ID]
+* https://bugs.FreeBSD.org/search/[Problemreport-Datenbank (Bugs)]
+* link:https://man.freebsd.org/cgi/man.cgi[Manual-Seiten]
+* link:https://ports.freebsd.org/cgi/ports.cgi[Ports-Suche]
+* http://fxr.watson.org/[Der Quellcode]
+* http://freebsd.markmail.org/[MarkMail: FreeBSD Mail-Archive durchsuchen]
+
+link:opensearch[Liste der FreeBSD OpenSearch Plugins]
+
+'''''
+
+[[Web]]
+== Web-Seiten (einschließlich link:{faq}[FAQ], link:{handbook}[Handbuch], link:https://lists.freebsd.org/index[Mail-Listen], link:https://wiki.freebsd.org[Wiki] und link:https://forums.freebsd.org[Foren])
+
+=== Suche innerhalb von Sites:
+
+{{< form-search-site >}}
+
+'''''
+
+[[manpages]]
+== Manual-Seiten
+
+=== Suchen Sie nach:
+
+{{< form-search-man >}}
+
+'''''
+
+[[Ports]]
+== Portierte Anwendungen
+
+=== Suchen Sie nach:
+
+{{< form-search-ports >}}
+
+'''''
+
+[[Mailinglisten]]
+== Mail-Listen Archiv
+
+Die Indizes des https://lists.FreeBSD.org/index/[Mail-Listen Archivs] werden jetzt wöchentlich aktualisiert!
+
+Eine alternative Möglichkeit, die Archive der Mail-Listen zu lesen, ist die Verwendung des http://lists.FreeBSD.org/pipermail[Pipermail-Listenarchivs] (beachten Sie, dass dieses Archiv nur Nachrichten zwischen März 2003 und Mai 2021 enthält).
+
+Die Mailinglisten wurden auch von https://freebsd.markmail.org/search/?q=[MarkMail] archiviert (wie auch von vielen anderen).
+
+{{< form-search-mail >}}

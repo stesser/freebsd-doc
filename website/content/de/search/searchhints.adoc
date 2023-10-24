@@ -1,0 +1,21 @@
+---
+title: "Hinweise zur Suche"
+sidenav: about
+---
+
+= Hinweise zur Suche
+
+== Wenn Sie viele irrelevante Ergebnisse erhalten...
+
+. Wenn Sie nach mehreren Wörtern wie "Festplatten Anbieter" suchen, wird ein ODER impliziert, was bedeutet, dass nur eines der Wörter in einer Nachricht vorkommen muss, um als relevant zu gelten. Um nur Nachrichten mit allen Wörtern zu finden, ändern Sie die Suche in "Festplatten *and* Anbieter".
+. Wenn Sie immer noch viele irrelevante Nachrichten erhalten, prüfen Sie, ob sie etwas gemeinsam haben. Wenn ja, können Sie sie mit dem Operator *not* ausschließen. Zum Beispiel "Festplatten *and* Anbieter *not* SATA" schließt alle Meldungen über SATA-Festplatten aus.
+
+== Wenn Sie glauben, nicht alles erhalten zu haben, was Sie hätten erhalten sollen...
+
+. Wenn einer Ihrer Suchbegriffe verschiedene Formen hat, geben Sie bitte alle relevanten Formen ein. Wenn Sie nach "buslogic" suchen, können Sie es in "buslogic oder bustek" ändern.
+. Wörter mit unterschiedlichen Suffixen können als Platzhalter verwendet werden. Bei der Suche nach "drive*" werden Wörter wie drive, drives, driver, drivers und so weiter gefunden.
+. Versuchen Sie, Wörter zu verwerfen, die im Kontext der Nachricht impliziert sein könnten. Zum Beispiel könnte "quantum and hard and drive" einige relevante Nachrichten übersehen, die "quantum and drive" erhalten würde.
+
+'''''
+
+link:../[Zurück zur Suchseite]

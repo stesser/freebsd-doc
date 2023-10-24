@@ -1,0 +1,15 @@
+---
+title: "Mail-Listen-Suche nach Message-ID"
+sidenav: about
+---
+
+= Mail-Listen-Suche nach Message-IDs
+
+{{< form-search-mid-id >}}
+
+{{< form-search-mid-message >}}
+
+Sie können nur nach den Mail-Header-Schlüsselwörtern *Message-ID*, *Resent-Message-id*, *In-Reply-to* und *References* suchen. Eine Message-ID sieht aus wie <199802242058.MAA24843&#64;monk.via.net>. Andere Mail-Header-Schlüsselwörter werden nicht unterstützt.
+Die Message-ID-Datenbank wird alle 5 Minuten aktualisiert.
+
+link:../../../search/#mailinglists[Volltextsuche im Mail-Listen-Archive].
